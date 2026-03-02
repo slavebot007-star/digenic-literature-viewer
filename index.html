@@ -333,7 +333,458 @@
 
   <script>
     // Paper data will be embedded here
-    const papersData = [];
+    const papersData = [
+  {
+    "year": 2026,
+    "authors": "Khederlou et al.",
+    "journal": "Korean Journal of Family Medicine",
+    "title": "Association between parental consanguineous marriage and the incidence, age of onset, and severity of coronary artery disease: a cross-sectional study in Iran",
+    "pmid": "41735787",
+    "doi": "10.4082/kjfm.25.0224",
+    "citations": null,
+    "finding": "Parental consanguinity associated with higher CAD prevalence and earlier onset; linked to increased oligogenicity and genetic homogeneity"
+  },
+  {
+    "year": 2026,
+    "authors": "Freiberger",
+    "journal": "Current Opinion in Lipidology",
+    "title": "Update on genetics of familial hypercholesterolemia",
+    "pmid": "41703706",
+    "doi": "10.1097/MOL.0000000000001027",
+    "citations": null,
+    "finding": "New terminology: \"digenic biallelic forms\" involving two FH-associated genes (LDLR, APOB, PCSK9, LDLRAP1, APOE)"
+  },
+  {
+    "year": 2026,
+    "authors": "Chen et al.",
+    "journal": "Journal of Genetics and Genomics",
+    "title": "Natural history and phenotype-genotype correlations in GJB2-related hearing loss: a systematic and comprehensive review",
+    "pmid": "41690513",
+    "doi": "10.1016/j.jgg.2026.02.006",
+    "citations": null,
+    "finding": "Comprehensive review of digenic inheritance patterns in GJB2-related hearing loss across 215 studies (7967 patients)"
+  },
+  {
+    "year": 2026,
+    "authors": "Pinci et al.",
+    "journal": "Communications Medicine",
+    "title": "Integrative genomic and literature assessment of desmoglein 2-related arrhythmogenic cardiomyopathy with Italian cohort validation",
+    "pmid": "41652012",
+    "doi": "10.1038/s43856-026-01416-w",
+    "citations": null,
+    "finding": "Biallelic and digenic DSG2 variants associated with earlier onset and more severe biventricular involvement in ACM"
+  },
+  {
+    "year": 2026,
+    "authors": "Tardy et al.",
+    "journal": "Brain",
+    "title": "Benchmarking long-read sequencing approaches to resolve facioscapulohumeral dystrophy locus complexity",
+    "pmid": "41642686",
+    "doi": "10.1093/brain/awag029",
+    "citations": null,
+    "finding": "FSHD2 results from digenic mechanism involving SMCHD1 variants and 4q35 hypomethylation"
+  },
+  {
+    "year": 2026,
+    "authors": "Xu et al.",
+    "journal": "Frontiers in Medicine",
+    "title": "Case Report: Compound heterozygous variants in LSS and TSPEAR genes causing hypotrichosis type 14 complicated with ectodermal dysplasia type 14",
+    "pmid": "41640519",
+    "doi": "10.3389/fmed.2026.1669753",
+    "citations": null,
+    "finding": "First reported case of digenic inheritance involving LSS and TSPEAR"
+  },
+  {
+    "year": 2026,
+    "authors": "Khurana et al.",
+    "journal": "Brain Communications",
+    "title": "Clinical and genetic determinants of survival in amyotrophic lateral sclerosis patients from North India",
+    "pmid": "41574092",
+    "doi": "10.1093/braincomms/fcag003",
+    "citations": null,
+    "finding": "16.7% of ALS patients had variations in more than one gene, supporting oligogenic basis for ALS"
+  },
+  {
+    "year": 2026,
+    "authors": "Geronikolou & Chrousos",
+    "journal": "Hormones",
+    "title": "Pseudohypoaldosteronism: demystification using network medicine and proposed diagnostic panels",
+    "pmid": "41569463",
+    "doi": "10.1007/s42000-025-00746-z",
+    "citations": null,
+    "finding": "Digenic co-expression defects reported in PHA cases"
+  },
+  {
+    "year": 2026,
+    "authors": "de Azevedo Correa et al.",
+    "journal": "European Journal of Human Genetics",
+    "title": "Pleiotropic genes linking congenital hypogonadotropic hypogonadism and cleft lip/palate",
+    "pmid": "41535479",
+    "doi": "10.1038/s41431-025-02005-6",
+    "citations": null,
+    "finding": "Evidence of digenic inheritance involving both CHH- and CLP-related genes (FGFR1, CHD7, DVL3, PLCB4, NIPBL, EDNRA)"
+  },
+  {
+    "year": 2026,
+    "authors": "Shi et al.",
+    "journal": "Orphanet Journal of Rare Diseases",
+    "title": "Novel GJC2 and OBSCN variants co-segregating in a Chinese primary lymphedema pedigree",
+    "pmid": "41530801",
+    "doi": "10.1186/s13023-026-04196-7",
+    "citations": null,
+    "finding": "First report linking OBSCN to human lymphedema; synergistic oligogenic model proposed"
+  },
+  {
+    "year": 2025,
+    "authors": "Pittman et al.",
+    "journal": "Genome Research",
+    "title": "The oligogenic inheritance test GCOD detects risk genes and their interactions in congenital heart defects",
+    "pmid": null,
+    "doi": null,
+    "citations": null,
+    "finding": "160 gene pairs with higher-than-expected transmission to CHD probands"
+  },
+  {
+    "year": 2025,
+    "authors": "Freiberger",
+    "journal": "Current Opinion in Lipidology",
+    "title": "Update on genetics of familial hypercholesterolemia",
+    "pmid": null,
+    "doi": null,
+    "citations": null,
+    "finding": "New terminology: \"digenic biallelic forms\" involving two FH-associated genes"
+  },
+  {
+    "year": 2025,
+    "authors": "Baulina et al.",
+    "journal": "Molecular Biology",
+    "title": "Hypertrophic Cardiomyopathy as an Oligogenic Disease: Transcriptomic Arguments",
+    "pmid": null,
+    "doi": null,
+    "citations": 11,
+    "finding": "HCM involves sarcomeric genes, modifier genes, and regulatory non-coding RNAs"
+  },
+  {
+    "year": 2025,
+    "authors": "Colin et al.",
+    "journal": "HemaSphere",
+    "title": "MMS22L is a novel key actor of normal and pathological erythropoiesis",
+    "pmid": null,
+    "doi": null,
+    "citations": null,
+    "finding": "Digenic inheritance of CDAN1 and MMS22L mutations in congenital dyserythropoietic anemia"
+  },
+  {
+    "year": 2025,
+    "authors": "Wang et al.",
+    "journal": "Journal of Investigative Dermatology",
+    "title": "OCA2 deficiency enhances TPC2 channel activity to reduce melanosomal pH and pigment production",
+    "pmid": null,
+    "doi": null,
+    "citations": null,
+    "finding": "Experimental validation of digenic inheritance in oculocutaneous albinism (OCA2 + TPCN2)"
+  },
+  {
+    "year": 2025,
+    "authors": "Rapini et al.",
+    "journal": "Hormone Research in Paediatrics",
+    "title": "Composite Digenic Diabetes Linked to Heterozygous Variants of GCK and NEUROD1",
+    "pmid": null,
+    "doi": null,
+    "citations": null,
+    "finding": "Composite digenic diabetes with low-penetrance MODY gene modifying GCK phenotype"
+  },
+  {
+    "year": 2025,
+    "authors": "Nielsen et al.",
+    "journal": "eLife",
+    "title": "Functional analysis across model systems implicates ribosomal proteins in growth and proliferation defects associated with hypoplastic left heart syndrome",
+    "pmid": null,
+    "doi": null,
+    "citations": null,
+    "finding": "Genetic interactions between ribosomal protein genes and cardiac transcription factors (TBX5, NKX2-7) support oligogenic complexity in HLHS"
+  },
+  {
+    "year": 2025,
+    "authors": "Abu Shtaya et al.",
+    "journal": "Clinical Genetics",
+    "title": "Blurring the Lines: Co-Occurrence of MSH6 Variant and MLH1 Constitutional Epimutation in a Young Colorectal Cancer Patient",
+    "pmid": null,
+    "doi": null,
+    "citations": null,
+    "finding": "First reported case of dual mechanism involving germline MSH6 variant and constitutional MLH1 methylation (digenic Lynch syndrome)"
+  },
+  {
+    "year": 2025,
+    "authors": "Islam et al.",
+    "journal": "Pediatric Research",
+    "title": "Congenital and infantile nephrotic syndrome: genotype-phenotype associations",
+    "pmid": null,
+    "doi": null,
+    "citations": null,
+    "finding": "NPHS1/WT1 and NPHS1/NPHS2 digenic inheritance with triallelic hits associated with transplantation need"
+  },
+  {
+    "year": 2025,
+    "authors": "Ameratunga et al.",
+    "journal": "Clinical Reviews in Allergy & Immunology",
+    "title": "Common Variable Immunodeficiency Disorders: A perspective from New Zealand",
+    "pmid": null,
+    "doi": null,
+    "citations": null,
+    "finding": "Digenic CVID-like disorder with epistatic interaction between TCF3 and TNFRSF13B (TACI)"
+  },
+  {
+    "year": 2024,
+    "authors": "Poch et al.",
+    "journal": "Molecular and Cellular Endocrinology",
+    "title": "Prevalence of pathogenic variants and digenic disease in patients diagnosed with normosmic hypogonadotropic hypogonadism/Kallmann Syndrome",
+    "pmid": null,
+    "doi": null,
+    "citations": 7,
+    "finding": ""
+  },
+  {
+    "year": 2023,
+    "authors": "Zhang et al.",
+    "journal": "Frontiers in Genetics",
+    "title": "A multi-threaded approach to genotype pattern mining for detecting digenic disease genes",
+    "pmid": null,
+    "doi": null,
+    "citations": 3,
+    "finding": ""
+  },
+  {
+    "year": 2022,
+    "authors": "Nachtegael et al.",
+    "journal": "Database",
+    "title": "Scaling up oligogenic diseases research with OLIDA: the Oligogenic Diseases Database",
+    "pmid": null,
+    "doi": null,
+    "citations": 34,
+    "finding": ""
+  },
+  {
+    "year": 2022,
+    "authors": "Papadimitriou et al.",
+    "journal": "Human Genetics and Genomics Advances",
+    "title": "Toward reporting standards for the pathogenicity of variant combinations involved in multilocus/oligogenic diseases",
+    "pmid": null,
+    "doi": null,
+    "citations": 19,
+    "finding": ""
+  },
+  {
+    "year": 2021,
+    "authors": "Kamar et al.",
+    "journal": "Frontiers in Genetics",
+    "title": "The Digenic Causality in Familial Hypercholesterolemia",
+    "pmid": null,
+    "doi": null,
+    "citations": 21,
+    "finding": "Digenic mutations in FH don't necessarily correlate with more severe phenotypes"
+  },
+  {
+    "year": 2021,
+    "authors": "Mukherjee et al.",
+    "journal": "American Journal of Human Genetics",
+    "title": "Identifying digenic disease genes via machine learning in the Undiagnosed Diseases Network",
+    "pmid": null,
+    "doi": null,
+    "citations": 59,
+    "finding": ""
+  },
+  {
+    "year": 2020,
+    "authors": "Zhang et al.",
+    "journal": "Nature Communications",
+    "title": "Risk prediction of late-onset Alzheimer's disease implies an oligogenic architecture",
+    "pmid": null,
+    "doi": null,
+    "citations": 279,
+    "finding": "Late-onset Alzheimer's has oligogenic architecture"
+  },
+  {
+    "year": 2020,
+    "authors": "Cangiano et al.",
+    "journal": "Human Genetics",
+    "title": "Genetics of congenital hypogonadotropic hypogonadism: peculiarities and phenotype of an oligogenic disease",
+    "pmid": null,
+    "doi": null,
+    "citations": 165,
+    "finding": ""
+  },
+  {
+    "year": 2020,
+    "authors": "Mukherjee et al.",
+    "journal": "bioRxiv",
+    "title": "Identifying digenic disease genes using machine learning in the undiagnosed diseases network",
+    "pmid": null,
+    "doi": null,
+    "citations": null,
+    "finding": ""
+  },
+  {
+    "year": 2019,
+    "authors": "Gifford et al.",
+    "journal": "Science",
+    "title": "Oligogenic inheritance of a human heart disease involving a genetic modifier",
+    "pmid": null,
+    "doi": null,
+    "citations": 207,
+    "finding": "Three variants (two transcription factors + one structural protein) caused heart disease in mice"
+  },
+  {
+    "year": 2019,
+    "authors": "Fl\u00fcck et al.",
+    "journal": "Frontiers in Genetics",
+    "title": "Broad Phenotypes of Disorders/Differences of Sex Development in MAMLD1 Patients Through Oligogenic Disease",
+    "pmid": null,
+    "doi": null,
+    "citations": 35,
+    "finding": "DSD phenotypes involve multiple genetic variations in complex networks"
+  },
+  {
+    "year": 2018,
+    "authors": "Boudellioua et al.",
+    "journal": "Scientific Reports",
+    "title": "OligoPVP: Phenotype-driven analysis of individual genomic information to prioritize oligogenic disease variants",
+    "pmid": null,
+    "doi": null,
+    "citations": 36,
+    "finding": ""
+  },
+  {
+    "year": 2017,
+    "authors": "Gazzo et al.",
+    "journal": "Nucleic Acids Research",
+    "title": "Understanding mutational effects in digenic diseases",
+    "pmid": null,
+    "doi": null,
+    "citations": 60,
+    "finding": "Two classes of digenic effects: \"true digenic\" (both genes required) vs \"composite\" (one sufficient, second modifies)"
+  },
+  {
+    "year": 2016,
+    "authors": "Lam et al.",
+    "journal": "European Journal of Human Genetics",
+    "title": "Limb girdle myasthenia with digenic RAPSN and a novel disease gene AK9 mutations",
+    "pmid": null,
+    "doi": null,
+    "citations": 24,
+    "finding": ""
+  },
+  {
+    "year": 2015,
+    "authors": "Gazzo et al.",
+    "journal": "Nucleic Acids Research",
+    "title": "DIDA: A curated and annotated digenic diseases database",
+    "pmid": null,
+    "doi": null,
+    "citations": 107,
+    "finding": ""
+  },
+  {
+    "year": 2012,
+    "authors": "Lupski",
+    "journal": "Nature Genetics",
+    "title": "Digenic inheritance and Mendelian disease",
+    "pmid": null,
+    "doi": null,
+    "citations": 61,
+    "finding": ""
+  },
+  {
+    "year": 2011,
+    "authors": "Kelberman et al.",
+    "journal": "Human Mutation",
+    "title": "Digenic inheritance of mutations in FOXC1 and PITX2: Correlating transcription factor function and Axenfeld-Rieger disease severity",
+    "pmid": null,
+    "doi": null,
+    "citations": 45,
+    "finding": "Digenic inheritance increases disease severity in eye development disorders"
+  },
+  {
+    "year": 2010,
+    "authors": "Ebermann et al.",
+    "journal": "Journal of Clinical Investigation",
+    "title": "PDZD7 is a modifier of retinal disease and a contributor to digenic Usher syndrome",
+    "pmid": null,
+    "doi": null,
+    "citations": 242,
+    "finding": "Usher syndrome should be reclassified as oligogenic"
+  },
+  {
+    "year": 2006,
+    "authors": "Tang et al.",
+    "journal": "Human Molecular Genetics",
+    "title": "Association of PINK1 and DJ-1 confers digenic inheritance of early-onset Parkinson's disease",
+    "pmid": null,
+    "doi": null,
+    "citations": 211,
+    "finding": "First case of autosomal recessive PD with digenic inheritance"
+  },
+  {
+    "year": 2006,
+    "authors": "Vockley",
+    "journal": "Encyclopedia of Life Sciences",
+    "title": "Digenic Inheritance",
+    "pmid": null,
+    "doi": null,
+    "citations": null,
+    "finding": ""
+  },
+  {
+    "year": 2005,
+    "authors": "Agarwal & Moorchung",
+    "journal": "Journal of Nippon Medical School",
+    "title": "Modifier Genes and Oligogenic Disease",
+    "pmid": null,
+    "doi": null,
+    "citations": 18,
+    "finding": ""
+  },
+  {
+    "year": 2002,
+    "authors": "Ming & Muenke",
+    "journal": "American Journal of Human Genetics",
+    "title": "Multiple Hits during Early Embryonic Development: Digenic Diseases and Holoprosencephaly",
+    "pmid": null,
+    "doi": null,
+    "citations": 312,
+    "finding": "Demonstrated digenic inheritance in developmental disorders"
+  },
+  {
+    "year": 1999,
+    "authors": "Daw et al.",
+    "journal": "American Journal of Human Genetics",
+    "title": "Multipoint Oligogenic Analysis of Age-at-Onset Data with Applications to Alzheimer Disease Pedigrees",
+    "pmid": null,
+    "doi": null,
+    "citations": 89,
+    "finding": ""
+  },
+  {
+    "year": 1997,
+    "authors": "MacCluer et al.",
+    "journal": "Genetic Epidemiology",
+    "title": "GAW10: Simulated family data for a common oligogenic disease with quantitative risk factors",
+    "pmid": null,
+    "doi": null,
+    "citations": null,
+    "finding": ""
+  },
+  {
+    "year": 1994,
+    "authors": "Kajiwara et al.",
+    "journal": "Science",
+    "title": "Digenic Retinitis Pigmentosa Due to Mutations at the Unlinked Peripherin/RDS and ROM1 Loci",
+    "pmid": null,
+    "doi": null,
+    "citations": 780,
+    "finding": "Only double heterozygotes for mutations in both ROM1 and peripherin/RDS developed retinitis pigmentosa"
+  }
+];
 
     let currentCategory = 'all';
 
