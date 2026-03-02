@@ -19,13 +19,12 @@
       --warning: #f59e0b;
       --danger: #ef4444;
       --border: #334155;
+      --category-tools: #8b5cf6;
+      --category-clinical: #10b981;
+      --category-review: #f59e0b;
     }
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
 
     body {
       font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -34,11 +33,7 @@
       line-height: 1.6;
     }
 
-    .container {
-      max-width: 1400px;
-      margin: 0 auto;
-      padding: 2rem;
-    }
+    .container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
 
     header {
       text-align: center;
@@ -56,14 +51,11 @@
       -webkit-text-fill-color: transparent;
     }
 
-    .subtitle {
-      color: var(--text-secondary);
-      font-size: 1.1rem;
-    }
+    .subtitle { color: var(--text-secondary); font-size: 1.1rem; }
 
     .stats {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
       gap: 1rem;
       margin: 2rem 0;
     }
@@ -76,16 +68,8 @@
       text-align: center;
     }
 
-    .stat-value {
-      font-size: 2rem;
-      font-weight: 700;
-      color: var(--accent);
-    }
-
-    .stat-label {
-      color: var(--text-secondary);
-      font-size: 0.9rem;
-    }
+    .stat-value { font-size: 2rem; font-weight: 700; color: var(--accent); }
+    .stat-label { color: var(--text-secondary); font-size: 0.9rem; }
 
     .controls {
       display: flex;
@@ -98,12 +82,7 @@
       border: 1px solid var(--border);
     }
 
-    .search-box {
-      flex: 1;
-      min-width: 300px;
-      position: relative;
-    }
-
+    .search-box { flex: 1; min-width: 300px; position: relative; }
     .search-box input {
       width: 100%;
       padding: 0.75rem 1rem 0.75rem 2.5rem;
@@ -113,7 +92,6 @@
       color: var(--text-primary);
       font-size: 1rem;
     }
-
     .search-box::before {
       content: "🔍";
       position: absolute;
@@ -122,13 +100,9 @@
       transform: translateY(-50%);
     }
 
-    .filter-group {
-      display: flex;
-      gap: 0.5rem;
-      flex-wrap: wrap;
-    }
+    .filter-group { display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; }
 
-    select, button {
+    select, button, input[type="number"] {
       padding: 0.75rem 1rem;
       background: var(--bg-primary);
       border: 1px solid var(--border);
@@ -139,24 +113,51 @@
       transition: all 0.2s;
     }
 
-    button:hover, select:hover {
-      border-color: var(--accent);
+    button:hover, select:hover { border-color: var(--accent); }
+    button.primary { background: var(--accent); border-color: var(--accent); }
+    button.primary:hover { background: var(--accent-hover); }
+
+    .category-tabs {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
     }
 
-    button.primary {
+    .category-tab {
+      padding: 0.75rem 1.5rem;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .category-tab.active {
       background: var(--accent);
       border-color: var(--accent);
     }
 
-    button.primary:hover {
-      background: var(--accent-hover);
-    }
+    .category-tab[data-category="tools"].active { background: var(--category-tools); border-color: var(--category-tools); }
+    .category-tab[data-category="clinical"].active { background: var(--category-clinical); border-color: var(--category-clinical); }
+    .category-tab[data-category="review"].active { background: var(--category-review); border-color: var(--category-review); }
 
-    .papers-list {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
+    .category-badge {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
     }
+    .category-badge.tools { background: var(--category-tools); color: white; }
+    .category-badge.clinical { background: var(--category-clinical); color: white; }
+    .category-badge.review { background: var(--category-review); color: white; }
+
+    .papers-list { display: flex; flex-direction: column; gap: 1rem; }
 
     .paper-card {
       background: var(--bg-secondary);
@@ -165,11 +166,7 @@
       padding: 1.5rem;
       transition: all 0.2s;
     }
-
-    .paper-card:hover {
-      border-color: var(--accent);
-      transform: translateY(-2px);
-    }
+    .paper-card:hover { border-color: var(--accent); transform: translateY(-2px); }
 
     .paper-header {
       display: flex;
@@ -180,6 +177,8 @@
       gap: 0.5rem;
     }
 
+    .paper-meta { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
+
     .paper-year {
       background: var(--accent);
       color: white;
@@ -189,46 +188,52 @@
       font-weight: 600;
     }
 
+    .paper-title-container {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+
     .paper-title {
       font-size: 1.1rem;
       font-weight: 600;
       color: var(--text-primary);
-      margin-bottom: 0.5rem;
       line-height: 1.4;
+      flex: 1;
     }
 
-    .paper-authors {
-      color: var(--text-secondary);
-      font-size: 0.9rem;
-      margin-bottom: 0.5rem;
-    }
-
-    .paper-journal {
+    .copy-btn {
+      padding: 0.25rem 0.5rem;
+      background: transparent;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      font-size: 0.75rem;
       color: var(--text-muted);
-      font-size: 0.85rem;
-      font-style: italic;
-      margin-bottom: 0.75rem;
+      cursor: pointer;
+      white-space: nowrap;
     }
+    .copy-btn:hover { border-color: var(--accent); color: var(--accent); }
+    .copy-btn.copied { background: var(--success); border-color: var(--success); color: white; }
 
-    .paper-finding {
+    .paper-authors { color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 0.25rem; }
+    .paper-institution { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 0.5rem; }
+    .paper-journal { color: var(--text-muted); font-size: 0.85rem; font-style: italic; margin-bottom: 0.75rem; }
+
+    .paper-abstract {
       background: var(--bg-primary);
-      padding: 0.75rem 1rem;
+      padding: 1rem;
       border-radius: 8px;
       border-left: 3px solid var(--accent);
       font-size: 0.9rem;
       color: var(--text-secondary);
+      margin-bottom: 0.75rem;
+      max-height: 200px;
+      overflow-y: auto;
     }
+    .paper-abstract strong { color: var(--text-primary); }
 
-    .paper-finding strong {
-      color: var(--text-primary);
-    }
-
-    .paper-links {
-      display: flex;
-      gap: 0.75rem;
-      margin-top: 1rem;
-    }
-
+    .paper-links { display: flex; gap: 0.75rem; margin-top: 1rem; }
     .paper-links a {
       color: var(--accent);
       text-decoration: none;
@@ -237,46 +242,32 @@
       align-items: center;
       gap: 0.25rem;
     }
+    .paper-links a:hover { text-decoration: underline; }
 
-    .paper-links a:hover {
-      text-decoration: underline;
-    }
+    .no-results { text-align: center; padding: 3rem; color: var(--text-muted); }
 
-    .decade-section {
-      margin-bottom: 3rem;
+    .toast {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      background: var(--success);
+      color: white;
+      padding: 1rem 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.3s;
+      z-index: 1000;
     }
-
-    .decade-title {
-      font-size: 1.5rem;
-      font-weight: 600;
-      color: var(--text-secondary);
-      margin-bottom: 1rem;
-      padding-bottom: 0.5rem;
-      border-bottom: 2px solid var(--border);
-    }
-
-    .no-results {
-      text-align: center;
-      padding: 3rem;
-      color: var(--text-muted);
-    }
+    .toast.show { opacity: 1; transform: translateY(0); }
 
     @media (max-width: 768px) {
-      .container {
-        padding: 1rem;
-      }
-
-      h1 {
-        font-size: 1.75rem;
-      }
-
-      .controls {
-        flex-direction: column;
-      }
-
-      .search-box {
-        min-width: 100%;
-      }
+      .container { padding: 1rem; }
+      h1 { font-size: 1.75rem; }
+      .controls { flex-direction: column; }
+      .search-box { min-width: 100%; }
+      .category-tabs { justify-content: center; }
     }
   </style>
 </head>
@@ -289,20 +280,20 @@
 
     <div class="stats">
       <div class="stat-card">
-        <div class="stat-value" id="total-papers">45</div>
+        <div class="stat-value" id="total-papers">0</div>
         <div class="stat-label">Total Papers</div>
       </div>
       <div class="stat-card">
-        <div class="stat-value" id="year-range">1994-2026</div>
-        <div class="stat-label">Year Range</div>
+        <div class="stat-value" id="tools-count">0</div>
+        <div class="stat-label">Tools</div>
       </div>
       <div class="stat-card">
-        <div class="stat-value" id="disease-categories">10</div>
-        <div class="stat-label">Disease Categories</div>
+        <div class="stat-value" id="clinical-count">0</div>
+        <div class="stat-label">Clinical Findings</div>
       </div>
       <div class="stat-card">
-        <div class="stat-value" id="recent-papers">20</div>
-        <div class="stat-label">2025-2026 Papers</div>
+        <div class="stat-value" id="review-count">0</div>
+        <div class="stat-label">Reviews</div>
       </div>
     </div>
 
@@ -311,13 +302,7 @@
         <input type="text" id="search-input" placeholder="Search papers, authors, diseases...">
       </div>
       <div class="filter-group">
-        <select id="decade-filter">
-          <option value="all">All Decades</option>
-          <option value="2020">2020s</option>
-          <option value="2010">2010s</option>
-          <option value="2000">2000s</option>
-          <option value="1990">1990s</option>
-        </select>
+        <input type="number" id="year-input" placeholder="Year (e.g. 2024)" min="1990" max="2030">
         <select id="sort-order">
           <option value="newest">Newest First</option>
           <option value="oldest">Oldest First</option>
@@ -326,465 +311,75 @@
       </div>
     </div>
 
-    <div id="papers-container">
-      <!-- Papers will be loaded here -->
+    <div class="category-tabs">
+      <button class="category-tab active" data-category="all" onclick="filterByCategory('all')">
+        📚 All Papers
+      </button>
+      <button class="category-tab" data-category="tools" onclick="filterByCategory('tools')">
+        🛠️ Tools & Methods
+      </button>
+      <button class="category-tab" data-category="clinical" onclick="filterByCategory('clinical')">
+        🧬 Clinical & Biology
+      </button>
+      <button class="category-tab" data-category="review" onclick="filterByCategory('review')">
+        📖 Reviews
+      </button>
     </div>
+
+    <div id="papers-container"></div>
   </div>
+
+  <div class="toast" id="toast">Copied to clipboard!</div>
 
   <script>
     // Paper data will be embedded here
-    const papersData = [
-  {
-    "year": 2026,
-    "authors": "Khederlou et al.",
-    "journal": "Korean Journal of Family Medicine",
-    "title": "Association between parental consanguineous marriage and the incidence, age of onset, and severity of coronary artery disease: a cross-sectional study in Iran",
-    "pmid": "41735787",
-    "doi": "10.4082/kjfm.25.0224",
-    "citations": null,
-    "finding": "Parental consanguinity associated with higher CAD prevalence and earlier onset; linked to increased oligogenicity and genetic homogeneity"
-  },
-  {
-    "year": 2026,
-    "authors": "Freiberger",
-    "journal": "Current Opinion in Lipidology",
-    "title": "Update on genetics of familial hypercholesterolemia",
-    "pmid": "41703706",
-    "doi": "10.1097/MOL.0000000000001027",
-    "citations": null,
-    "finding": "New terminology: \"digenic biallelic forms\" involving two FH-associated genes (LDLR, APOB, PCSK9, LDLRAP1, APOE)"
-  },
-  {
-    "year": 2026,
-    "authors": "Chen et al.",
-    "journal": "Journal of Genetics and Genomics",
-    "title": "Natural history and phenotype-genotype correlations in GJB2-related hearing loss: a systematic and comprehensive review",
-    "pmid": "41690513",
-    "doi": "10.1016/j.jgg.2026.02.006",
-    "citations": null,
-    "finding": "Comprehensive review of digenic inheritance patterns in GJB2-related hearing loss across 215 studies (7967 patients)"
-  },
-  {
-    "year": 2026,
-    "authors": "Pinci et al.",
-    "journal": "Communications Medicine",
-    "title": "Integrative genomic and literature assessment of desmoglein 2-related arrhythmogenic cardiomyopathy with Italian cohort validation",
-    "pmid": "41652012",
-    "doi": "10.1038/s43856-026-01416-w",
-    "citations": null,
-    "finding": "Biallelic and digenic DSG2 variants associated with earlier onset and more severe biventricular involvement in ACM"
-  },
-  {
-    "year": 2026,
-    "authors": "Tardy et al.",
-    "journal": "Brain",
-    "title": "Benchmarking long-read sequencing approaches to resolve facioscapulohumeral dystrophy locus complexity",
-    "pmid": "41642686",
-    "doi": "10.1093/brain/awag029",
-    "citations": null,
-    "finding": "FSHD2 results from digenic mechanism involving SMCHD1 variants and 4q35 hypomethylation"
-  },
-  {
-    "year": 2026,
-    "authors": "Xu et al.",
-    "journal": "Frontiers in Medicine",
-    "title": "Case Report: Compound heterozygous variants in LSS and TSPEAR genes causing hypotrichosis type 14 complicated with ectodermal dysplasia type 14",
-    "pmid": "41640519",
-    "doi": "10.3389/fmed.2026.1669753",
-    "citations": null,
-    "finding": "First reported case of digenic inheritance involving LSS and TSPEAR"
-  },
-  {
-    "year": 2026,
-    "authors": "Khurana et al.",
-    "journal": "Brain Communications",
-    "title": "Clinical and genetic determinants of survival in amyotrophic lateral sclerosis patients from North India",
-    "pmid": "41574092",
-    "doi": "10.1093/braincomms/fcag003",
-    "citations": null,
-    "finding": "16.7% of ALS patients had variations in more than one gene, supporting oligogenic basis for ALS"
-  },
-  {
-    "year": 2026,
-    "authors": "Geronikolou & Chrousos",
-    "journal": "Hormones",
-    "title": "Pseudohypoaldosteronism: demystification using network medicine and proposed diagnostic panels",
-    "pmid": "41569463",
-    "doi": "10.1007/s42000-025-00746-z",
-    "citations": null,
-    "finding": "Digenic co-expression defects reported in PHA cases"
-  },
-  {
-    "year": 2026,
-    "authors": "de Azevedo Correa et al.",
-    "journal": "European Journal of Human Genetics",
-    "title": "Pleiotropic genes linking congenital hypogonadotropic hypogonadism and cleft lip/palate",
-    "pmid": "41535479",
-    "doi": "10.1038/s41431-025-02005-6",
-    "citations": null,
-    "finding": "Evidence of digenic inheritance involving both CHH- and CLP-related genes (FGFR1, CHD7, DVL3, PLCB4, NIPBL, EDNRA)"
-  },
-  {
-    "year": 2026,
-    "authors": "Shi et al.",
-    "journal": "Orphanet Journal of Rare Diseases",
-    "title": "Novel GJC2 and OBSCN variants co-segregating in a Chinese primary lymphedema pedigree",
-    "pmid": "41530801",
-    "doi": "10.1186/s13023-026-04196-7",
-    "citations": null,
-    "finding": "First report linking OBSCN to human lymphedema; synergistic oligogenic model proposed"
-  },
-  {
-    "year": 2025,
-    "authors": "Pittman et al.",
-    "journal": "Genome Research",
-    "title": "The oligogenic inheritance test GCOD detects risk genes and their interactions in congenital heart defects",
-    "pmid": null,
-    "doi": null,
-    "citations": null,
-    "finding": "160 gene pairs with higher-than-expected transmission to CHD probands"
-  },
-  {
-    "year": 2025,
-    "authors": "Freiberger",
-    "journal": "Current Opinion in Lipidology",
-    "title": "Update on genetics of familial hypercholesterolemia",
-    "pmid": null,
-    "doi": null,
-    "citations": null,
-    "finding": "New terminology: \"digenic biallelic forms\" involving two FH-associated genes"
-  },
-  {
-    "year": 2025,
-    "authors": "Baulina et al.",
-    "journal": "Molecular Biology",
-    "title": "Hypertrophic Cardiomyopathy as an Oligogenic Disease: Transcriptomic Arguments",
-    "pmid": null,
-    "doi": null,
-    "citations": 11,
-    "finding": "HCM involves sarcomeric genes, modifier genes, and regulatory non-coding RNAs"
-  },
-  {
-    "year": 2025,
-    "authors": "Colin et al.",
-    "journal": "HemaSphere",
-    "title": "MMS22L is a novel key actor of normal and pathological erythropoiesis",
-    "pmid": null,
-    "doi": null,
-    "citations": null,
-    "finding": "Digenic inheritance of CDAN1 and MMS22L mutations in congenital dyserythropoietic anemia"
-  },
-  {
-    "year": 2025,
-    "authors": "Wang et al.",
-    "journal": "Journal of Investigative Dermatology",
-    "title": "OCA2 deficiency enhances TPC2 channel activity to reduce melanosomal pH and pigment production",
-    "pmid": null,
-    "doi": null,
-    "citations": null,
-    "finding": "Experimental validation of digenic inheritance in oculocutaneous albinism (OCA2 + TPCN2)"
-  },
-  {
-    "year": 2025,
-    "authors": "Rapini et al.",
-    "journal": "Hormone Research in Paediatrics",
-    "title": "Composite Digenic Diabetes Linked to Heterozygous Variants of GCK and NEUROD1",
-    "pmid": null,
-    "doi": null,
-    "citations": null,
-    "finding": "Composite digenic diabetes with low-penetrance MODY gene modifying GCK phenotype"
-  },
-  {
-    "year": 2025,
-    "authors": "Nielsen et al.",
-    "journal": "eLife",
-    "title": "Functional analysis across model systems implicates ribosomal proteins in growth and proliferation defects associated with hypoplastic left heart syndrome",
-    "pmid": null,
-    "doi": null,
-    "citations": null,
-    "finding": "Genetic interactions between ribosomal protein genes and cardiac transcription factors (TBX5, NKX2-7) support oligogenic complexity in HLHS"
-  },
-  {
-    "year": 2025,
-    "authors": "Abu Shtaya et al.",
-    "journal": "Clinical Genetics",
-    "title": "Blurring the Lines: Co-Occurrence of MSH6 Variant and MLH1 Constitutional Epimutation in a Young Colorectal Cancer Patient",
-    "pmid": null,
-    "doi": null,
-    "citations": null,
-    "finding": "First reported case of dual mechanism involving germline MSH6 variant and constitutional MLH1 methylation (digenic Lynch syndrome)"
-  },
-  {
-    "year": 2025,
-    "authors": "Islam et al.",
-    "journal": "Pediatric Research",
-    "title": "Congenital and infantile nephrotic syndrome: genotype-phenotype associations",
-    "pmid": null,
-    "doi": null,
-    "citations": null,
-    "finding": "NPHS1/WT1 and NPHS1/NPHS2 digenic inheritance with triallelic hits associated with transplantation need"
-  },
-  {
-    "year": 2025,
-    "authors": "Ameratunga et al.",
-    "journal": "Clinical Reviews in Allergy & Immunology",
-    "title": "Common Variable Immunodeficiency Disorders: A perspective from New Zealand",
-    "pmid": null,
-    "doi": null,
-    "citations": null,
-    "finding": "Digenic CVID-like disorder with epistatic interaction between TCF3 and TNFRSF13B (TACI)"
-  },
-  {
-    "year": 2024,
-    "authors": "Poch et al.",
-    "journal": "Molecular and Cellular Endocrinology",
-    "title": "Prevalence of pathogenic variants and digenic disease in patients diagnosed with normosmic hypogonadotropic hypogonadism/Kallmann Syndrome",
-    "pmid": null,
-    "doi": null,
-    "citations": 7,
-    "finding": ""
-  },
-  {
-    "year": 2023,
-    "authors": "Zhang et al.",
-    "journal": "Frontiers in Genetics",
-    "title": "A multi-threaded approach to genotype pattern mining for detecting digenic disease genes",
-    "pmid": null,
-    "doi": null,
-    "citations": 3,
-    "finding": ""
-  },
-  {
-    "year": 2022,
-    "authors": "Nachtegael et al.",
-    "journal": "Database",
-    "title": "Scaling up oligogenic diseases research with OLIDA: the Oligogenic Diseases Database",
-    "pmid": null,
-    "doi": null,
-    "citations": 34,
-    "finding": ""
-  },
-  {
-    "year": 2022,
-    "authors": "Papadimitriou et al.",
-    "journal": "Human Genetics and Genomics Advances",
-    "title": "Toward reporting standards for the pathogenicity of variant combinations involved in multilocus/oligogenic diseases",
-    "pmid": null,
-    "doi": null,
-    "citations": 19,
-    "finding": ""
-  },
-  {
-    "year": 2021,
-    "authors": "Kamar et al.",
-    "journal": "Frontiers in Genetics",
-    "title": "The Digenic Causality in Familial Hypercholesterolemia",
-    "pmid": null,
-    "doi": null,
-    "citations": 21,
-    "finding": "Digenic mutations in FH don't necessarily correlate with more severe phenotypes"
-  },
-  {
-    "year": 2021,
-    "authors": "Mukherjee et al.",
-    "journal": "American Journal of Human Genetics",
-    "title": "Identifying digenic disease genes via machine learning in the Undiagnosed Diseases Network",
-    "pmid": null,
-    "doi": null,
-    "citations": 59,
-    "finding": ""
-  },
-  {
-    "year": 2020,
-    "authors": "Zhang et al.",
-    "journal": "Nature Communications",
-    "title": "Risk prediction of late-onset Alzheimer's disease implies an oligogenic architecture",
-    "pmid": null,
-    "doi": null,
-    "citations": 279,
-    "finding": "Late-onset Alzheimer's has oligogenic architecture"
-  },
-  {
-    "year": 2020,
-    "authors": "Cangiano et al.",
-    "journal": "Human Genetics",
-    "title": "Genetics of congenital hypogonadotropic hypogonadism: peculiarities and phenotype of an oligogenic disease",
-    "pmid": null,
-    "doi": null,
-    "citations": 165,
-    "finding": ""
-  },
-  {
-    "year": 2020,
-    "authors": "Mukherjee et al.",
-    "journal": "bioRxiv",
-    "title": "Identifying digenic disease genes using machine learning in the undiagnosed diseases network",
-    "pmid": null,
-    "doi": null,
-    "citations": null,
-    "finding": ""
-  },
-  {
-    "year": 2019,
-    "authors": "Gifford et al.",
-    "journal": "Science",
-    "title": "Oligogenic inheritance of a human heart disease involving a genetic modifier",
-    "pmid": null,
-    "doi": null,
-    "citations": 207,
-    "finding": "Three variants (two transcription factors + one structural protein) caused heart disease in mice"
-  },
-  {
-    "year": 2019,
-    "authors": "Fl\u00fcck et al.",
-    "journal": "Frontiers in Genetics",
-    "title": "Broad Phenotypes of Disorders/Differences of Sex Development in MAMLD1 Patients Through Oligogenic Disease",
-    "pmid": null,
-    "doi": null,
-    "citations": 35,
-    "finding": "DSD phenotypes involve multiple genetic variations in complex networks"
-  },
-  {
-    "year": 2018,
-    "authors": "Boudellioua et al.",
-    "journal": "Scientific Reports",
-    "title": "OligoPVP: Phenotype-driven analysis of individual genomic information to prioritize oligogenic disease variants",
-    "pmid": null,
-    "doi": null,
-    "citations": 36,
-    "finding": ""
-  },
-  {
-    "year": 2017,
-    "authors": "Gazzo et al.",
-    "journal": "Nucleic Acids Research",
-    "title": "Understanding mutational effects in digenic diseases",
-    "pmid": null,
-    "doi": null,
-    "citations": 60,
-    "finding": "Two classes of digenic effects: \"true digenic\" (both genes required) vs \"composite\" (one sufficient, second modifies)"
-  },
-  {
-    "year": 2016,
-    "authors": "Lam et al.",
-    "journal": "European Journal of Human Genetics",
-    "title": "Limb girdle myasthenia with digenic RAPSN and a novel disease gene AK9 mutations",
-    "pmid": null,
-    "doi": null,
-    "citations": 24,
-    "finding": ""
-  },
-  {
-    "year": 2015,
-    "authors": "Gazzo et al.",
-    "journal": "Nucleic Acids Research",
-    "title": "DIDA: A curated and annotated digenic diseases database",
-    "pmid": null,
-    "doi": null,
-    "citations": 107,
-    "finding": ""
-  },
-  {
-    "year": 2012,
-    "authors": "Lupski",
-    "journal": "Nature Genetics",
-    "title": "Digenic inheritance and Mendelian disease",
-    "pmid": null,
-    "doi": null,
-    "citations": 61,
-    "finding": ""
-  },
-  {
-    "year": 2011,
-    "authors": "Kelberman et al.",
-    "journal": "Human Mutation",
-    "title": "Digenic inheritance of mutations in FOXC1 and PITX2: Correlating transcription factor function and Axenfeld-Rieger disease severity",
-    "pmid": null,
-    "doi": null,
-    "citations": 45,
-    "finding": "Digenic inheritance increases disease severity in eye development disorders"
-  },
-  {
-    "year": 2010,
-    "authors": "Ebermann et al.",
-    "journal": "Journal of Clinical Investigation",
-    "title": "PDZD7 is a modifier of retinal disease and a contributor to digenic Usher syndrome",
-    "pmid": null,
-    "doi": null,
-    "citations": 242,
-    "finding": "Usher syndrome should be reclassified as oligogenic"
-  },
-  {
-    "year": 2006,
-    "authors": "Tang et al.",
-    "journal": "Human Molecular Genetics",
-    "title": "Association of PINK1 and DJ-1 confers digenic inheritance of early-onset Parkinson's disease",
-    "pmid": null,
-    "doi": null,
-    "citations": 211,
-    "finding": "First case of autosomal recessive PD with digenic inheritance"
-  },
-  {
-    "year": 2006,
-    "authors": "Vockley",
-    "journal": "Encyclopedia of Life Sciences",
-    "title": "Digenic Inheritance",
-    "pmid": null,
-    "doi": null,
-    "citations": null,
-    "finding": ""
-  },
-  {
-    "year": 2005,
-    "authors": "Agarwal & Moorchung",
-    "journal": "Journal of Nippon Medical School",
-    "title": "Modifier Genes and Oligogenic Disease",
-    "pmid": null,
-    "doi": null,
-    "citations": 18,
-    "finding": ""
-  },
-  {
-    "year": 2002,
-    "authors": "Ming & Muenke",
-    "journal": "American Journal of Human Genetics",
-    "title": "Multiple Hits during Early Embryonic Development: Digenic Diseases and Holoprosencephaly",
-    "pmid": null,
-    "doi": null,
-    "citations": 312,
-    "finding": "Demonstrated digenic inheritance in developmental disorders"
-  },
-  {
-    "year": 1999,
-    "authors": "Daw et al.",
-    "journal": "American Journal of Human Genetics",
-    "title": "Multipoint Oligogenic Analysis of Age-at-Onset Data with Applications to Alzheimer Disease Pedigrees",
-    "pmid": null,
-    "doi": null,
-    "citations": 89,
-    "finding": ""
-  },
-  {
-    "year": 1997,
-    "authors": "MacCluer et al.",
-    "journal": "Genetic Epidemiology",
-    "title": "GAW10: Simulated family data for a common oligogenic disease with quantitative risk factors",
-    "pmid": null,
-    "doi": null,
-    "citations": null,
-    "finding": ""
-  },
-  {
-    "year": 1994,
-    "authors": "Kajiwara et al.",
-    "journal": "Science",
-    "title": "Digenic Retinitis Pigmentosa Due to Mutations at the Unlinked Peripherin/RDS and ROM1 Loci",
-    "pmid": null,
-    "doi": null,
-    "citations": 780,
-    "finding": "Only double heterozygotes for mutations in both ROM1 and peripherin/RDS developed retinitis pigmentosa"
-  }
-];
+    const papersData = [];
+
+    let currentCategory = 'all';
+
+    function getCategory(paper) {
+      const title = paper.title.toLowerCase();
+      const finding = (paper.finding || '').toLowerCase();
+      const journal = (paper.journal || '').toLowerCase();
+      
+      // Tools detection
+      if (title.includes('database') || title.includes('tool') || title.includes('algorithm') || 
+          title.includes('prediction') || title.includes('benchmarking') || title.includes('classifier') ||
+          title.includes('software') || title.includes('method') || finding.includes('tool') ||
+          title.includes('gcod') || title.includes('dida') || title.includes('olida') ||
+          title.includes('digepred') || title.includes('oligopvp')) {
+        return 'tools';
+      }
+      
+      // Review detection
+      if (title.includes('review') || title.includes('update') || title.includes('perspective') ||
+          title.includes('overview') || journal.includes('review') || 
+          finding.includes('review') || title.includes('systematic')) {
+        return 'review';
+      }
+      
+      // Default to clinical
+      return 'clinical';
+    }
+
+    function copyToClipboard(text, btn) {
+      navigator.clipboard.writeText(text).then(() => {
+        btn.textContent = '✓ Copied';
+        btn.classList.add('copied');
+        showToast('Title copied to clipboard!');
+        setTimeout(() => {
+          btn.textContent = '📋 Copy';
+          btn.classList.remove('copied');
+        }, 2000);
+      });
+    }
+
+    function showToast(message) {
+      const toast = document.getElementById('toast');
+      toast.textContent = message;
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 3000);
+    }
 
     function renderPapers(papers) {
       const container = document.getElementById('papers-container');
@@ -794,58 +389,73 @@
         return;
       }
 
-      // Group by decade
-      const grouped = papers.reduce((acc, paper) => {
-        const decade = Math.floor(paper.year / 10) * 10;
-        if (!acc[decade]) acc[decade] = [];
-        acc[decade].push(paper);
-        return acc;
-      }, {});
-
-      // Sort decades (newest first)
-      const sortedDecades = Object.keys(grouped).sort((a, b) => b - a);
-
-      container.innerHTML = sortedDecades.map(decade => `
-        <div class="decade-section">
-          <h2 class="decade-title">${decade}s</h2>
-          <div class="papers-list">
-            ${grouped[decade].map(paper => `
-              <div class="paper-card" data-year="${paper.year}">
-                <div class="paper-header">
-                  <span class="paper-year">${paper.year}</span>
-                </div>
-                <h3 class="paper-title">${paper.title}</h3>
-                <p class="paper-authors">${paper.authors}</p>
-                <p class="paper-journal">${paper.journal}</p>
-                <div class="paper-finding">
-                  <strong>Key Finding:</strong> ${paper.finding}
-                </div>
-                <div class="paper-links">
-                  ${paper.doi ? `<a href="https://doi.org/${paper.doi}" target="_blank">🔗 DOI</a>` : ''}
-                  ${paper.pmid ? `<a href="https://pubmed.ncbi.nlm.nih.gov/${paper.pmid}/" target="_blank">📄 PubMed</a>` : ''}
-                </div>
+      container.innerHTML = papers.map(paper => {
+        const category = getCategory(paper);
+        return `
+          <div class="paper-card" data-category="${category}" data-year="${paper.year}">
+            <div class="paper-header">
+              <div class="paper-meta">
+                <span class="paper-year">${paper.year}</span>
+                <span class="category-badge ${category}">${category}</span>
               </div>
-            `).join('')}
+            </div>
+
+            <div class="paper-title-container">
+              <h3 class="paper-title">${paper.title}</h3>
+              <button class="copy-btn" onclick="copyToClipboard('${paper.title.replace(/'/g, "\\'")}', this)">📋 Copy</button>
+            </div>
+
+            <p class="paper-authors">${paper.authors}</p>
+            ${paper.institution ? `<p class="paper-institution">🏛️ ${paper.institution}</p>` : ''}
+            <p class="paper-journal">📰 ${paper.journal}</p>
+
+            ${paper.abstract ? `
+              <div class="paper-abstract">
+                <strong>Abstract:</strong> ${paper.abstract}
+              </div>
+            ` : paper.finding ? `
+              <div class="paper-abstract">
+                <strong>Key Finding:</strong> ${paper.finding}
+              </div>
+            ` : ''}
+
+            <div class="paper-links">
+              ${paper.doi ? `<a href="https://doi.org/${paper.doi}" target="_blank">🔗 DOI</a>` : ''}
+              ${paper.pmid ? `<a href="https://pubmed.ncbi.nlm.nih.gov/${paper.pmid}/" target="_blank">📄 PubMed</a>` : ''}
+            </div>
           </div>
-        </div>
-      `).join('');
+        `;
+      }).join('');
+    }
+
+    function filterByCategory(category) {
+      currentCategory = category;
+      
+      // Update tabs
+      document.querySelectorAll('.category-tab').forEach(tab => {
+        tab.classList.toggle('active', tab.dataset.category === category);
+      });
+      
+      filterPapers();
     }
 
     function filterPapers() {
       const searchTerm = document.getElementById('search-input').value.toLowerCase();
-      const decadeFilter = document.getElementById('decade-filter').value;
+      const yearFilter = document.getElementById('year-input').value;
       
       let filtered = papersData.filter(paper => {
         const matchesSearch = !searchTerm || 
           paper.title.toLowerCase().includes(searchTerm) ||
           paper.authors.toLowerCase().includes(searchTerm) ||
-          paper.finding.toLowerCase().includes(searchTerm) ||
-          paper.journal.toLowerCase().includes(searchTerm);
+          (paper.finding || '').toLowerCase().includes(searchTerm) ||
+          (paper.abstract || '').toLowerCase().includes(searchTerm) ||
+          paper.journal.toLowerCase().includes(searchTerm) ||
+          (paper.institution || '').toLowerCase().includes(searchTerm);
         
-        const matchesDecade = decadeFilter === 'all' || 
-          Math.floor(paper.year / 10) * 10 === parseInt(decadeFilter);
+        const matchesYear = !yearFilter || paper.year === parseInt(yearFilter);
+        const matchesCategory = currentCategory === 'all' || getCategory(paper) === currentCategory;
         
-        return matchesSearch && matchesDecade;
+        return matchesSearch && matchesYear && matchesCategory;
       });
 
       // Sort
@@ -853,6 +463,13 @@
       filtered.sort((a, b) => sortOrder === 'newest' ? b.year - a.year : a.year - b.year);
 
       renderPapers(filtered);
+    }
+
+    function updateStats() {
+      document.getElementById('total-papers').textContent = papersData.length;
+      document.getElementById('tools-count').textContent = papersData.filter(p => getCategory(p) === 'tools').length;
+      document.getElementById('clinical-count').textContent = papersData.filter(p => getCategory(p) === 'clinical').length;
+      document.getElementById('review-count').textContent = papersData.filter(p => getCategory(p) === 'review').length;
     }
 
     function exportData() {
@@ -867,10 +484,11 @@
 
     // Event listeners
     document.getElementById('search-input').addEventListener('input', filterPapers);
-    document.getElementById('decade-filter').addEventListener('change', filterPapers);
+    document.getElementById('year-input').addEventListener('input', filterPapers);
     document.getElementById('sort-order').addEventListener('change', filterPapers);
 
-    // Initial render
+    // Initialize
+    updateStats();
     renderPapers(papersData);
   </script>
 </body>
