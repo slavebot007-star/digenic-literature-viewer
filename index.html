@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digenic & Oligogenic Disease Literature Review</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f172a;
+      --bg-secondary: #1e293b;
+      --bg-tertiary: #334155;
+      --text-primary: #f8fafc;
+      --text-secondary: #94a3b8;
+      --text-muted: #64748b;
+      --accent: #3b82f6;
+      --accent-hover: #2563eb;
+      --success: #10b981;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+      --border: #334155;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 0;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .subtitle {
+      color: var(--text-secondary);
+      font-size: 1.1rem;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+
+    .stat-card {
+      background: var(--bg-secondary);
+      padding: 1.5rem;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      text-align: center;
+    }
+
+    .stat-value {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--accent);
+    }
+
+    .stat-label {
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+    }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      background: var(--bg-secondary);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+    }
+
+    .search-box {
+      flex: 1;
+      min-width: 300px;
+      position: relative;
+    }
+
+    .search-box input {
+      width: 100%;
+      padding: 0.75rem 1rem 0.75rem 2.5rem;
+      background: var(--bg-primary);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text-primary);
+      font-size: 1rem;
+    }
+
+    .search-box::before {
+      content: "🔍";
+      position: absolute;
+      left: 0.75rem;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .filter-group {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    select, button {
+      padding: 0.75rem 1rem;
+      background: var(--bg-primary);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text-primary);
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: all 0.2s;
+    }
+
+    button:hover, select:hover {
+      border-color: var(--accent);
+    }
+
+    button.primary {
+      background: var(--accent);
+      border-color: var(--accent);
+    }
+
+    button.primary:hover {
+      background: var(--accent-hover);
+    }
+
+    .papers-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .paper-card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      transition: all 0.2s;
+    }
+
+    .paper-card:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+    }
+
+    .paper-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 0.75rem;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .paper-year {
+      background: var(--accent);
+      color: white;
+      padding: 0.25rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+
+    .paper-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 0.5rem;
+      line-height: 1.4;
+    }
+
+    .paper-authors {
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .paper-journal {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      font-style: italic;
+      margin-bottom: 0.75rem;
+    }
+
+    .paper-finding {
+      background: var(--bg-primary);
+      padding: 0.75rem 1rem;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+    }
+
+    .paper-finding strong {
+      color: var(--text-primary);
+    }
+
+    .paper-links {
+      display: flex;
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .paper-links a {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.85rem;
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+
+    .paper-links a:hover {
+      text-decoration: underline;
+    }
+
+    .decade-section {
+      margin-bottom: 3rem;
+    }
+
+    .decade-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--border);
+    }
+
+    .no-results {
+      text-align: center;
+      padding: 3rem;
+      color: var(--text-muted);
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 1rem;
+      }
+
+      h1 {
+        font-size: 1.75rem;
+      }
+
+      .controls {
+        flex-direction: column;
+      }
+
+      .search-box {
+        min-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Digenic & Oligogenic Disease Literature Review</h1>
+      <p class="subtitle">Comprehensive collection of research papers on multi-gene inheritance patterns</p>
+    </header>
+
+    <div class="stats">
+      <div class="stat-card">
+        <div class="stat-value" id="total-papers">45</div>
+        <div class="stat-label">Total Papers</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="year-range">1994-2026</div>
+        <div class="stat-label">Year Range</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="disease-categories">10</div>
+        <div class="stat-label">Disease Categories</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="recent-papers">20</div>
+        <div class="stat-label">2025-2026 Papers</div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <div class="search-box">
+        <input type="text" id="search-input" placeholder="Search papers, authors, diseases...">
+      </div>
+      <div class="filter-group">
+        <select id="decade-filter">
+          <option value="all">All Decades</option>
+          <option value="2020">2020s</option>
+          <option value="2010">2010s</option>
+          <option value="2000">2000s</option>
+          <option value="1990">1990s</option>
+        </select>
+        <select id="sort-order">
+          <option value="newest">Newest First</option>
+          <option value="oldest">Oldest First</option>
+        </select>
+        <button class="primary" onclick="exportData()">📥 Export</button>
+      </div>
+    </div>
+
+    <div id="papers-container">
+      <!-- Papers will be loaded here -->
+    </div>
+  </div>
+
+  <script>
+    // Paper data will be embedded here
+    const papersData = [
+  {
+    "year": 2026,
+    "authors": "Khederlou et al.",
+    "journal": "Korean Journal of Family Medicine",
+    "title": "Association between parental consanguineous marriage and the incidence, age of onset, and severity of coronary artery disease: a cross-sectional study in Iran",
+    "pmid": "41735787",
+    "doi": "10.4082/kjfm.25.0224",
+    "citations": null,
+    "finding": "Parental consanguinity associated with higher CAD prevalence and earlier onset; linked to increased oligogenicity and genetic homogeneity"
+  },
+  {
+    "year": 2026,
+    "authors": "Freiberger",
+    "journal": "Current Opinion in Lipidology",
+    "title": "Update on genetics of familial hypercholesterolemia",
+    "pmid": "41703706",
+    "doi": "10.1097/MOL.0000000000001027",
+    "citations": null,
+    "finding": "New terminology: \"digenic biallelic forms\" involving two FH-associated genes (LDLR, APOB, PCSK9, LDLRAP1, APOE)"
+  },
+  {
+    "year": 2026,
+    "authors": "Chen et al.",
+    "journal": "Journal of Genetics and Genomics",
+    "title": "Natural history and phenotype-genotype correlations in GJB2-related hearing loss: a systematic and comprehensive review",
+    "pmid": "41690513",
+    "doi": "10.1016/j.jgg.2026.02.006",
+    "citations": null,
+    "finding": "Comprehensive review of digenic inheritance patterns in GJB2-related hearing loss across 215 studies (7967 patients)"
+  },
+  {
+    "year": 2026,
+    "authors": "Pinci et al.",
+    "journal": "Communications Medicine",
+    "title": "Integrative genomic and literature assessment of desmoglein 2-related arrhythmogenic cardiomyopathy with Italian cohort validation",
+    "pmid": "41652012",
+    "doi": "10.1038/s43856-026-01416-w",
+    "citations": null,
+    "finding": "Biallelic and digenic DSG2 variants associated with earlier onset and more severe biventricular involvement in ACM"
+  },
+  {
+    "year": 2026,
+    "authors": "Tardy et al.",
+    "journal": "Brain",
+    "title": "Benchmarking long-read sequencing approaches to resolve facioscapulohumeral dystrophy locus complexity",
+    "pmid": "41642686",
+    "doi": "10.1093/brain/awag029",
+    "citations": null,
+    "finding": "FSHD2 results from digenic mechanism involving SMCHD1 variants and 4q35 hypomethylation"
+  },
+  {
+    "year": 2026,
+    "authors": "Xu et al.",
+    "journal": "Frontiers in Medicine",
+    "title": "Case Report: Compound heterozygous variants in LSS and TSPEAR genes causing hypotrichosis type 14 complicated with ectodermal dysplasia type 14",
+    "pmid": "41640519",
+    "doi": "10.3389/fmed.2026.1669753",
+    "citations": null,
+    "finding": "First reported case of digenic inheritance involving LSS and TSPEAR"
+  },
+  {
+    "year": 2026,
+    "authors": "Khurana et al.",
+    "journal": "Brain Communications",
+    "title": "Clinical and genetic determinants of survival in amyotrophic lateral sclerosis patients from North India",
+    "pmid": "41574092",
+    "doi": "10.1093/braincomms/fcag003",
+    "citations": null,
+    "finding": "16.7% of ALS patients had variations in more than one gene, supporting oligogenic basis for ALS"
+  },
+  {
+    "year": 2026,
+    "authors": "Geronikolou & Chrousos",
+    "journal": "Hormones",
+    "title": "Pseudohypoaldosteronism: demystification using network medicine and proposed diagnostic panels",
+    "pmid": "41569463",
+    "doi": "10.1007/s42000-025-00746-z",
+    "citations": null,
+    "finding": "Digenic co-expression defects reported in PHA cases"
+  },
+  {
+    "year": 2026,
+    "authors": "de Azevedo Correa et al.",
+    "journal": "European Journal of Human Genetics",
+    "title": "Pleiotropic genes linking congenital hypogonadotropic hypogonadism and cleft lip/palate",
+    "pmid": "41535479",
+    "doi": "10.1038/s41431-025-02005-6",
+    "citations": null,
+    "finding": "Evidence of digenic inheritance involving both CHH- and CLP-related genes (FGFR1, CHD7, DVL3, PLCB4, NIPBL, EDNRA)"
+  },
+  {
+    "year": 2026,
+    "authors": "Shi et al.",
+    "journal": "Orphanet Journal of Rare Diseases",
+    "title": "Novel GJC2 and OBSCN variants co-segregating in a Chinese primary lymphedema pedigree",
+    "pmid": "41530801",
+    "doi": "10.1186/s13023-026-04196-7",
+    "citations": null,
+    "finding": "First report linking OBSCN to human lymphedema; synergistic oligogenic model proposed"
+  },
+  {
+    "year": 2025,
+    "authors": "Pittman et al.",
+    "journal": "Genome Research",
+    "title": "The oligogenic inheritance test GCOD detects risk genes and their interactions in congenital heart defects",
+    "pmid": null,
+    "doi": null,
+    "citations": null,
+    "finding": "160 gene pairs with higher-than-expected transmission to CHD probands"
+  },
+  {
+    "year": 2025,
+    "authors": "Freiberger",
+    "journal": "Current Opinion in Lipidology",
+    "title": "Update on genetics of familial hypercholesterolemia",
+    "pmid": null,
+    "doi": null,
+    "citations": null,
+    "finding": "New terminology: \"digenic biallelic forms\" involving two FH-associated genes"
+  },
+  {
+    "year": 2025,
+    "authors": "Baulina et al.",
+    "journal": "Molecular Biology",
+    "title": "Hypertrophic Cardiomyopathy as an Oligogenic Disease: Transcriptomic Arguments",
+    "pmid": null,
+    "doi": null,
+    "citations": 11,
+    "finding": "HCM involves sarcomeric genes, modifier genes, and regulatory non-coding RNAs"
+  },
+  {
+    "year": 2025,
+    "authors": "Colin et al.",
+    "journal": "HemaSphere",
+    "title": "MMS22L is a novel key actor of normal and pathological erythropoiesis",
+    "pmid": null,
+    "doi": null,
+    "citations": null,
+    "finding": "Digenic inheritance of CDAN1 and MMS22L mutations in congenital dyserythropoietic anemia"
+  },
+  {
+    "year": 2025,
+    "authors": "Wang et al.",
+    "journal": "Journal of Investigative Dermatology",
+    "title": "OCA2 deficiency enhances TPC2 channel activity to reduce melanosomal pH and pigment production",
+    "pmid": null,
+    "doi": null,
+    "citations": null,
+    "finding": "Experimental validation of digenic inheritance in oculocutaneous albinism (OCA2 + TPCN2)"
+  },
+  {
+    "year": 2025,
+    "authors": "Rapini et al.",
+    "journal": "Hormone Research in Paediatrics",
+    "title": "Composite Digenic Diabetes Linked to Heterozygous Variants of GCK and NEUROD1",
+    "pmid": null,
+    "doi": null,
+    "citations": null,
+    "finding": "Composite digenic diabetes with low-penetrance MODY gene modifying GCK phenotype"
+  },
+  {
+    "year": 2025,
+    "authors": "Nielsen et al.",
+    "journal": "eLife",
+    "title": "Functional analysis across model systems implicates ribosomal proteins in growth and proliferation defects associated with hypoplastic left heart syndrome",
+    "pmid": null,
+    "doi": null,
+    "citations": null,
+    "finding": "Genetic interactions between ribosomal protein genes and cardiac transcription factors (TBX5, NKX2-7) support oligogenic complexity in HLHS"
+  },
+  {
+    "year": 2025,
+    "authors": "Abu Shtaya et al.",
+    "journal": "Clinical Genetics",
+    "title": "Blurring the Lines: Co-Occurrence of MSH6 Variant and MLH1 Constitutional Epimutation in a Young Colorectal Cancer Patient",
+    "pmid": null,
+    "doi": null,
+    "citations": null,
+    "finding": "First reported case of dual mechanism involving germline MSH6 variant and constitutional MLH1 methylation (digenic Lynch syndrome)"
+  },
+  {
+    "year": 2025,
+    "authors": "Islam et al.",
+    "journal": "Pediatric Research",
+    "title": "Congenital and infantile nephrotic syndrome: genotype-phenotype associations",
+    "pmid": null,
+    "doi": null,
+    "citations": null,
+    "finding": "NPHS1/WT1 and NPHS1/NPHS2 digenic inheritance with triallelic hits associated with transplantation need"
+  },
+  {
+    "year": 2025,
+    "authors": "Ameratunga et al.",
+    "journal": "Clinical Reviews in Allergy & Immunology",
+    "title": "Common Variable Immunodeficiency Disorders: A perspective from New Zealand",
+    "pmid": null,
+    "doi": null,
+    "citations": null,
+    "finding": "Digenic CVID-like disorder with epistatic interaction between TCF3 and TNFRSF13B (TACI)"
+  },
+  {
+    "year": 2024,
+    "authors": "Poch et al.",
+    "journal": "Molecular and Cellular Endocrinology",
+    "title": "Prevalence of pathogenic variants and digenic disease in patients diagnosed with normosmic hypogonadotropic hypogonadism/Kallmann Syndrome",
+    "pmid": null,
+    "doi": null,
+    "citations": 7,
+    "finding": ""
+  },
+  {
+    "year": 2023,
+    "authors": "Zhang et al.",
+    "journal": "Frontiers in Genetics",
+    "title": "A multi-threaded approach to genotype pattern mining for detecting digenic disease genes",
+    "pmid": null,
+    "doi": null,
+    "citations": 3,
+    "finding": ""
+  },
+  {
+    "year": 2022,
+    "authors": "Nachtegael et al.",
+    "journal": "Database",
+    "title": "Scaling up oligogenic diseases research with OLIDA: the Oligogenic Diseases Database",
+    "pmid": null,
+    "doi": null,
+    "citations": 34,
+    "finding": ""
+  },
+  {
+    "year": 2022,
+    "authors": "Papadimitriou et al.",
+    "journal": "Human Genetics and Genomics Advances",
+    "title": "Toward reporting standards for the pathogenicity of variant combinations involved in multilocus/oligogenic diseases",
+    "pmid": null,
+    "doi": null,
+    "citations": 19,
+    "finding": ""
+  },
+  {
+    "year": 2021,
+    "authors": "Kamar et al.",
+    "journal": "Frontiers in Genetics",
+    "title": "The Digenic Causality in Familial Hypercholesterolemia",
+    "pmid": null,
+    "doi": null,
+    "citations": 21,
+    "finding": "Digenic mutations in FH don't necessarily correlate with more severe phenotypes"
+  },
+  {
+    "year": 2021,
+    "authors": "Mukherjee et al.",
+    "journal": "American Journal of Human Genetics",
+    "title": "Identifying digenic disease genes via machine learning in the Undiagnosed Diseases Network",
+    "pmid": null,
+    "doi": null,
+    "citations": 59,
+    "finding": ""
+  },
+  {
+    "year": 2020,
+    "authors": "Zhang et al.",
+    "journal": "Nature Communications",
+    "title": "Risk prediction of late-onset Alzheimer's disease implies an oligogenic architecture",
+    "pmid": null,
+    "doi": null,
+    "citations": 279,
+    "finding": "Late-onset Alzheimer's has oligogenic architecture"
+  },
+  {
+    "year": 2020,
+    "authors": "Cangiano et al.",
+    "journal": "Human Genetics",
+    "title": "Genetics of congenital hypogonadotropic hypogonadism: peculiarities and phenotype of an oligogenic disease",
+    "pmid": null,
+    "doi": null,
+    "citations": 165,
+    "finding": ""
+  },
+  {
+    "year": 2020,
+    "authors": "Mukherjee et al.",
+    "journal": "bioRxiv",
+    "title": "Identifying digenic disease genes using machine learning in the undiagnosed diseases network",
+    "pmid": null,
+    "doi": null,
+    "citations": null,
+    "finding": ""
+  },
+  {
+    "year": 2019,
+    "authors": "Gifford et al.",
+    "journal": "Science",
+    "title": "Oligogenic inheritance of a human heart disease involving a genetic modifier",
+    "pmid": null,
+    "doi": null,
+    "citations": 207,
+    "finding": "Three variants (two transcription factors + one structural protein) caused heart disease in mice"
+  },
+  {
+    "year": 2019,
+    "authors": "Fl\u00fcck et al.",
+    "journal": "Frontiers in Genetics",
+    "title": "Broad Phenotypes of Disorders/Differences of Sex Development in MAMLD1 Patients Through Oligogenic Disease",
+    "pmid": null,
+    "doi": null,
+    "citations": 35,
+    "finding": "DSD phenotypes involve multiple genetic variations in complex networks"
+  },
+  {
+    "year": 2018,
+    "authors": "Boudellioua et al.",
+    "journal": "Scientific Reports",
+    "title": "OligoPVP: Phenotype-driven analysis of individual genomic information to prioritize oligogenic disease variants",
+    "pmid": null,
+    "doi": null,
+    "citations": 36,
+    "finding": ""
+  },
+  {
+    "year": 2017,
+    "authors": "Gazzo et al.",
+    "journal": "Nucleic Acids Research",
+    "title": "Understanding mutational effects in digenic diseases",
+    "pmid": null,
+    "doi": null,
+    "citations": 60,
+    "finding": "Two classes of digenic effects: \"true digenic\" (both genes required) vs \"composite\" (one sufficient, second modifies)"
+  },
+  {
+    "year": 2016,
+    "authors": "Lam et al.",
+    "journal": "European Journal of Human Genetics",
+    "title": "Limb girdle myasthenia with digenic RAPSN and a novel disease gene AK9 mutations",
+    "pmid": null,
+    "doi": null,
+    "citations": 24,
+    "finding": ""
+  },
+  {
+    "year": 2015,
+    "authors": "Gazzo et al.",
+    "journal": "Nucleic Acids Research",
+    "title": "DIDA: A curated and annotated digenic diseases database",
+    "pmid": null,
+    "doi": null,
+    "citations": 107,
+    "finding": ""
+  },
+  {
+    "year": 2012,
+    "authors": "Lupski",
+    "journal": "Nature Genetics",
+    "title": "Digenic inheritance and Mendelian disease",
+    "pmid": null,
+    "doi": null,
+    "citations": 61,
+    "finding": ""
+  },
+  {
+    "year": 2011,
+    "authors": "Kelberman et al.",
+    "journal": "Human Mutation",
+    "title": "Digenic inheritance of mutations in FOXC1 and PITX2: Correlating transcription factor function and Axenfeld-Rieger disease severity",
+    "pmid": null,
+    "doi": null,
+    "citations": 45,
+    "finding": "Digenic inheritance increases disease severity in eye development disorders"
+  },
+  {
+    "year": 2010,
+    "authors": "Ebermann et al.",
+    "journal": "Journal of Clinical Investigation",
+    "title": "PDZD7 is a modifier of retinal disease and a contributor to digenic Usher syndrome",
+    "pmid": null,
+    "doi": null,
+    "citations": 242,
+    "finding": "Usher syndrome should be reclassified as oligogenic"
+  },
+  {
+    "year": 2006,
+    "authors": "Tang et al.",
+    "journal": "Human Molecular Genetics",
+    "title": "Association of PINK1 and DJ-1 confers digenic inheritance of early-onset Parkinson's disease",
+    "pmid": null,
+    "doi": null,
+    "citations": 211,
+    "finding": "First case of autosomal recessive PD with digenic inheritance"
+  },
+  {
+    "year": 2006,
+    "authors": "Vockley",
+    "journal": "Encyclopedia of Life Sciences",
+    "title": "Digenic Inheritance",
+    "pmid": null,
+    "doi": null,
+    "citations": null,
+    "finding": ""
+  },
+  {
+    "year": 2005,
+    "authors": "Agarwal & Moorchung",
+    "journal": "Journal of Nippon Medical School",
+    "title": "Modifier Genes and Oligogenic Disease",
+    "pmid": null,
+    "doi": null,
+    "citations": 18,
+    "finding": ""
+  },
+  {
+    "year": 2002,
+    "authors": "Ming & Muenke",
+    "journal": "American Journal of Human Genetics",
+    "title": "Multiple Hits during Early Embryonic Development: Digenic Diseases and Holoprosencephaly",
+    "pmid": null,
+    "doi": null,
+    "citations": 312,
+    "finding": "Demonstrated digenic inheritance in developmental disorders"
+  },
+  {
+    "year": 1999,
+    "authors": "Daw et al.",
+    "journal": "American Journal of Human Genetics",
+    "title": "Multipoint Oligogenic Analysis of Age-at-Onset Data with Applications to Alzheimer Disease Pedigrees",
+    "pmid": null,
+    "doi": null,
+    "citations": 89,
+    "finding": ""
+  },
+  {
+    "year": 1997,
+    "authors": "MacCluer et al.",
+    "journal": "Genetic Epidemiology",
+    "title": "GAW10: Simulated family data for a common oligogenic disease with quantitative risk factors",
+    "pmid": null,
+    "doi": null,
+    "citations": null,
+    "finding": ""
+  },
+  {
+    "year": 1994,
+    "authors": "Kajiwara et al.",
+    "journal": "Science",
+    "title": "Digenic Retinitis Pigmentosa Due to Mutations at the Unlinked Peripherin/RDS and ROM1 Loci",
+    "pmid": null,
+    "doi": null,
+    "citations": 780,
+    "finding": "Only double heterozygotes for mutations in both ROM1 and peripherin/RDS developed retinitis pigmentosa"
+  }
+];
+
+    function renderPapers(papers) {
+      const container = document.getElementById('papers-container');
+      
+      if (papers.length === 0) {
+        container.innerHTML = '<div class="no-results">No papers match your search criteria</div>';
+        return;
+      }
+
+      // Group by decade
+      const grouped = papers.reduce((acc, paper) => {
+        const decade = Math.floor(paper.year / 10) * 10;
+        if (!acc[decade]) acc[decade] = [];
+        acc[decade].push(paper);
+        return acc;
+      }, {});
+
+      // Sort decades (newest first)
+      const sortedDecades = Object.keys(grouped).sort((a, b) => b - a);
+
+      container.innerHTML = sortedDecades.map(decade => `
+        <div class="decade-section">
+          <h2 class="decade-title">${decade}s</h2>
+          <div class="papers-list">
+            ${grouped[decade].map(paper => `
+              <div class="paper-card" data-year="${paper.year}">
+                <div class="paper-header">
+                  <span class="paper-year">${paper.year}</span>
+                </div>
+                <h3 class="paper-title">${paper.title}</h3>
+                <p class="paper-authors">${paper.authors}</p>
+                <p class="paper-journal">${paper.journal}</p>
+                <div class="paper-finding">
+                  <strong>Key Finding:</strong> ${paper.finding}
+                </div>
+                <div class="paper-links">
+                  ${paper.doi ? `<a href="https://doi.org/${paper.doi}" target="_blank">🔗 DOI</a>` : ''}
+                  ${paper.pmid ? `<a href="https://pubmed.ncbi.nlm.nih.gov/${paper.pmid}/" target="_blank">📄 PubMed</a>` : ''}
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function filterPapers() {
+      const searchTerm = document.getElementById('search-input').value.toLowerCase();
+      const decadeFilter = document.getElementById('decade-filter').value;
+      
+      let filtered = papersData.filter(paper => {
+        const matchesSearch = !searchTerm || 
+          paper.title.toLowerCase().includes(searchTerm) ||
+          paper.authors.toLowerCase().includes(searchTerm) ||
+          paper.finding.toLowerCase().includes(searchTerm) ||
+          paper.journal.toLowerCase().includes(searchTerm);
+        
+        const matchesDecade = decadeFilter === 'all' || 
+          Math.floor(paper.year / 10) * 10 === parseInt(decadeFilter);
+        
+        return matchesSearch && matchesDecade;
+      });
+
+      // Sort
+      const sortOrder = document.getElementById('sort-order').value;
+      filtered.sort((a, b) => sortOrder === 'newest' ? b.year - a.year : a.year - b.year);
+
+      renderPapers(filtered);
+    }
+
+    function exportData() {
+      const dataStr = JSON.stringify(papersData, null, 2);
+      const blob = new Blob([dataStr], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'literature-review.json';
+      a.click();
+    }
+
+    // Event listeners
+    document.getElementById('search-input').addEventListener('input', filterPapers);
+    document.getElementById('decade-filter').addEventListener('change', filterPapers);
+    document.getElementById('sort-order').addEventListener('change', filterPapers);
+
+    // Initial render
+    renderPapers(papersData);
+  </script>
+</body>
+</html>
