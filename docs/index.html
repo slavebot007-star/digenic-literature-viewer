@@ -544,8 +544,8 @@
             </select>
             
             <select id="yearFilter">
-                <option value="" selected>All Years</option>
-                <option value="2026">2026</option>
+                <option value="">All Years</option>
+                <option value="2026" selected>2026</option>
                 <option value="2025">2025</option>
                 <option value="2024">2024</option>
                 <option value="2023">2023</option>
@@ -607,7 +607,8 @@
                 document.getElementById('loadingMessage').classList.add('hidden');
                 document.getElementById('papersContainer').classList.remove('hidden');
                 
-                // Apply default 2026 filter
+                // Apply default 2026 filter - explicitly set the filter value
+                document.getElementById('yearFilter').value = '2026';
                 filterPapers();
             })
             .catch(error => {
@@ -656,20 +657,18 @@
         }
         
         function filterPapers() {
-            if (!papers || papers.length === 0) return;
-            
             const searchTerm = document.getElementById('searchInput').value.toLowerCase();
             const source = document.getElementById('sourceFilter').value;
             const year = document.getElementById('yearFilter').value;
             
             const filtered = papers.filter(p => {
                 const matchesSearch = !searchTerm || 
-                    (p.title && p.title.toLowerCase().includes(searchTerm)) ||
+                    p.title.toLowerCase().includes(searchTerm) ||
                     (p.abstract && p.abstract.toLowerCase().includes(searchTerm)) ||
                     (p.authors && p.authors.toLowerCase().includes(searchTerm));
                 const matchesCategory = !currentCategory || p.category === currentCategory;
                 const matchesSource = !source || p.source === source;
-                const matchesYear = !year || p.year == year;
+                const matchesYear = !year || p.year === year;
                 
                 return matchesSearch && matchesCategory && matchesSource && matchesYear;
             });
