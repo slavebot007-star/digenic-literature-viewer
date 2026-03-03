@@ -660,25 +660,23 @@
             const source = document.getElementById('sourceFilter').value;
             const year = document.getElementById('yearFilter').value;
             
-            console.log('Filter called:', { searchTerm, source, year, totalPapers: papers.length });
+            console.log('Filtering - Source:', source, 'Year:', year);
+            console.log('Total papers loaded:', papers.length);
+            console.log('Sample paper source:', papers[0]?.source);
             
             const filtered = papers.filter(p => {
                 const matchesSearch = !searchTerm || 
-                    p.title.toLowerCase().includes(searchTerm) ||
+                    (p.title && p.title.toLowerCase().includes(searchTerm)) ||
                     (p.abstract && p.abstract.toLowerCase().includes(searchTerm)) ||
                     (p.authors && p.authors.toLowerCase().includes(searchTerm));
                 const matchesCategory = !currentCategory || p.category === currentCategory;
                 const matchesSource = !source || p.source === source;
-                const matchesYear = !year || p.year === year;
-                
-                if (source && p.source === 'pmc') {
-                    console.log('PMC paper check:', p.title.substring(0, 30), 'source:', p.source, 'matchesSource:', matchesSource);
-                }
+                const matchesYear = !year || p.year == year; // Use loose equality for string/number
                 
                 return matchesSearch && matchesCategory && matchesSource && matchesYear;
             });
             
-            console.log('Filtered result:', filtered.length, 'papers');
+            console.log('Filtered count:', filtered.length);
             renderPapers(filtered);
         }
         
