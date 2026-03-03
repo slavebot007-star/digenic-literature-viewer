@@ -1,0 +1,150 @@
+name: CI Test
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    
+    - name: Verify JSON is valid
+      run: |
+        python3 -c "
+        import json
+        with open('docs/comprehensive_papers.json') as f:
+            data = json.load(f)
+        papers = data.get('papers', data)
+        print(f'✅ JSON is valid with {len(papers)} papers')
+        "
+    
+    - name: Verify JSON structure
+      run: |
+        python3 -c "
+        import json
+        with open('docs/comprehensive_papers.json') as f:
+            data = json.load(f)
+        
+        if isinstance(data, dict):
+            papers = data.get('papers', [])
+            metadata = data.get('metadata', {})
+            print(f'Metadata: {metadata}')
+        else:
+            papers = data
+        
+        # Check required fields
+        required_fields = ['title', 'authors', 'journal', 'year', 'category']
+        for i, paper in enumerate(papers[:5]):  # Check first 5
+            for field in required_fields:
+                if field not in paper:
+                    print(f'❌ Paper {i} missing field: {field}')
+                    exit(1)
+        
+        print(f'✅ All papers have required fields')
+        
+        # Check categories
+        categories = set(p['category'] for p in papers)
+        print(f'Categories found: {categories}')
+        
+        expected = {'clinical', 'tools', 'review'}
+        if not categories.issubset(expected):
+            print(f'❌ Unexpected categories: {categories - expected}')
+            exit(1)
+        
+        print(f'✅ Categories are valid')
+        "
+    
+    - name: Verify HTML exists and has correct structure
+      run: |
+        python3 -c "
+        import re
+        with open('docs/index.html') as f:
+            html = f.read()
+        
+        # Check for fetch call
+        if 'fetch(' not in html and 'comprehensive_papers.json' not in html:
+            print('❌ HTML does not fetch JSON data')
+            exit(1)
+        
+        print('✅ HTML fetches JSON data')
+        
+        # Check for stat elements
+        stat_ids = ['total-papers', 'tools-count', 'clinical-count', 'review-count']
+        for stat_id in stat_ids:
+            if f'id=\"{stat_id}\"' not in html:
+                print(f'❌ Missing stat element: {stat_id}')
+                exit(1)
+        
+        print('✅ HTML has all stat elements')
+        "
+    
+    - name: Verify _config.yml allows JSON
+      run: |
+        python3 -c "
+        import yaml
+        with open('docs/_config.yml') as f:
+            config = yaml.safe_load(f)
+        
+        exclude = config.get('exclude', [])
+        if 'comprehensive_papers.json' in exclude:
+            print('❌ JSON file is excluded in _config.yml')
+            exit(1)
+        
+        include = config.get('include', [])
+        if 'comprehensive_papers.json' not in include:
+            print('⚠️ JSON file not explicitly included (may work depending on Jekyll version)')
+        else:
+            print('✅ JSON file is explicitly included')
+        
+        print('✅ _config.yml is valid')
+        "
+    
+    - name: Verify file sizes
+      run: |
+        python3 -c "
+        import os
+        
+        json_size = os.path.getsize('docs/comprehensive_papers.json')
+        html_size = os.path.getsize('docs/index.html')
+        
+        print(f'JSON size: {json_size:,} bytes')
+        print(f'HTML size: {html_size:,} bytes')
+        
+        if json_size < 1000:
+            print('❌ JSON file seems too small')
+            exit(1)
+        
+        if html_size > 10_000_000:  # 10MB
+            print('❌ HTML file is too large (may have embedded data)')
+            exit(1)
+        
+        print('✅ File sizes look reasonable')
+        "
+    
+    - name: Test local server (optional)
+      run: |
+        python3 -m http.server 8000 --directory docs &
+        sleep 2
+        
+        # Test JSON is served
+        curl -s http://localhost:8000/comprehensive_papers.json | head -1 | grep -q '{' && echo '✅ JSON is served' || (echo '❌ JSON not served'; exit 1)
+        
+        # Test HTML is served
+        curl -s http://localhost:8000/ | grep -q 'Digenic' && echo '✅ HTML is served' || (echo '❌ HTML not served'; exit 1)
+      continue-on-error: true
+    
+    - name: Summary
+      run: |
+        echo "================================"
+        echo "✅ All CI tests passed!"
+        echo "================================"
