@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_updated": "2026-03-03T12:52:57.106657",
-    "total_papers": 936,
+    "last_updated": "2026-03-03T14:27:18.445924",
+    "total_papers": 701,
     "date_range": "2019-2026",
     "search_terms": [
       "digenic",
@@ -11,14 +11,12 @@
     ],
     "sources": [
       "pubmed",
-      "europepmc",
-      "openalex",
-      "crossref"
+      "europepmc"
     ],
     "categories": {
-      "clinical": 832,
-      "tools": 59,
-      "review": 45
+      "clinical": 617,
+      "review": 34,
+      "tools": 50
     }
   },
   "papers": [
@@ -9242,7 +9240,7 @@
       "doi": "10.1101/2025.08.04.25332980",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9254,7 +9252,7 @@
       "doi": "10.1101/2024.10.25.620163",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9266,7 +9264,7 @@
       "doi": "10.21203/rs.3.rs-8663234/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9278,7 +9276,7 @@
       "doi": "10.1101/2025.07.05.24312261",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9290,7 +9288,7 @@
       "doi": "10.21203/rs.3.rs-7319096/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9302,7 +9300,7 @@
       "doi": "10.21203/rs.3.rs-8328679/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9314,7 +9312,7 @@
       "doi": "10.1101/2025.05.10.25326049",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "tools"
     },
     {
@@ -9326,7 +9324,7 @@
       "doi": "10.1101/2023.12.23.23300495",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9338,7 +9336,7 @@
       "doi": "10.21203/rs.3.rs-7432684/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9350,7 +9348,7 @@
       "doi": "10.21203/rs.3.rs-7745171/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9362,7 +9360,7 @@
       "doi": "10.20944/preprints202510.2182.v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9374,7 +9372,7 @@
       "doi": "10.21203/rs.3.rs-6002495/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9386,7 +9384,7 @@
       "doi": "10.1101/2025.09.23.25336266",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9398,7 +9396,7 @@
       "doi": "10.20944/preprints202510.0427.v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9410,7 +9408,7 @@
       "doi": "10.21203/rs.3.rs-6957155/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9422,7 +9420,7 @@
       "doi": "10.1101/2025.07.11.663622",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9434,7 +9432,7 @@
       "doi": "10.1101/2025.06.30.662425",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9446,7 +9444,7 @@
       "doi": "10.21203/rs.3.rs-6951264/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9458,7 +9456,7 @@
       "doi": "10.21203/rs.3.rs-5036735/v2",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9470,7 +9468,7 @@
       "doi": "10.21203/rs.3.rs-6625531/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9482,7 +9480,7 @@
       "doi": "10.1101/2025.07.24.666383",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9494,7 +9492,7 @@
       "doi": "10.20944/preprints202504.1999.v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9506,7 +9504,7 @@
       "doi": "10.1101/2024.12.09.627474",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9518,7 +9516,7 @@
       "doi": "10.1101/2025.03.04.641431",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9530,7 +9528,7 @@
       "doi": "10.20944/preprints202408.0883.v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9542,7 +9540,7 @@
       "doi": "10.1101/2024.03.21.24304693",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9554,7 +9552,7 @@
       "doi": "10.1101/2025.02.21.639587",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "tools"
     },
     {
@@ -9566,7 +9564,7 @@
       "doi": "10.1101/2025.04.01.24316792",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9578,7 +9576,7 @@
       "doi": "10.1101/2024.12.10.626603",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9590,7 +9588,7 @@
       "doi": "10.1101/2024.07.16.603642",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9602,7 +9600,7 @@
       "doi": "10.1101/2024.04.29.591686",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9614,7 +9612,7 @@
       "doi": "10.1101/2025.02.03.25321220",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9626,7 +9624,7 @@
       "doi": "10.21203/rs.3.rs-3888446/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9638,7 +9636,7 @@
       "doi": "10.21203/rs.3.rs-5602589/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9650,7 +9648,7 @@
       "doi": "10.21203/rs.3.rs-5428336/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9662,7 +9660,7 @@
       "doi": "10.21203/rs.3.rs-5410799/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9674,7 +9672,7 @@
       "doi": "10.1101/2024.11.03.621751",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9686,7 +9684,7 @@
       "doi": "10.1101/2024.11.01.24316231",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9698,7 +9696,7 @@
       "doi": "10.1101/2024.11.27.24317972",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9710,7 +9708,7 @@
       "doi": "10.21203/rs.3.rs-4773294/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9722,7 +9720,7 @@
       "doi": "10.20944/preprints202409.0506.v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9734,7 +9732,7 @@
       "doi": "10.21203/rs.3.rs-3594989/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9746,7 +9744,7 @@
       "doi": "10.1101/2024.06.12.598621",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9758,7 +9756,7 @@
       "doi": "10.21203/rs.3.rs-4843906/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9770,7 +9768,7 @@
       "doi": "10.21203/rs.3.rs-660182/v2",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9782,7 +9780,7 @@
       "doi": "10.20944/preprints202405.0211.v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9794,7 +9792,7 @@
       "doi": "10.20944/preprints202407.1249.v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9806,7 +9804,7 @@
       "doi": "10.1101/2025.11.17.688860",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9818,7 +9816,7 @@
       "doi": "10.1101/2024.07.28.605483",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9830,7 +9828,7 @@
       "doi": "10.1101/2023.09.20.23295800",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9842,7 +9840,7 @@
       "doi": "10.21203/rs.3.rs-4011600/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9854,7 +9852,7 @@
       "doi": "10.21203/rs.3.rs-7152341/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9866,7 +9864,7 @@
       "doi": "10.21203/rs.3.rs-4010466/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9878,7 +9876,7 @@
       "doi": "10.1101/2024.03.28.24305037",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9890,7 +9888,7 @@
       "doi": "10.1101/2024.12.30.630734",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9902,7 +9900,7 @@
       "doi": "10.21203/rs.3.rs-2533657/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9914,7 +9912,7 @@
       "doi": "10.1101/2024.01.12.24301086",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9926,7 +9924,7 @@
       "doi": "10.1101/2023.12.21.572915",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9938,7 +9936,7 @@
       "doi": "10.1101/2023.01.19.23284597",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9950,7 +9948,7 @@
       "doi": "10.1101/2023.04.20.537719",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9962,7 +9960,7 @@
       "doi": "10.20944/preprints202312.2298.v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9974,7 +9972,7 @@
       "doi": "10.21203/rs.3.rs-2355360/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9986,7 +9984,7 @@
       "doi": "10.21203/rs.3.rs-3474696/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -9998,7 +9996,7 @@
       "doi": "10.1101/2023.12.02.23299320",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10010,7 +10008,7 @@
       "doi": "10.21203/rs.3.rs-2174743/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "tools"
     },
     {
@@ -10022,7 +10020,7 @@
       "doi": "10.1101/2023.11.21.568003",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10034,7 +10032,7 @@
       "doi": "10.1101/2022.08.30.505825",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10046,7 +10044,7 @@
       "doi": "10.1101/2023.01.17.524418",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10058,7 +10056,7 @@
       "doi": "10.1101/2023.09.26.23296051",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10070,7 +10068,7 @@
       "doi": "10.21203/rs.3.rs-2349645/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10082,7 +10080,7 @@
       "doi": "10.21203/rs.3.rs-3205018/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10094,7 +10092,7 @@
       "doi": "10.21203/rs.3.rs-7634112/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10106,7 +10104,7 @@
       "doi": "10.20944/preprints202307.1739.v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10118,7 +10116,7 @@
       "doi": "10.21203/rs.3.rs-1774418/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10130,7 +10128,7 @@
       "doi": "10.1101/2022.04.08.487704",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10142,7 +10140,7 @@
       "doi": "10.21203/rs.3.rs-3315448/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10154,7 +10152,7 @@
       "doi": "10.1101/2023.11.20.567835",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "tools"
     },
     {
@@ -10166,7 +10164,7 @@
       "doi": "10.21203/rs.3.rs-3645854/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10178,7 +10176,7 @@
       "doi": "10.21203/rs.3.rs-2316641/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10190,7 +10188,7 @@
       "doi": "10.21203/rs.3.rs-1920993/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10202,7 +10200,7 @@
       "doi": "10.1101/2021.12.09.21266782",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10214,7 +10212,7 @@
       "doi": "10.1101/2023.04.28.538790",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10226,7 +10224,7 @@
       "doi": "10.1101/2021.11.15.468601",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10238,7 +10236,7 @@
       "doi": "10.1101/2023.08.01.551585",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10250,7 +10248,7 @@
       "doi": "10.1101/2022.11.24.517840",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10262,7 +10260,7 @@
       "doi": "10.21203/rs.3.rs-2662816/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10274,7 +10272,7 @@
       "doi": "10.1101/2025.09.23.25336442",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10286,7 +10284,7 @@
       "doi": "10.1101/2022.06.13.22276366",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10298,7 +10296,7 @@
       "doi": "10.1101/2021.10.01.462832",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10310,7 +10308,7 @@
       "doi": "10.1101/2025.09.15.676308",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "tools"
     },
     {
@@ -10322,7 +10320,7 @@
       "doi": "10.21203/rs.3.rs-4415057/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10334,7 +10332,7 @@
       "doi": "10.21203/rs.3.rs-2026845/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10346,7 +10344,7 @@
       "doi": "10.1101/2023.01.23.23284909",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10358,7 +10356,7 @@
       "doi": "10.1101/2022.02.24.481758",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10370,7 +10368,7 @@
       "doi": "10.1101/2022.10.12.511720",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10382,7 +10380,7 @@
       "doi": "10.1101/2025.10.24.684428",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10394,7 +10392,7 @@
       "doi": "10.21203/rs.3.rs-2141862/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10406,7 +10404,7 @@
       "doi": "10.21203/rs.3.rs-1310364/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10418,7 +10416,7 @@
       "doi": "10.1101/2022.02.11.22270852",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10430,7 +10428,7 @@
       "doi": "10.1101/2023.02.13.23285760",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10442,7 +10440,7 @@
       "doi": "10.1101/2022.07.04.498768",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "tools"
     },
     {
@@ -10454,7 +10452,7 @@
       "doi": "10.21203/rs.3.rs-930395/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10466,7 +10464,7 @@
       "doi": "10.1101/2022.02.09.479810",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10478,7 +10476,7 @@
       "doi": "10.21203/rs.3.rs-1401490/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10490,7 +10488,7 @@
       "doi": "10.21203/rs.3.rs-1648832/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10502,7 +10500,7 @@
       "doi": "10.1101/2025.04.27.649857",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10514,7 +10512,7 @@
       "doi": "10.1101/2025.08.27.25333852",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10526,7 +10524,7 @@
       "doi": "10.1101/2022.07.01.22277112",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10538,7 +10536,7 @@
       "doi": "10.1101/2022.01.04.474907",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10550,7 +10548,7 @@
       "doi": "10.1101/2021.12.14.472569",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10562,7 +10560,7 @@
       "doi": "10.1101/2021.11.10.468073",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10574,7 +10572,7 @@
       "doi": "10.1101/2025.03.27.645773",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10586,7 +10584,7 @@
       "doi": "10.21203/rs.3.rs-1025104/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10598,7 +10596,7 @@
       "doi": "10.21203/rs.3.rs-137252/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10610,7 +10608,7 @@
       "doi": "10.1101/2021.12.03.471162",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10622,7 +10620,7 @@
       "doi": "10.21203/rs.3.rs-7794221/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10634,7 +10632,7 @@
       "doi": "10.1101/2022.02.18.22270926",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10646,7 +10644,7 @@
       "doi": "10.1101/2022.02.24.481887",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10658,7 +10656,7 @@
       "doi": "10.1101/2020.05.25.113944",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10670,7 +10668,7 @@
       "doi": "10.1101/2021.01.19.427260",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10682,7 +10680,7 @@
       "doi": "10.1101/2021.10.07.463146",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10694,7 +10692,7 @@
       "doi": "10.21203/rs.3.rs-892916/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10706,7 +10704,7 @@
       "doi": "10.21203/rs.3.rs-15468/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10718,7 +10716,7 @@
       "doi": "10.21203/rs.3.rs-646130/v2",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10730,7 +10728,7 @@
       "doi": "10.21203/rs.3.rs-1239485/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10742,7 +10740,7 @@
       "doi": "10.1101/2024.07.30.605852",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10754,7 +10752,7 @@
       "doi": "10.1101/2021.06.30.450554",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10766,7 +10764,7 @@
       "doi": "10.1101/2021.09.15.460568",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10778,7 +10776,7 @@
       "doi": "10.21203/rs.3.rs-369047/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10790,7 +10788,7 @@
       "doi": "10.1101/2021.10.21.465251",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10802,7 +10800,7 @@
       "doi": "10.1101/2025.03.13.642984",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10814,7 +10812,7 @@
       "doi": "10.21203/rs.3.rs-206236/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "tools"
     },
     {
@@ -10826,7 +10824,7 @@
       "doi": "10.1101/829101",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10838,7 +10836,7 @@
       "doi": "10.1101/2020.12.16.422696",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10850,7 +10848,7 @@
       "doi": "10.1101/748681",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10862,7 +10860,7 @@
       "doi": "10.1101/2025.03.10.642485",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "tools"
     },
     {
@@ -10874,7 +10872,7 @@
       "doi": "10.1101/2020.08.19.257212",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10886,7 +10884,7 @@
       "doi": "10.1101/835439",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10898,7 +10896,7 @@
       "doi": "10.1101/2023.11.23.568466",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10910,7 +10908,7 @@
       "doi": "10.1101/2023.06.08.23291167",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10922,7 +10920,7 @@
       "doi": "10.1101/311654",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "tools"
     },
     {
@@ -10934,7 +10932,7 @@
       "doi": "10.1101/2021.01.27.21250593",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10946,7 +10944,7 @@
       "doi": "10.1101/2025.04.10.648128",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10958,7 +10956,7 @@
       "doi": "10.1101/2020.07.10.197962",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10970,7 +10968,7 @@
       "doi": "10.1101/2025.04.24.650462",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10982,7 +10980,7 @@
       "doi": "10.1101/540732",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -10994,7 +10992,7 @@
       "doi": "10.1101/2023.09.25.559367",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11006,7 +11004,7 @@
       "doi": "10.1101/2023.04.03.23287612",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11018,7 +11016,7 @@
       "doi": "10.1101/784538",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11030,7 +11028,7 @@
       "doi": "10.1101/2022.11.21.22282589",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11042,7 +11040,7 @@
       "doi": "10.1101/2025.04.17.649150",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11054,7 +11052,7 @@
       "doi": "10.1101/2022.09.23.22280299",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11066,7 +11064,7 @@
       "doi": "10.1101/747519",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11078,7 +11076,7 @@
       "doi": "10.21203/rs.3.rs-4467656/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11090,7 +11088,7 @@
       "doi": "10.21203/rs.2.11790/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11102,7 +11100,7 @@
       "doi": "10.1101/2024.11.05.24316672",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11114,7 +11112,7 @@
       "doi": "10.1101/529461",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11126,7 +11124,7 @@
       "doi": "10.1101/266726",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11138,7 +11136,7 @@
       "doi": "10.1101/2024.07.01.601597",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11150,7 +11148,7 @@
       "doi": "10.1101/622894",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11162,7 +11160,7 @@
       "doi": "10.1101/748046",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11174,7 +11172,7 @@
       "doi": "10.1101/2024.09.03.24312979",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "review"
     },
     {
@@ -11186,7 +11184,7 @@
       "doi": "10.1101/060996",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11198,7 +11196,7 @@
       "doi": "10.1101/2023.06.23.23291805",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11210,7 +11208,7 @@
       "doi": "10.1101/589200",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "tools"
     },
     {
@@ -11222,7 +11220,7 @@
       "doi": "10.1101/058008",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11234,7 +11232,7 @@
       "doi": "10.1101/328880",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11246,7 +11244,7 @@
       "doi": "10.1101/312165",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11258,7 +11256,7 @@
       "doi": "10.1101/2024.08.27.24312158",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11270,7 +11268,7 @@
       "doi": "10.1101/2023.04.03.535036",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11282,7 +11280,7 @@
       "doi": "10.1101/504142",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11294,7 +11292,7 @@
       "doi": "10.1101/2024.05.15.24307444",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11306,7 +11304,7 @@
       "doi": "10.1101/2023.06.13.544716",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11318,7 +11316,7 @@
       "doi": "10.1101/039743",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11330,7 +11328,7 @@
       "doi": "10.21203/rs.3.rs-1156651/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11342,7 +11340,7 @@
       "doi": "10.1101/2023.12.01.568979",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11354,7 +11352,7 @@
       "doi": "10.1101/163964",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11366,7 +11364,7 @@
       "doi": "10.21203/rs.3.rs-1665937/v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11378,7 +11376,7 @@
       "doi": "10.1101/2023.01.04.522693",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11390,7 +11388,7 @@
       "doi": "10.1101/2022.07.15.500191",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "tools"
     },
     {
@@ -11402,7 +11400,7 @@
       "doi": "10.1101/2023.06.12.23291304",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11414,7 +11412,7 @@
       "doi": "10.1101/2022.07.19.22271581",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11426,7 +11424,7 @@
       "doi": "10.1101/2022.08.24.505188",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11438,7 +11436,7 @@
       "doi": "10.1101/2022.06.27.22276949",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11450,7 +11448,7 @@
       "doi": "10.7287/peerj.preprints.275v1",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11462,7 +11460,7 @@
       "doi": "10.1101/2022.03.31.486414",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -11474,7 +11472,7 @@
       "doi": "10.1101/2021.03.10.21252820",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
+      "source": "europepmc",
       "category": "review"
     },
     {
@@ -11486,3390 +11484,7 @@
       "doi": "10.1101/2022.12.07.519454",
       "abstract": "",
       "mesh_terms": [],
-      "source": "ppr",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic inheritance of an SMCHD1 mutation and an FSHD-permissive D4Z4 allele causes facioscapulohumeral muscular dystrophy type 2",
-      "authors": "Richard J.L.F. Lemmers; Rabi Tawil; Lisa M. Petek; Judit Balog; Gregory J. Block et al. (30 authors)",
-      "journal": "Nature Genetics",
-      "year": "2012",
-      "doi": "10.1038/ng.2454",
-      "abstract": "",
-      "mesh_terms": [
-        "Facioscapulohumeral muscular dystrophy",
-        "Biology",
-        "Genetics",
-        "Epigenetics",
-        "Muscular dystrophy"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Evidence of digenic inheritance in Alport syndrome",
-      "authors": "Maria Antonietta Mencarelli; Laurence Heidet; Helen Storey; Michel van Geel; Bertrand Knebelmann et al. (20 authors)",
-      "journal": "Journal of Medical Genetics",
-      "year": "2015",
-      "doi": "10.1136/jmedgenet-2014-102822",
-      "abstract": "",
-      "mesh_terms": [
-        "Alport syndrome",
-        "Genetics",
-        "Penetrance",
-        "Biology",
-        "Proband"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic inheritance of mutations in HAMP and HFE results in different types of haemochromatosis",
-      "authors": "Alison T. Merryweather\u2010Clarke",
-      "journal": "Human Molecular Genetics",
-      "year": "2003",
-      "doi": "10.1093/hmg/ddg225",
-      "abstract": "",
-      "mesh_terms": [
-        "HAMP",
-        "Hemochromatosis",
-        "Biology",
-        "Genetics",
-        "Penetrance"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic Inheritance of Early-Onset Glaucoma: CYP1B1, a Potential Modifier Gene",
-      "authors": "Andrea L. Vincent; Gail Billingsley; Yvonne M. Buys; Alex V. Levin; Megan Priston et al. (8 authors)",
-      "journal": "The American Journal of Human Genetics",
-      "year": "2002",
-      "doi": "10.1086/338709",
-      "abstract": "",
-      "mesh_terms": [
-        "CYP1B1",
-        "Glaucoma",
-        "Myocilin",
-        "Genetics",
-        "Biology"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Association of PINK1 and DJ-1 confers digenic inheritance of early-onset Parkinson's disease",
-      "authors": "Beisha Tang; Hui Xiong; Ping Sun; Yuhu Zhang; Danling Wang et al. (12 authors)",
-      "journal": "Human Molecular Genetics",
-      "year": "2006",
-      "doi": "10.1093/hmg/ddl104",
-      "abstract": "",
-      "mesh_terms": [
-        "PINK1",
-        "Biology",
-        "Missense mutation",
-        "Parkin",
-        "Ubiquitin ligase"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "New insights into cystinuria: 40 new mutations, genotype\u2013phenotype correlation, and digenic inheritance causing partial phenotype",
-      "authors": "Mariona Font-Llitj\u00f3s; M Jim\u00e9nez-Vidal; L Bisceglia; M Di Perna; L de Sanctis et al. (9 authors)",
-      "journal": "Journal of Medical Genetics",
-      "year": "2005",
-      "doi": "10.1136/jmg.2004.022244",
-      "abstract": "",
-      "mesh_terms": [
-        "Cystinuria",
-        "Genetics",
-        "Compound heterozygosity",
-        "Heterozygote advantage",
-        "Biology"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic inheritance of severe insulin resistance in a human pedigree",
-      "authors": "David B. Savage; Maura Agostini; In\u00eas Barroso; Mark Gurnell; Jian\u2019an Luan et al. (21 authors)",
-      "journal": "Nature Genetics",
-      "year": "2002",
-      "doi": "10.1038/ng926",
-      "abstract": "",
-      "mesh_terms": [
-        "Biology",
-        "Insulin resistance",
-        "Genetics",
-        "Peroxisome proliferator-activated receptor gamma",
-        "Insulin receptor"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Molecular analysis of digenic inheritance in Bartter syndrome with sensorineural deafness",
-      "authors": "Kandai Nozu; Tetsuji Inagaki; Xue Jun Fu; Yoshimi Nozu; Hiroshi Kaito et al. (12 authors)",
-      "journal": "Journal of Medical Genetics",
-      "year": "2008",
-      "doi": "10.1136/jmg.2007.052944",
-      "abstract": "",
-      "mesh_terms": [
-        "Bartter syndrome",
-        "Genetics",
-        "Allele",
-        "Nonsense mutation",
-        "Compound heterozygosity"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic inheritance of deafness caused by mutations in genes encoding cadherin 23 and protocadherin 15 in mice and humans",
-      "authors": "Qing Yin Zheng; Denise Yan; Xiao Mei Ouyang; Li Du; Heping Yu et al. (8 authors)",
-      "journal": "Human Molecular Genetics",
-      "year": "2004",
-      "doi": "10.1093/hmg/ddi010",
-      "abstract": "",
-      "mesh_terms": [
-        "Biology",
-        "Stereocilia (inner ear)",
-        "Heterozygote advantage",
-        "Protocadherin",
-        "Genetics"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic inheritance and Mendelian disease",
-      "authors": "James R. Lupski",
-      "journal": "Nature Genetics",
-      "year": "2012",
-      "doi": "10.1038/ng.2479",
-      "abstract": "",
-      "mesh_terms": [
-        "Biology",
-        "Mendelian inheritance",
-        "Genetics",
-        "Epigenetics",
-        "Inheritance (genetic algorithm)"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Evidence for digenic inheritance in some cases of Antley-Bixler syndrome?",
-      "authors": "William Reardon; Anne Smith; John W Honour; Peter Hindmarsh; Debipriya Das et al. (17 authors)",
-      "journal": "Journal of Medical Genetics",
-      "year": "2000",
-      "doi": "10.1136/jmg.37.1.26",
-      "abstract": "",
-      "mesh_terms": [
-        "Medicine",
-        "Phenotype",
-        "Craniosynostosis",
-        "Craniosynostoses",
-        "Bioinformatics"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Alport syndrome: impact of digenic inheritance in patients management",
-      "authors": "Chiara Fallerini; Margherita Baldassarri; Eva Trevisson; Valeria Morbidoni; Angela La Manna et al. (16 authors)",
-      "journal": "Clinical Genetics",
-      "year": "2016",
-      "doi": "10.1111/cge.12919",
-      "abstract": "",
-      "mesh_terms": [
-        "Alport syndrome",
-        "Genetics",
-        "Medicine",
-        "Inheritance (genetic algorithm)",
-        "Biology"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic inheritance of non-syndromic deafness caused by mutations at the gap junction proteins Cx26 and Cx31",
-      "authors": "Xue-Zhong Liu; Yongyi Yuan; Denise Yan; Emilie Hong Ding; Xiao Mei Ouyang et al. (16 authors)",
-      "journal": "Human Genetics",
-      "year": "2008",
-      "doi": "10.1007/s00439-008-0602-9",
-      "abstract": "",
-      "mesh_terms": [
-        "Biology",
-        "Connexin",
-        "Genetics",
-        "Compound heterozygosity",
-        "Mutation"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Evidence for digenic inheritance in a family with both febrile convulsions and temporal lobe epilepsy implicating chromosomes 18qter and 1q25-q31",
-      "authors": "St\ufffdphanie Baulac; Fabienne Picard; Alexandra Herman; Josu\ufffd Feingold; Emmanuelle G\u00e9nin et al. (10 authors)",
-      "journal": "Annals of Neurology",
-      "year": "2001",
-      "doi": "10.1002/ana.1014",
-      "abstract": "",
-      "mesh_terms": [
-        "Temporal lobe",
-        "Epilepsy",
-        "Haplotype",
-        "Locus (genetics)",
-        "Biology"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Clinical Implications of Digenic Inheritance and Epistasis in Primary Immunodeficiency Disorders",
-      "authors": "Rohan Ameratunga; See\u2010Tarn Woon; Vanessa L. Bryant; Richard Steele; C Slade et al. (7 authors)",
-      "journal": "Frontiers in Immunology",
-      "year": "2018",
-      "doi": "10.3389/fimmu.2017.01965",
-      "abstract": "",
-      "mesh_terms": [
-        "Epistasis",
-        "Genetics",
-        "Biology",
-        "Gene",
-        "Phenotype"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Apparent Digenic Inheritance of Waardenburg Syndrome Type 2 (WS2) and Autosomal Recessive Ocular Albinism (AROA)",
-      "authors": "Robert J. Morell; Richard A. Spritz; L. Ho; John W. Pierpont; Wei Guo et al. (7 authors)",
-      "journal": "Human Molecular Genetics",
-      "year": "1997",
-      "doi": "10.1093/hmg/6.5.659",
-      "abstract": "",
-      "mesh_terms": [
-        "Biology",
-        "Genetics",
-        "Microphthalmia-associated transcription factor",
-        "Waardenburg syndrome",
-        "Allele"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Further support for digenic inheritance in Bardet-Biedl syndrome",
-      "authors": "Sascha Fauser; M Munz; D Besch",
-      "journal": "Journal of Medical Genetics",
-      "year": "2003",
-      "doi": "10.1136/jmg.40.8.e104",
-      "abstract": "",
-      "mesh_terms": [
-        "Bardet\u2013Biedl syndrome",
-        "Genetics",
-        "Polydactyly",
-        "Biology",
-        "Gene"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Apparent autosomal dominant keratoconus in a large Australian pedigree accounted for by digenic inheritance of two novel loci",
-      "authors": "Kathryn P. Burdon; Douglas J. Coster; Jac Charlesworth; Richard Mills; Kate J. Laurie et al. (9 authors)",
-      "journal": "Human Genetics",
-      "year": "2008",
-      "doi": "10.1007/s00439-008-0555-z",
-      "abstract": "",
-      "mesh_terms": [
-        "Biology",
-        "Keratoconus",
-        "Genetics",
-        "Genetic linkage",
-        "Locus (genetics)"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Evidence for Digenic Inheritance of Nonsyndromic Hereditary Hearing Loss in a Swedish Family",
-      "authors": "Jorune Balciuniene; Niklas Dahl; E. Borg; Eva Samuelsson; Markus J. Koisti et al. (7 authors)",
-      "journal": "The American Journal of Human Genetics",
-      "year": "1998",
-      "doi": "10.1086/302012",
-      "abstract": "",
-      "mesh_terms": [
-        "Locus (genetics)",
-        "Genetics",
-        "Candidate gene",
-        "Haplotype",
-        "Genetic linkage"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "COL4A5 and LAMA5 variants co-inherited in familial hematuria: digenic inheritance or genetic modifier effect?",
-      "authors": "Konstantinos Voskarides; Gregory Papagregoriou; Despina Hadjipanagi; Ioanelli Petrou; Isavella Savva et al. (13 authors)",
-      "journal": "BMC Nephrology",
-      "year": "2018",
-      "doi": "10.1186/s12882-018-0906-5",
-      "abstract": "",
-      "mesh_terms": [
-        "Medicine",
-        "Inheritance (genetic algorithm)",
-        "Genetics",
-        "Internal medicine",
-        "Nephrology"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic inheritance of mutations in FOXC1 and PITX2\u2009: Correlating transcription factor function and axenfeld-rieger disease severity",
-      "authors": "Daniel Kelberman; Lily Islam; Susan Holder; Thomas S. Jacques; Patrick Calvas et al. (8 authors)",
-      "journal": "Human Mutation",
-      "year": "2011",
-      "doi": "10.1002/humu.21550",
-      "abstract": "",
-      "mesh_terms": [
-        "Biology",
-        "Transcription factor",
-        "PITX2",
-        "Genetics",
-        "Inheritance (genetic algorithm)"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Hearing loss features in GJB2 biallelic mutations and GJB2/GJB6 digenic inheritance in a large Italian cohort",
-      "authors": "Elona Cama; Salvatore Melchionda; Teresa Palladino; Massimo Carella; Rosamaria Santarelli et al. (9 authors)",
-      "journal": "International Journal of Audiology",
-      "year": "2009",
-      "doi": "10.1080/14992020802400654",
-      "abstract": "",
-      "mesh_terms": [
-        "Hearing loss",
-        "Genetics",
-        "Genotype",
-        "Compound heterozygosity",
-        "Medicine"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "DIGENIC INHERITANCE OF MALE STERILITY IN <i>PLANTAGO LANCEOLATA</i>",
-      "authors": "Michael D. Ross",
-      "journal": "Canadian Journal of Genetics and Cytology",
-      "year": "1969",
-      "doi": "10.1139/g69-086",
-      "abstract": "",
-      "mesh_terms": [
-        "Biology",
-        "Sterility",
-        "Plantago",
-        "Gynodioecy",
-        "Hermaphrodite"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Novel digenic inheritance of PCDH15 and USH1G underlies profound non-syndromic hearing impairment",
-      "authors": "Isabelle Schrauwen; Imen Chakchouk; Anushree Acharya; Khurram Liaqat; Irfanullah Irfanullah et al. (10 authors)",
-      "journal": "BMC Medical Genetics",
-      "year": "2018",
-      "doi": "10.1186/s12881-018-0618-5",
-      "abstract": "",
-      "mesh_terms": [
-        "Genetics",
-        "Biology",
-        "Missense mutation",
-        "Usher syndrome",
-        "Hearing loss"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "First evidence for digenic inheritance in hereditary colorectal cancer by mutations in the base excision repair genes",
-      "authors": "Monika Morak; Trisari Massdorf; Helena Sykora; Martina Kerscher; Elke Holinski\u2010Feder",
-      "journal": "European Journal of Cancer",
-      "year": "2010",
-      "doi": "10.1016/j.ejca.2010.11.016",
-      "abstract": "",
-      "mesh_terms": [
-        "MUTYH",
-        "Missense mutation",
-        "DNA mismatch repair",
-        "Genetics",
-        "Germline mutation"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic Inheritance in Cystinuria Mouse Model",
-      "authors": "Meritxell Espino; Mariona Font-Llitj\u00f3s; Clara Vilches; Eduardo Salido; Esther Prat et al. (8 authors)",
-      "journal": "PLoS ONE",
-      "year": "2015",
-      "doi": "10.1371/journal.pone.0137277",
-      "abstract": "",
-      "mesh_terms": [
-        "Cystinuria",
-        "Aminoaciduria",
-        "Cystine",
-        "Genetics",
-        "Biology"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Evidence of digenic inheritance in autoinflammation-associated genes",
-      "authors": "Vassos Neocleous; Stefania Byrou; Meropi Toumba; Constantina Costi; Christos Shammas et al. (10 authors)",
-      "journal": "Journal of Genetics",
-      "year": "2016",
-      "doi": "10.1007/s12041-016-0691-5",
-      "abstract": "",
-      "mesh_terms": [
-        "MEFV",
-        "Familial Mediterranean fever",
-        "Mutation",
-        "Compound heterozygosity",
-        "Genetics"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Exploring digenic inheritance in arrhythmogenic cardiomyopathy",
-      "authors": "Eva K\u00f6nig; Cl\u00e1udia B. Volpato; Benedetta Maria Motta; Hagen Blankenburg; Anne Picard et al. (13 authors)",
-      "journal": "BMC Medical Genetics",
-      "year": "2017",
-      "doi": "10.1186/s12881-017-0503-7",
-      "abstract": "",
-      "mesh_terms": [
-        "Penetrance",
-        "Genetics",
-        "Missense mutation",
-        "Candidate gene",
-        "Biology"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic inheritance of an autosomal recessive hypotrichosis in two consanguineous pedigrees",
-      "authors": "Sulman Basit; Abdul Wali; Abdul Aziz; Noor Muhammad; Musharraf Jelani et al. (6 authors)",
-      "journal": "Clinical Genetics",
-      "year": "2010",
-      "doi": "10.1111/j.1399-0004.2010.01455.x",
-      "abstract": "",
-      "mesh_terms": [
-        "Hypotrichosis",
-        "Genetics",
-        "Locus (genetics)",
-        "Biology",
-        "Pedigree chart"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "High frequency of mutations in the HNF-1\u03b1 gene in non-obese patients with diabetes of youth in Japanese and identification of a case of digenic inheritance",
-      "authors": "N Tonooka; Hideaki Tomura; Yasuo Takahashi; Kazumichi Onigata; Nobuyuki Kikuchi et al. (8 authors)",
-      "journal": "Diabetologia",
-      "year": "2002",
-      "doi": "10.1007/s00125-002-0978-3",
-      "abstract": "",
-      "mesh_terms": [
-        "Genetics",
-        "Diabetes mellitus",
-        "Identification (biology)",
-        "Gene",
-        "Inheritance (genetic algorithm)"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic inheritance of mutations in the cardiac troponin (TNNT2) and cardiac beta myosin heavy chain (MYH7) as the cause of severe dilated cardiomyopathy",
-      "authors": "Evmorfia Petropoulou; Mohammadhossein Soltani; Ali Dehghani Firoozabadi; Seyedeh Mahdieh Namayandeh; Jade Crockford et al. (7 authors)",
-      "journal": "European Journal of Medical Genetics",
-      "year": "2017",
-      "doi": "10.1016/j.ejmg.2017.06.008",
-      "abstract": "",
-      "mesh_terms": [
-        "MYH7",
-        "Genetics",
-        "Sanger sequencing",
-        "Dilated cardiomyopathy",
-        "Exome sequencing"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Myelomeningocele and Waardenburg syndrome (type 3) in patients with interstitial deletions of 2q35 and the PAX3 gene: Possible digenic inheritance of a neural tube defect",
-      "authors": "Jeffrey S. Nye; Nancy E. Balkin; Heather R. Lucas; Paul A. Knepper; David G. McLone et al. (6 authors)",
-      "journal": "American Journal of Medical Genetics",
-      "year": "1998",
-      "doi": "10.1002/(sici)1096-8628(19980203)75:4<401::aid-ajmg10>3.0.co;2-s",
-      "abstract": "",
-      "mesh_terms": [
-        "PAX3",
-        "Waardenburg syndrome",
-        "Genetics",
-        "Locus (genetics)",
-        "Biology"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic Retinitis Pigmentosa Due to Mutations at the Unlinked Peripherin/ <i>RDS</i> and <i>ROM1</i> Loci",
-      "authors": "Kazuto Kajiwara; Eliot L. Berson; Thaddeus P. Dryja",
-      "journal": "Science",
-      "year": "1994",
-      "doi": "10.1126/science.8202715",
-      "abstract": "",
-      "mesh_terms": [
-        "Retinitis pigmentosa",
-        "Genetics",
-        "Peripherin",
-        "Biology",
-        "Gene"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Identification of &lt;b&gt;&lt;i&gt;NR5A1&lt;/i&gt;&lt;/b&gt; Mutations and Possible Digenic Inheritance in 46,XY Gonadal Dysgenesis",
-      "authors": "Inas Mazen; Mohamed S. Abdel\u2010Hamid; Mona K. Mekkawy; Jo\u00eblle Bignon\u2010Topalovic; Radia Boudjenah et al. (9 authors)",
-      "journal": "Sexual Development",
-      "year": "2016",
-      "doi": "10.1159/000445983",
-      "abstract": "",
-      "mesh_terms": [
-        "Gonadal dysgenesis",
-        "Biology",
-        "Missense mutation",
-        "Genetics",
-        "Dysgenesis"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic inheritance of deafness caused by 8J allele of myosin-VIIA and mutations in other Usher I genes",
-      "authors": "Qing Yin Zheng; John D. Scarborough; Ye Zheng; Heping Yu; Dongseok Choi et al. (6 authors)",
-      "journal": "Human Molecular Genetics",
-      "year": "2012",
-      "doi": "10.1093/hmg/dds084",
-      "abstract": "",
-      "mesh_terms": [
-        "Stereocilia (inner ear)",
-        "Usher syndrome",
-        "Biology",
-        "Allele",
-        "Cochlea"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Putative digenic inheritance of heterozygous<i>RP1L1</i>and<i>C2orf71</i>null mutations in syndromic retinal dystrophy",
-      "authors": "Yangfan P. Liu; Dani\u00eblle G.M. Bosch; Anna M. Siemiatkowska; Nanna Dahl Rendtorff; F. Nienke Boonstra et al. (9 authors)",
-      "journal": "Ophthalmic Genetics",
-      "year": "2016",
-      "doi": "10.3109/13816810.2016.1151898",
-      "abstract": "",
-      "mesh_terms": [
-        "Genetics",
-        "Inheritance (genetic algorithm)",
-        "Retinal",
-        "Biology",
-        "Compound heterozygosity"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Mutations in the proteolytic enzyme calpain 3 cause limb-girdle muscular dystrophy type 2A",
-      "authors": "Isabelle Richard; Odile Broux; Val\u00e9erie Allamand; Fran\u00e7oise Fougerousse; Nuchanard Chiannilkulchai et al. (18 authors)",
-      "journal": "Cell",
-      "year": "1995",
-      "doi": "10.1016/0092-8674(95)90368-2",
-      "abstract": "",
-      "mesh_terms": [
-        "Biology",
-        "Genetics",
-        "Limb-girdle muscular dystrophy",
-        "Muscular dystrophy",
-        "Calpain"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Evidence suggesting digenic inheritance of Waardenburg syndrome type II with ocular albinism",
-      "authors": "Pei\u2010Wen Chiang; Elaine Spector; Tracy L. McGregor",
-      "journal": "American Journal of Medical Genetics Part A",
-      "year": "2009",
-      "doi": "10.1002/ajmg.a.33128",
-      "abstract": "",
-      "mesh_terms": [
-        "Microphthalmia-associated transcription factor",
-        "Waardenburg syndrome",
-        "Genetics",
-        "Mutation",
-        "Allele"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Distal renal tubular acidosis in a Libyan patient: Evidence for digenic inheritance",
-      "authors": "Majdi Nagara; Gregory Papagregoriou; R. Ben Abdallah; Zied Landoulsi; Yosra Bouyacoub et al. (16 authors)",
-      "journal": "European Journal of Medical Genetics",
-      "year": "2017",
-      "doi": "10.1016/j.ejmg.2017.10.002",
-      "abstract": "",
-      "mesh_terms": [
-        "Genetics",
-        "Distal renal tubular acidosis",
-        "Compound heterozygosity",
-        "Exome sequencing",
-        "Mutation"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic inheritance in autosomal recessive non-syndromic hearing loss cases carrying GJB2 heterozygote mutations: Assessment of GJB4, GJA1, and GJC3",
-      "authors": "Daniz Kooshavar; Mohammad Amin Tabatabaiefar; Effat Farrokhi; Marziye Abolhasani; Mohammad-Reza Noori-Daloii et al. (6 authors)",
-      "journal": "International Journal of Pediatric Otorhinolaryngology",
-      "year": "2012",
-      "doi": "10.1016/j.ijporl.2012.10.015",
-      "abstract": "",
-      "mesh_terms": [
-        "Genetics",
-        "Hearing loss",
-        "Allele",
-        "Compound heterozygosity",
-        "Gene"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Evaluation of <i>RDS/Peripherin</i> and <i>ROM1</i> as candidate genes in generalised progressive retinal atrophy and exclusion of digenic inheritance",
-      "authors": "Maren Runte; Gabriele Dekomien; J\u00f6rg T. Epplen",
-      "journal": "Animal Genetics",
-      "year": "2000",
-      "doi": "10.1046/j.1365-2052.2000.00633.x",
-      "abstract": "",
-      "mesh_terms": [
-        "Biology",
-        "Inheritance (genetic algorithm)",
-        "Peripherin",
-        "Genetics",
-        "Candidate gene"
-      ],
-      "source": "openalex",
-      "category": "tools"
-    },
-    {
-      "PMID": null,
-      "title": "Comprehensive sequence analysis of nine Usher syndrome genes in the UK National Collaborative Usher Study",
-      "authors": "Polona Le Quesne Stabej; Zubin Saihan; Nell Rangesh; Heather B. Steele-Stallard; John C. Ambrose et al. (13 authors)",
-      "journal": "Journal of Medical Genetics",
-      "year": "2011",
-      "doi": "10.1136/jmedgenet-2011-100468",
-      "abstract": "",
-      "mesh_terms": [
-        "Usher syndrome",
-        "Genetics",
-        "Frameshift mutation",
-        "Missense mutation",
-        "Biology"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic inheritance novel mutations in SCN5a and SNTA1 increase late <i>I</i><sub>Na</sub> contributing to LQT syndrome",
-      "authors": "Rou-Mu Hu; Bi-Hua Tan; Kate M. Orland; Carmen R. Valdivia; Amber Peterson et al. (7 authors)",
-      "journal": "American Journal of Physiology-Heart and Circulatory Physiology",
-      "year": "2013",
-      "doi": "10.1152/ajpheart.00705.2012",
-      "abstract": "",
-      "mesh_terms": [
-        "Inheritance (genetic algorithm)",
-        "Genetics",
-        "Mutation",
-        "Biology",
-        "Medicine"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Putative TMPRSS3/GJB2 digenic inheritance of hearing loss detected by targeted resequencing",
-      "authors": "Maria Pia Leone; Pietro Palumbo; Rocco Pio Ortore; Stefano Castellana; Orazio Palumbo et al. (11 authors)",
-      "journal": "Molecular and Cellular Probes",
-      "year": "2017",
-      "doi": "10.1016/j.mcp.2017.03.001",
-      "abstract": "",
-      "mesh_terms": [
-        "Biology",
-        "Hearing loss",
-        "Inheritance (genetic algorithm)",
-        "Genetics",
-        "Gene"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Searching for Digenic Inheritance in Deaf Brazilian Individuals Using the Multiplex Ligation-Dependent Probe Amplification Technique",
-      "authors": "Sueli Matilde da Silva-Costa; F\u00e1bio Tadeu Arrojo Martins; T\u00e2nia Pereira; Mariza Cavenaghi Argentino Pomilio; Antonia Paula Marques\u2010de\u2010Faria et al. (6 authors)",
-      "journal": "Genetic Testing and Molecular Biomarkers",
-      "year": "2011",
-      "doi": "10.1089/gtmb.2011.0034",
-      "abstract": "",
-      "mesh_terms": [
-        "Genetics",
-        "Multiplex ligation-dependent probe amplification",
-        "Biology",
-        "Allele",
-        "Point mutation"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic Inheritance of Shortened Repeat Units of the D4Z4 Region and a Loss-of-Function Variant in SMCHD1 in a Family With FSHD",
-      "authors": "Raffaella Cascella; Claudia Strafella; Valerio Caputo; Rosaria Maria Galota; Valeria Errichiello et al. (15 authors)",
-      "journal": "Frontiers in Neurology",
-      "year": "2018",
-      "doi": "10.3389/fneur.2018.01027",
-      "abstract": "",
-      "mesh_terms": [
-        "Inheritance (genetic algorithm)",
-        "Loss function",
-        "Function (biology)",
-        "Genetics",
-        "Biology"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Cystinuria AA (B): digenic inheritance with three mutations in two cystinuria genes",
-      "authors": "Zoran Gucev; Nadica Ristoska-Bojkovska; Katerina Popovska-Jankovic; Emilija Sukarova\u2010Stefanovska; Velibor Tasi\u0107 et al. (7 authors)",
-      "journal": "Journal of Genetics",
-      "year": "2011",
-      "doi": "10.1007/s12041-011-0045-2",
-      "abstract": "",
-      "mesh_terms": [
-        "Cystinuria",
-        "Biology",
-        "Genetics",
-        "Inheritance (genetic algorithm)",
-        "Gene"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic Inheritance of Mutations in the Coproporphyrinogen Oxidase and Protoporphyrinogen Oxidase Genes in a Unique Type of Porphyria",
-      "authors": "Anne Moniek van Tuyll van Serooskerken; Felix W. de Rooij; Annie Edixhoven; Reno S. Bladergroen; Jens Malte Baron et al. (14 authors)",
-      "journal": "Journal of Investigative Dermatology",
-      "year": "2011",
-      "doi": "10.1038/jid.2011.186",
-      "abstract": "",
-      "mesh_terms": [
-        "Protoporphyrinogen oxidase",
-        "Porphyria",
-        "Genetics",
-        "Inheritance (genetic algorithm)",
-        "Gene"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "CONFIRMATION OF DIGENIC INHERITANCE OF COTYLEDON COLOUR IN LENTIL (LENS CULINARIS)",
-      "authors": "Masoud Emami; Brij Mohan Sharma",
-      "journal": "Indian Journal of Genetics and Plant Breeding (The)",
-      "year": "1996",
-      "doi": "",
-      "abstract": "",
-      "mesh_terms": [
-        "Cotyledon",
-        "Phytotron",
-        "Orange (colour)",
-        "Biology",
-        "Botany"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Kallmann Syndrome: Mutations in the Genes Encoding Prokineticin-2 and Prokineticin Receptor-2",
-      "authors": "Catherine Dod\u00e9; Lu\u00eds Teixeira; Jacqueline Levilliers; Corinne Fouveaut; Philippe Bouchard et al. (18 authors)",
-      "journal": "PLoS Genetics",
-      "year": "2006",
-      "doi": "10.1371/journal.pgen.0020175",
-      "abstract": "",
-      "mesh_terms": [
-        "Kallmann syndrome",
-        "Biology",
-        "Anosmia",
-        "Genetics",
-        "Missense mutation"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic mutational inheritance of the integrin alpha 7 and the myosin heavy chain 7B genes causes congenital myopathy with left ventricular non-compact cardiomyopathy",
-      "authors": "Teresa Esposito; Simone Sampaolo; Giuseppe Limongelli; Antonio Varone; Daniela Formicola et al. (11 authors)",
-      "journal": "Orphanet Journal of Rare Diseases",
-      "year": "2013",
-      "doi": "10.1186/1750-1172-8-91",
-      "abstract": "",
-      "mesh_terms": [
-        "Myopathy",
-        "Cardiology",
-        "Cardiomyopathy",
-        "Internal medicine",
-        "Inheritance (genetic algorithm)"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic Inheritance of Hepatocyte Nuclear Factor-1\u03b1 and -1\u03b2 With Maturity-Onset Diabetes of the Young, Polycystic Thyroid, and Urogenital Malformations",
-      "authors": "Beate Karges; Carsten Bergmann; Katrina Scholl; E. Heinze; Franz Maximilian Rasche et al. (9 authors)",
-      "journal": "Diabetes Care",
-      "year": "2007",
-      "doi": "10.2337/dc06-2618",
-      "abstract": "",
-      "mesh_terms": [
-        "Medicine",
-        "Diabetes mellitus",
-        "Internal medicine",
-        "Endocrinology",
-        "Hepatocyte nuclear factors"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic Inheritance for the Flop Trait in Peanuts<sup>1</sup>",
-      "authors": "W. D. Branch; Ray O. Hammons",
-      "journal": "Crop Science",
-      "year": "1981",
-      "doi": "10.2135/cropsci1981.0011183x002100030008x",
-      "abstract": "",
-      "mesh_terms": [
-        "Biology",
-        "Arachis hypogaea",
-        "Inheritance (genetic algorithm)",
-        "Genetics",
-        "Trait"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic inheritance of a ROM1 gene mutation with a peripherin/RDS or rhodopsin mutation in families with retinitis pigmentosa",
-      "authors": "Samuel G. Jacobson; Artur V. Cideciyan; R.A. Bascom; Vesna Ponjavic; Magnus Abrahamson et al. (11 authors)",
-      "journal": "Lund University Publications (Lund University)",
-      "year": "1999",
-      "doi": "",
-      "abstract": "",
-      "mesh_terms": [
-        "Retinitis pigmentosa",
-        "Mutation",
-        "Heterozygote advantage",
-        "Genetics",
-        "Compound heterozygosity"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic Inheritance in Axenfeld Rieger Syndrome",
-      "authors": "Nicole Weisschuh",
-      "journal": "Human Mutation",
-      "year": "2011",
-      "doi": "10.1002/humu.21593",
-      "abstract": "",
-      "mesh_terms": [
-        "Genetics",
-        "Biology",
-        "Gene",
-        "Mutation",
-        "Phenotype"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "PDZD7 is a modifier of retinal disease and a contributor to digenic Usher syndrome",
-      "authors": "Inga Ebermann; Jennifer B. Phillips; Max C. Liebau; Robert K. Koenekoop; Bernhard Schermer et al. (19 authors)",
-      "journal": "Journal of Clinical Investigation",
-      "year": "2010",
-      "doi": "10.1172/jci39715",
-      "abstract": "",
-      "mesh_terms": [
-        "Usher syndrome",
-        "Retinitis pigmentosa",
-        "Biology",
-        "Genetics",
-        "Missense mutation"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Limb Girdle Muscular Dystrophy due to Digenic Inheritance of&lt;b&gt;&lt;i&gt; DES&lt;/i&gt;&lt;/b&gt; and &lt;b&gt;&lt;i&gt;CAPN3&lt;/i&gt;&lt;/b&gt; Mutations",
-      "authors": "Leema Reddy Peddareddygari; Kinsi Oberoi; Raji P. Grewal",
-      "journal": "Case Reports in Neurology",
-      "year": "2018",
-      "doi": "10.1159/000492664",
-      "abstract": "",
-      "mesh_terms": [
-        "Medicine",
-        "Muscular dystrophy",
-        "Myopathy",
-        "Muscle biopsy",
-        "Genetics"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Genetic Linkage Analysis of DFNB4, DFNB28, DFNB93 Loci in Autosomal Recessive Non-syndromic Hearing Loss: Evidence for Digenic Inheritance in GJB2 and GJB3 Mutations",
-      "authors": "Marzieh Naseri; Masoud Akbarzadehlaleh; Marjan Masoudi; Najmeh Ahangari; Ali Akbar Poursadegh Zonouzi et al. (8 authors)",
-      "journal": "SHILAP Revista de lepidopterolog\u00eda",
-      "year": "2018",
-      "doi": "",
-      "abstract": "",
-      "mesh_terms": [
-        "Genetics",
-        "Inheritance (genetic algorithm)",
-        "Biology",
-        "Autosomal recessive inheritance",
-        "Hearing loss"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "\"Unravelling the Complexity of Dysferlinopathy: A Case Report Highlighting Digenic Inheritance of DYSF and MYH7 Mutations\"",
-      "authors": "Ali Torabi",
-      "journal": "Biomedical Journal of Scientific & Technical Research",
-      "year": "2023",
-      "doi": "10.26717/bjstr.2023.53.008388",
-      "abstract": "",
-      "mesh_terms": [
-        "Dysferlin",
-        "Biology",
-        "MYH7",
-        "Genetics",
-        "Inheritance (genetic algorithm)"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "A Deletion Involving the Connexin 30 Gene in Nonsyndromic Hearing Impairment",
-      "authors": "Ignacio del Castillo; Manuela Villamar; Miguel A. Moreno\u2010Pelayo; Francisco Castillo; Araceli \u00c1lvarez et al. (8 authors)",
-      "journal": "New England Journal of Medicine",
-      "year": "2002",
-      "doi": "10.1056/nejmoa012052",
-      "abstract": "",
-      "mesh_terms": [
-        "Connexin",
-        "Medicine",
-        "Locus (genetics)",
-        "Genetics",
-        "Allele"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Expanding the genotype\u2013phenotype correlations in Alport syndrome: novel mutations, digenic inheritance, and genetic modifiers",
-      "authors": "\u0130brahim \u015eahin; Nefise Kandemir; Hanife Saat",
-      "journal": "Egyptian Journal of Medical Human Genetics",
-      "year": "2023",
-      "doi": "10.1186/s43042-023-00441-x",
-      "abstract": "",
-      "mesh_terms": [
-        "Alport syndrome",
-        "Genetics",
-        "Genotype",
-        "Phenotype",
-        "Genetic heterogeneity"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Disease severity in dominant Emery Dreifuss is increased by mutations in both emerin and desmin proteins",
-      "authors": "Francesco Muntoni; Gis\u00e8le Bonne; Lev G. Goldfarb; Eugenio Mercuri; Richard J. Piercy et al. (12 authors)",
-      "journal": "Brain",
-      "year": "2006",
-      "doi": "10.1093/brain/awl062",
-      "abstract": "",
-      "mesh_terms": [
-        "LMNA",
-        "Emerin",
-        "Cardiomyopathy",
-        "Desmin",
-        "Muscular dystrophy"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Screening for monogenetic del(GJB6-D13S1830) and digenic del(GJB6-D13S1830)/GJB2 patterns of inheritance in deaf individuals from Eastern Austria",
-      "authors": "Klemens Frei; Reinhard Ramsebner; Trevor Lucas; Wolf\u2010Dieter Baumgartner; Christian Schoefer et al. (7 authors)",
-      "journal": "Hearing Research",
-      "year": "2004",
-      "doi": "10.1016/j.heares.2004.07.001",
-      "abstract": "",
-      "mesh_terms": [
-        "Genetics",
-        "Hearing loss",
-        "Population",
-        "Biology",
-        "Audiology"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Interaction between undulated and Patch leads to an extreme form of spina bifida in double-mutant mice",
-      "authors": "Ute Helwig; Kenji Imai; W. Schmahl; B Thomas; Don S. Varnum et al. (7 authors)",
-      "journal": "Nature Genetics",
-      "year": "1995",
-      "doi": "10.1038/ng0995-60",
-      "abstract": "",
-      "mesh_terms": [
-        "Spina bifida",
-        "Biology",
-        "Spina bifida occulta",
-        "Mutant",
-        "Phenotype"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Clinical and Molecular Findings in Osteoporosis-Pseudoglioma Syndrome",
-      "authors": "Minrong Ai; Shauna Heeger; Cynthia F. Bartels; Deborah K. Schelling",
-      "journal": "The American Journal of Human Genetics",
-      "year": "2005",
-      "doi": "10.1086/497706",
-      "abstract": "",
-      "mesh_terms": [
-        "LRP5",
-        "Genetics",
-        "Proband",
-        "Biology",
-        "Missense mutation"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "1539-P: Genetic Variants and Evidence of Digenic Inheritance on the Clinical Presentation of Maturity Onset Diabetes of the Young in Taiwan",
-      "authors": "Yhun-Yhong Sheen; Jerome I. Rotter; Yii\u2010Der Ida Chen; P. Chen; Hsien\u2010Tsung Tsai et al. (6 authors)",
-      "journal": "Diabetes",
-      "year": "2025",
-      "doi": "10.2337/db25-1539-p",
-      "abstract": "",
-      "mesh_terms": [
-        "Inheritance (genetic algorithm)",
-        "Maturity (psychological)",
-        "Presentation (obstetrics)",
-        "Genetics",
-        "Biology"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic Inheritance of Dominant TRAF6 and Recessive OSMR Pathogenic Variants Associated with Short Stature, Atopy, and Eosinophilic Inflammation",
-      "authors": "Alyssa James; Yihui Liu; Lynne A. Wolfe; Jack Chovanec; Michael P. O\u2019Connell et al. (26 authors)",
-      "journal": "Journal of Allergy and Clinical Immunology",
-      "year": "2022",
-      "doi": "10.1016/j.jaci.2021.12.514",
-      "abstract": "",
-      "mesh_terms": [
-        "Atopy",
-        "Short stature",
-        "Inheritance (genetic algorithm)",
-        "Medicine",
-        "Genetics"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Herbicide-induced chromosomal aberrations and inheritance of a digenic seedling mutation in Sorghum.",
-      "authors": "J. D. Soriano",
-      "journal": "CYTOLOGIA",
-      "year": "1984",
-      "doi": "10.1508/cytologia.49.201",
-      "abstract": "",
-      "mesh_terms": [
-        "Biology",
-        "Sorghum",
-        "Seedling",
-        "Genetics",
-        "Inheritance (genetic algorithm)"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Mutations in <i> <scp>CDK</scp> 5 <scp>RAP</scp> 2 </i> cause Seckel syndrome",
-      "authors": "G\u00f6khan Yigit; Karen E. Brown; H\u00fclya Kayserili; Esther Pohl; Almuth Caliebe et al. (16 authors)",
-      "journal": "Molecular Genetics & Genomic Medicine",
-      "year": "2015",
-      "doi": "10.1002/mgg3.158",
-      "abstract": "",
-      "mesh_terms": [
-        "Microcephaly",
-        "Biology",
-        "Genetics",
-        "Mutation",
-        "Mitosis"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Exome sequencing identified rare variants in genes HSPG2 and ATP2B4 in a family segregating developmental dysplasia of the hip",
-      "authors": "Sulman Basit; Alia M. Albalawi; Essa Alharby; Khalid I. Khoshhal",
-      "journal": "BMC Medical Genetics",
-      "year": "2017",
-      "doi": "10.1186/s12881-017-0393-8",
-      "abstract": "",
-      "mesh_terms": [
-        "Biology",
-        "Genetics",
-        "Exome sequencing",
-        "Exome",
-        "Candidate gene"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Additive loss-of-function proteasome subunit mutations in CANDLE/PRAAS patients promote type I IFN production",
-      "authors": "Anja Brehm; Yin Liu; Afzal Sheikh; Bernadette Marrero; Ebun Omoyinmi et al. (43 authors)",
-      "journal": "Journal of Clinical Investigation",
-      "year": "2015",
-      "doi": "10.1172/jci81260",
-      "abstract": "",
-      "mesh_terms": [
-        "Proteasome",
-        "Biology",
-        "Protein subunit",
-        "Molecular biology",
-        "Missense mutation"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Massively Parallel DNA Sequencing Facilitates Diagnosis of Patients with Usher Syndrome Type 1",
-      "authors": "Hidekane Yoshimura; Satoshi Iwasaki; Shin\u2010ya Nishio; Kozo Kumakawa; Tetsuya Tono et al. (16 authors)",
-      "journal": "PLoS ONE",
-      "year": "2014",
-      "doi": "10.1371/journal.pone.0090688",
-      "abstract": "",
-      "mesh_terms": [
-        "Usher syndrome",
-        "Massive parallel sequencing",
-        "Retinitis pigmentosa",
-        "Genetics",
-        "Biology"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Novel Pheochromocytoma Susceptibility Loci Identified by Integrative Genomics",
-      "authors": "Patricia L. M. Dahia; Ke Hao; John Rogus; Christian Colin; Miguel \u00c1ngel Pujana et al. (13 authors)",
-      "journal": "Cancer Research",
-      "year": "2005",
-      "doi": "10.1158/0008-5472.can-05-1427",
-      "abstract": "",
-      "mesh_terms": [
-        "Genetics",
-        "Locus (genetics)",
-        "Biology",
-        "Loss of heterozygosity",
-        "Pheochromocytoma"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Systematic analysis of complex genetic interactions",
-      "authors": "Elena Kuzmin; Benjamin VanderSluis; Wen Wang; Guihong Tan; Raamesh Deshpande et al. (32 authors)",
-      "journal": "Science",
-      "year": "2018",
-      "doi": "10.1126/science.aao1729",
-      "abstract": "",
-      "mesh_terms": [
-        "Biology",
-        "Genetics",
-        "Gene",
-        "Inheritance (genetic algorithm)",
-        "Mutant"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Genetic Analysis in Patients With Kallmann Syndrome: Coexistence of Mutations in Prokineticin Receptor 2 and <i>KAL1</i>",
-      "authors": "Patricia Canto; Patricia Mungu\u00eda; Daniela S\u00f6derlund; Julian Castro; Juan Pablo M\u00e9ndez",
-      "journal": "Journal of Andrology",
-      "year": "2008",
-      "doi": "10.2164/jandrol.108.005314",
-      "abstract": "",
-      "mesh_terms": [
-        "Kallmann syndrome",
-        "Anosmia",
-        "Hyposmia",
-        "Genetics",
-        "Endocrinology"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Further Studies On The Inheritance Of Fatty Acid Composition In Peanut1",
-      "authors": "D. A. Knauft; Kim M. Moore; D. W. Gorbet",
-      "journal": "Peanut Science",
-      "year": "1993",
-      "doi": "10.3146/i0095-3679-20-2-2",
-      "abstract": "",
-      "mesh_terms": [
-        "Oleic acid",
-        "Backcrossing",
-        "Linoleic acid",
-        "Biology",
-        "Germplasm"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "LTBP2 and CYP1B1 mutations and associated ocular phenotypes in the Roma/Gypsy founder population",
-      "authors": "Dimitar N. Azmanov; \u0421. \u0414\u0438\u043c\u0438\u0442\u0440\u043e\u0432\u0430; Laura V. Fl\u00f3rez; Sylvia Cherninkova; Dragomir Draganov et al. (22 authors)",
-      "journal": "European Journal of Human Genetics",
-      "year": "2010",
-      "doi": "10.1038/ejhg.2010.181",
-      "abstract": "",
-      "mesh_terms": [
-        "Genetics",
-        "Ectopia lentis",
-        "Population",
-        "Glaucoma",
-        "Biology"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "DIDA: A curated and annotated digenic diseases database",
-      "authors": "Andrea Gazzo; Dorien Daneels; Elisa Cilia; M Bonduelle; Marc Abramowicz et al. (8 authors)",
-      "journal": "Nucleic Acids Research",
-      "year": "2015",
-      "doi": "10.1093/nar/gkv1068",
-      "abstract": "",
-      "mesh_terms": [
-        "Biology",
-        "Inheritance (genetic algorithm)",
-        "Bioinformatics",
-        "Database",
-        "Computer science"
-      ],
-      "source": "openalex",
-      "category": "tools"
-    },
-    {
-      "PMID": null,
-      "title": "Genetical studies of spontaneous sources of resistance to powdery mildew in barley",
-      "authors": "A. Wiberg",
-      "journal": "Hereditas",
-      "year": "2009",
-      "doi": "10.1111/j.1601-5223.1974.tb01357.x",
-      "abstract": "",
-      "mesh_terms": [
-        "Powdery mildew",
-        "Locus (genetics)",
-        "Biology",
-        "Chromosomal translocation",
-        "Gene"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "The digenic hypothesis unraveled: The GJB6 del(GJB6-D13S1830) mutation causes allele-specific loss of GJB2 expression in cis",
-      "authors": "Juan Rodriguez\u2010Paris; Iris Schrijver",
-      "journal": "Biochemical and Biophysical Research Communications",
-      "year": "2009",
-      "doi": "10.1016/j.bbrc.2009.08.152",
-      "abstract": "",
-      "mesh_terms": [
-        "Connexin",
-        "Biology",
-        "Allele",
-        "Genetics",
-        "Mutation"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "A further study of the problem of the maintenance of females in Gynodioecious species",
-      "authors": "Deborah Charlesworth",
-      "journal": "Heredity",
-      "year": "1981",
-      "doi": "10.1038/hdy.1981.3",
-      "abstract": "",
-      "mesh_terms": [
-        "Biology",
-        "Gynodioecy",
-        "Sterility",
-        "Genetics",
-        "Cytoplasmic male sterility"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "A deletion mutation in GJB6 cooperating with a GJB2 mutation in trans in non-syndromic deafness: A novel founder mutation in Ashkenazi Jews",
-      "authors": "Israela Lerer; Michal Sagi; Ziva Ben\u2010Neriah; Tieling Wang; Haya Levi et al. (6 authors)",
-      "journal": "Human Mutation",
-      "year": "2001",
-      "doi": "10.1002/humu.1222",
-      "abstract": "",
-      "mesh_terms": [
-        "Genetics",
-        "Biology",
-        "Mutation",
-        "Hearing loss",
-        "Connexin"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Clinical and molecular genetic characteristics of MODY cases with digenic and oligogenic inheritance as defined by targeted next-generation sequencing",
-      "authors": "Olesya A. Gioeva; Natalya A. Zubkova; Yulia V. Tikhonovich; \u0412. \u041c. \u041f\u0435\u0442\u0440\u043e\u0432; Evgeny Vasilyev et al. (10 authors)",
-      "journal": "Problems of Endocrinology",
-      "year": "2017",
-      "doi": "10.14341/probl201662620-27",
-      "abstract": "",
-      "mesh_terms": [
-        "Genetics",
-        "Sanger sequencing",
-        "Candidate gene",
-        "Proband",
-        "HNF1A"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Biallelic mutations in the prokineticin-2 gene in two sporadic cases of Kallmann syndrome",
-      "authors": "Chrystel Leroy; Corinne Fouveaut; Sandrine Leclercq; S\u00e9bastien Jacquemont; H\u00e9l\u00e8ne Du Boullay et al. (10 authors)",
-      "journal": "European Journal of Human Genetics",
-      "year": "2008",
-      "doi": "10.1038/ejhg.2008.15",
-      "abstract": "",
-      "mesh_terms": [
-        "Kallmann syndrome",
-        "Missense mutation",
-        "Anosmia",
-        "Mutation",
-        "Biology"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Long interspersed nuclear element-1 (LINE1)-mediated deletion ofEVC,EVC2,C4orf6, andSTK32B in Ellis\u2013van Creveld syndrome with borderline intelligence",
-      "authors": "Samia A. Temtamy; Mona Aglan; Eulalia Valencia; Guido Cocchi; Mar\u00eda Pacheco et al. (13 authors)",
-      "journal": "Human Mutation",
-      "year": "2008",
-      "doi": "10.1002/humu.20778",
-      "abstract": "",
-      "mesh_terms": [
-        "Genetics",
-        "Biology",
-        "Allele",
-        "Compound heterozygosity",
-        "Gene"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Reduced penetrance in human inherited disease",
-      "authors": "Rabah M. Shawky",
-      "journal": "Egyptian Journal of Medical Human Genetics",
-      "year": "2014",
-      "doi": "10.1016/j.ejmhg.2014.01.003",
-      "abstract": "",
-      "mesh_terms": [
-        "Penetrance",
-        "Genetics",
-        "Expressivity",
-        "Allele",
-        "Biology"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "A new leaf rust resistance gene Lr79 mapped in chromosome 3BL from the durum wheat landrace Aus26582",
-      "authors": "Naeela Qureshi; Harbans Bariana; Vikas Venu Kumran; Sivasamy Muruga; Kerrie Forrest et al. (7 authors)",
-      "journal": "Theoretical and Applied Genetics",
-      "year": "2018",
-      "doi": "10.1007/s00122-018-3060-3",
-      "abstract": "",
-      "mesh_terms": [
-        "Biology",
-        "Genetics",
-        "Locus (genetics)",
-        "Bulked segregant analysis",
-        "Contig"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Alpha-tectorin involvement in hearing disabilities: one gene - two phenotypes",
-      "authors": "Jorune Balciuniene; Niklas Dahl; Paula Jalonen; K. Verhoeven; Guy Van Camp et al. (8 authors)",
-      "journal": "Human Genetics",
-      "year": "1999",
-      "doi": "10.1007/s004390051091",
-      "abstract": "",
-      "mesh_terms": [
-        "Genetics",
-        "Biology",
-        "Locus (genetics)",
-        "Phenotype",
-        "Hearing loss"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Abnormal sterol metabolism in a patient with Antley\u2010Bixler syndrome and ambiguous genitalia",
-      "authors": "Richard I. Kelley; Lisa E. Kratz; Rivka L. Glaser; Michael L. Netzloff; Linda Miller Wolf et al. (6 authors)",
-      "journal": "American Journal of Medical Genetics",
-      "year": "2002",
-      "doi": "10.1002/ajmg.10510",
-      "abstract": "",
-      "mesh_terms": [
-        "Lanosterol",
-        "Missense mutation",
-        "Genetics",
-        "Biology",
-        "Compound heterozygosity"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Maintenance of male sterility in plant populations II. heterotic models",
-      "authors": "Tai-Ying Ho; Michael D. Ross",
-      "journal": "Heredity",
-      "year": "1973",
-      "doi": "10.1038/hdy.1973.85",
-      "abstract": "",
-      "mesh_terms": [
-        "Biology",
-        "Sterility",
-        "Gynodioecy",
-        "Genetics",
-        "Outbreeding depression"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Highly variable cutis laxa resulting from a dominant splicing mutation of the elastin gene",
-      "authors": "Luitgard Graul\u2010Neumann; Ingrid Hau\u00dfer; Maximilian Essayie; Anita Rauch; Cornelia Kraus",
-      "journal": "American Journal of Medical Genetics Part A",
-      "year": "2008",
-      "doi": "10.1002/ajmg.a.32242",
-      "abstract": "",
-      "mesh_terms": [
-        "Cutis laxa",
-        "Proband",
-        "Elastin",
-        "Tropoelastin",
-        "Gene"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Complex mode of inheritance in holoprosencephaly revealed by whole exome sequencing",
-      "authors": "Charlotte Mouden; Christ\u00e8le Dubourg; Wilfrid Carr\u00e9; Sophie Rose; C. Quelin et al. (13 authors)",
-      "journal": "Clinical Genetics",
-      "year": "2016",
-      "doi": "10.1111/cge.12722",
-      "abstract": "",
-      "mesh_terms": [
-        "Holoprosencephaly",
-        "Exome sequencing",
-        "Genetics",
-        "Biology",
-        "Compound heterozygosity"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Whole exome sequencing identifies a mutation in EYA1 and GLI3 in a patient with branchio\u2011otic syndrome and esophageal atresia: Coincidence or a digenic mode of inheritance?",
-      "authors": "Franziska Kause; Heiko Reutter; Florian Marsch; H\u00f6lger Thiele; Janine Altm\u00ef\u00bf \u2044 ller et al. (7 authors)",
-      "journal": "Molecular Medicine Reports",
-      "year": "2017",
-      "doi": "10.3892/mmr.2017.8196",
-      "abstract": "",
-      "mesh_terms": [
-        "Genetics",
-        "GLI3",
-        "Exome sequencing",
-        "Biology",
-        "CHARGE syndrome"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Primary Hyperoxaluria Type I",
-      "authors": "Choni Rinat; Ronald J. A. Wanders; Alfred Drukker; David Halle; Yaacov Frishberg",
-      "journal": "Journal of the American Society of Nephrology",
-      "year": "1999",
-      "doi": "10.1681/asn.v10112352",
-      "abstract": "",
-      "mesh_terms": [
-        "Primary hyperoxaluria",
-        "Genetics",
-        "Founder effect",
-        "Consanguinity",
-        "Biology"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Mutations in HFE2 cause iron overload in chromosome 1q\u2013linked juvenile hemochromatosis",
-      "authors": "George Papanikolaou; Mark Samuels; E H Ludwig; Marcia L.E. MacDonald; Patrick L. Franchini et al. (24 authors)",
-      "journal": "Nature Genetics",
-      "year": "2003",
-      "doi": "10.1038/ng1274",
-      "abstract": "",
-      "mesh_terms": [
-        "Hepcidin",
-        "Biology",
-        "HAMP",
-        "Hemochromatosis",
-        "Ferroportin"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Modifiers of Hearing Impairment in Humans and Mice",
-      "authors": "Denise Yan; Xue-Zhong Liu",
-      "journal": "Current Genomics",
-      "year": "2010",
-      "doi": "10.2174/138920210791233054",
-      "abstract": "",
-      "mesh_terms": [
-        "Penetrance",
-        "Genetics",
-        "Phenotype",
-        "Biology",
-        "Gene"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "DJ-1 mutations in Parkinson's disease.",
-      "authors": "D G Healy; Patrick M. Abou\u2010Sleiman; Enza Maria Valente; William P. Gilks; Kailash P. Bhatia et al. (8 authors)",
-      "journal": "PubMed",
-      "year": "2004",
-      "doi": "",
-      "abstract": "",
-      "mesh_terms": [
-        "Genetics",
-        "Parkinson's disease",
-        "Mutation",
-        "Disease",
-        "Biology"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Phenotypes and genotypes in epilepsy with febrile seizures plus",
-      "authors": "M. Ito; Kazuhiro Yamakawa; Takashi Sugawara; Shinichi Hirose; Goryu Fukuma et al. (6 authors)",
-      "journal": "Epilepsy Research",
-      "year": "2006",
-      "doi": "10.1016/j.eplepsyres.2005.11.028",
-      "abstract": "",
-      "mesh_terms": [
-        "Epilepsy",
-        "Missense mutation",
-        "Proband",
-        "Phenotype",
-        "Genetics"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Resolution of Disease Phenotypes Resulting from Multilocus Genomic Variation",
-      "authors": "Jennifer E. Posey; Tamar Harel; Pengfei Liu; Jill A. Rosenfeld; Regis A. James et al. (21 authors)",
-      "journal": "New England Journal of Medicine",
-      "year": "2016",
-      "doi": "10.1056/nejmoa1516767",
-      "abstract": "",
-      "mesh_terms": [
-        "Exome sequencing",
-        "Phenotype",
-        "Medicine",
-        "Exome",
-        "Disease"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Genetic basis of channelopathies and cardiomyopathies in Hong Kong Chinese patients: a 10-year regional laboratory experience",
-      "authors": "Chloe Miu Mak; Sammy PL Chen; NS Mok; WK Siu; Han\u2010Chih Hencher Lee et al. (16 authors)",
-      "journal": "Hong Kong Medical Journal",
-      "year": "2018",
-      "doi": "10.12809/hkmj176870",
-      "abstract": "",
-      "mesh_terms": [
-        "Medicine",
-        "Catecholaminergic polymorphic ventricular tachycardia",
-        "Brugada syndrome",
-        "Penetrance",
-        "MYH7"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Allele-Specific Impairment of GJB2 Expression by GJB6 Deletion del(GJB6-D13S1854)",
-      "authors": "Juan Rodriguez\u2010Paris; Marta Luc\u00eda Tamayo; Nancy G\u00e9lvez; Iris Schrijver",
-      "journal": "PLoS ONE",
-      "year": "2011",
-      "doi": "10.1371/journal.pone.0021665",
-      "abstract": "",
-      "mesh_terms": [
-        "Genetics",
-        "Allele",
-        "Biology",
-        "Hearing loss",
-        "Gene"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Inheritance of Bruchid Resistance in Cowpea<sup>1</sup>",
-      "authors": "O. Adjadi; B. B. Singh; S. R. Singh",
-      "journal": "Crop Science",
-      "year": "1985",
-      "doi": "10.2135/cropsci1985.0011183x002500050005x",
-      "abstract": "",
-      "mesh_terms": [
-        "Biology",
-        "Backcrossing",
-        "Callosobruchus maculatus",
-        "Vigna",
-        "Infestation"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Use of a multiplex PCR/sequencing strategy to detect both connexin 30 (<i>GJB6</i>) 342 kb deletion and connexin 26 (<i>GJB2</i>) mutations in cases of childhood deafness",
-      "authors": "Bai\u2010Lin Wu; Margaret A. Kenna; Va Lip; Mira Irons; Orah S. Platt",
-      "journal": "American Journal of Medical Genetics Part A",
-      "year": "2003",
-      "doi": "10.1002/ajmg.a.20210",
-      "abstract": "",
-      "mesh_terms": [
-        "Genetics",
-        "Frameshift mutation",
-        "Biology",
-        "Hearing loss",
-        "Mutation"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Loss-of-function mutations in FGF8 can be independent risk factors for holoprosencephaly",
-      "authors": "Sung\u2010Kook Hong; Ping Hu; Erich Roessler; Tommy Hu; Maximilian Muenke",
-      "journal": "Human Molecular Genetics",
-      "year": "2018",
-      "doi": "10.1093/hmg/ddy106",
-      "abstract": "",
-      "mesh_terms": [
-        "FGF8",
-        "Biology",
-        "Holoprosencephaly",
-        "Loss function",
-        "Genetics"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Connexin-30 Deletion Analysis in Connexin-26 Heterozygotes",
-      "authors": "Victoria A. Stevenson; Masamichi Ito; Jeff M. Milunsky",
-      "journal": "Genetic Testing",
-      "year": "2003",
-      "doi": "10.1089/109065703322146867",
-      "abstract": "",
-      "mesh_terms": [
-        "Connexin",
-        "Compound heterozygosity",
-        "Heterozygote advantage",
-        "Genetics",
-        "Loss of heterozygosity"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Hemojuvelin and Hepcidin Genes Sequencing in Brazilian Patients with Primary Iron Overload",
-      "authors": "Paulo Caleb J\u00fanior de Lima Santos; Alexandre C. Pereira; Rodolfo Delfini Can\u00e7ado; Isolmar Tadeu Schettert; Ros\u00e1rio Dominguez Crespo Hirata et al. (10 authors)",
-      "journal": "Genetic Testing and Molecular Biomarkers",
-      "year": "2010",
-      "doi": "10.1089/gtmb.2010.0056",
-      "abstract": "",
-      "mesh_terms": [
-        "HAMP",
-        "Hepcidin",
-        "Genetics",
-        "Genotype",
-        "Exon"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Morphological characterization and inheritance of leaf hairiness in wheat (Triticum aestivum L.) as analyzed by computer-aided phenotyping",
-      "authors": "Alexey V. Doroshkov; \u0422. \u0410. \u041f\u0448\u0435\u043d\u0438\u0447\u043d\u0438\u043a\u043e\u0432\u0430; \u0414. \u0410. \u0410\u0444\u043e\u043d\u043d\u0438\u043a\u043e\u0432",
-      "journal": "Russian Journal of Genetics",
-      "year": "2011",
-      "doi": "10.1134/s1022795411060093",
-      "abstract": "",
-      "mesh_terms": [
-        "Cultivar",
-        "Biology",
-        "Trichome",
-        "Botany",
-        "Shoot"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Phenotypic variability in hyperphosphatasia with seizures and neurologic deficit (Mabry syndrome)",
-      "authors": "Miles D. Thompson; Tony Roscioli; Carlo Marcelis; Marjan M. Nezarati; Irene Stolte\u2010Dijkstra et al. (15 authors)",
-      "journal": "American Journal of Medical Genetics Part A",
-      "year": "2012",
-      "doi": "10.1002/ajmg.a.35202",
-      "abstract": "",
-      "mesh_terms": [
-        "Compound heterozygosity",
-        "Exon",
-        "Mutation",
-        "Phenotype",
-        "Genetics"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Allelic loss on chromosomes 2q21 and 19p 13.2 in oxyphilic thyroid tumors",
-      "authors": "Karmen Stankov; Alessandro Pastore; Luca Toschi; James McKay; Fabienne Lesueur et al. (12 authors)",
-      "journal": "International Journal of Cancer",
-      "year": "2004",
-      "doi": "10.1002/ijc.20259",
-      "abstract": "",
-      "mesh_terms": [
-        "Loss of heterozygosity",
-        "Locus (genetics)",
-        "Thyroid",
-        "Biology",
-        "Pathology"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Molecular characterization of a familial translocation implicates disruption of HDAC9 and possible position effect on TGF\u03b22 in the pathogenesis of Peters\u2019 anomaly",
-      "authors": "D. David; Joana Cardoso; B\u00e1rbara Marques; Ramira Marques; Eduardo Silva et al. (7 authors)",
-      "journal": "Genomics",
-      "year": "2003",
-      "doi": "10.1016/s0888-7543(03)00046-6",
-      "abstract": "",
-      "mesh_terms": [
-        "Biology",
-        "Breakpoint",
-        "Genetics",
-        "Chromosomal translocation",
-        "Candidate gene"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "An atypical Dent\u2019s disease phenotype caused by co-inheritance of mutations at CLCN5 and OCRL genes",
-      "authors": "Maria Addis; C. Meloni; Enrica Tosetto; Monica Ceol; Rosalba Cristofaro et al. (10 authors)",
-      "journal": "European Journal of Human Genetics",
-      "year": "2012",
-      "doi": "10.1038/ejhg.2012.225",
-      "abstract": "",
-      "mesh_terms": [
-        "Genetics",
-        "Phenotype",
-        "Exon",
-        "Biology",
-        "Mutation"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Myocilin gene implicated in primary congenital glaucoma",
-      "authors": "Kiranpreet Kaur; Aramati B. M. Reddy; Arijit Mukhopadhyay; AK Mandal; Seyed E. Hasnain et al. (9 authors)",
-      "journal": "Clinical Genetics",
-      "year": "2005",
-      "doi": "10.1111/j.1399-0004.2005.00411.x",
-      "abstract": "",
-      "mesh_terms": [
-        "Myocilin",
-        "CYP1B1",
-        "Genetics",
-        "Biology",
-        "Mutation"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Autosomal recessive and sporadic deafness in Morocco: High frequency of the 35delG GJB2 mutation and absence of the 342-kb GJB6 variant",
-      "authors": "Boucha\u00efb Gazzaz; Dominique Weil; Le\u00efla Ra\u00efs; Omar Akhyat; Houssine Azeddoug et al. (6 authors)",
-      "journal": "Hearing Research",
-      "year": "2005",
-      "doi": "10.1016/j.heares.2005.08.001",
-      "abstract": "",
-      "mesh_terms": [
-        "Genetics",
-        "Mutation",
-        "Connexin",
-        "Biology",
-        "Allele"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "A Proposal for Hybrid Wheat Utilizing <i>Aegilops squarrosa</i> L. Cytoplasm<sup>1</sup>",
-      "authors": "J. D. Franckowiak; S. S. Maan; N. D. Williams",
-      "journal": "Crop Science",
-      "year": "1976",
-      "doi": "10.2135/cropsci1976.0011183x001600050033x",
-      "abstract": "",
-      "mesh_terms": [
-        "Aegilops",
-        "Biology",
-        "Sterility",
-        "Hybrid",
-        "Software maintainer"
-      ],
-      "source": "openalex",
-      "category": "tools"
-    },
-    {
-      "PMID": null,
-      "title": "Mutated Desmoglein-2 Proteins are Incorporated into Desmosomes and Exhibit Dominant-Negative Effects in Arrhythmogenic Right Ventricular Cardiomyopathy",
-      "authors": "Torsten B. Rasmussen; Johan Palmfeldt; Peter H. Nissen; Raffaela Magnoni; S\u00f8ren Dalager et al. (13 authors)",
-      "journal": "Human Mutation",
-      "year": "2013",
-      "doi": "10.1002/humu.22289",
-      "abstract": "",
-      "mesh_terms": [
-        "Biology",
-        "Cardiomyopathy",
-        "Internal medicine",
-        "Cardiology",
-        "Cell biology"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Mutation Load of Multiple Ion Channel Gene Mutations in Brugada Syndrome",
-      "authors": "Francesca Gualandi; F\u00e1tima Z\u00e1raket; Michele Malag\u00f9; Giulia Parmeggiani; Cecilia Trabanelli et al. (12 authors)",
-      "journal": "Cardiology",
-      "year": "2017",
-      "doi": "10.1159/000471792",
-      "abstract": "",
-      "mesh_terms": [
-        "Brugada syndrome",
-        "Loss of heterozygosity",
-        "Medicine",
-        "Sudden cardiac death",
-        "Genetics"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "[Case report--polydactyly in a German holstein calf].",
-      "authors": "C B\u00e4hr; K. M. Wittenberg; O. Distl",
-      "journal": "PubMed",
-      "year": "2003",
-      "doi": "",
-      "abstract": "",
-      "mesh_terms": [
-        "Polydactyly",
-        "Inbreeding",
-        "Anatomy",
-        "Biology",
-        "Medicine"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Inheritance of resistance to sunflower downy mildew races 1, 2 and 3 in cultivated sunflower",
-      "authors": "Muhammad Danial Rahim; C. C. Jan; T. J. Gulya",
-      "journal": "Plant Breeding",
-      "year": "2002",
-      "doi": "10.1046/j.1439-0523.2002.00680.x",
-      "abstract": "",
-      "mesh_terms": [
-        "Downy mildew",
-        "Biology",
-        "Genetics",
-        "Sunflower",
-        "Gene"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Hcn1 Is a Tremorgenic Genetic Component in a Rat Model of Essential Tremor",
-      "authors": "Yukihiro Ohno; Saki Shimizu; Ayaka Tatara; Takuji Imaoku; Takahiro Ishii et al. (8 authors)",
-      "journal": "PLoS ONE",
-      "year": "2015",
-      "doi": "10.1371/journal.pone.0123529",
-      "abstract": "",
-      "mesh_terms": [
-        "Missense mutation",
-        "Mutant",
-        "Mutation",
-        "Genetics",
-        "Hyperpolarization (physics)"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Identification of a G-Protein Subunit-\u03b111 Gain-of-Function Mutation, Val340Met, in a Family With Autosomal Dominant Hypocalcemia Type 2 (ADH2)",
-      "authors": "Si\u00e2n E. Piret; Caroline M. Gorvin; Alistair T. Pagnamenta; Sarah Howles; Treena Cranston et al. (12 authors)",
-      "journal": "Journal of Bone and Mineral Research",
-      "year": "2016",
-      "doi": "10.1002/jbmr.2797",
-      "abstract": "",
-      "mesh_terms": [
-        "Gain of function",
-        "Genetics",
-        "Identification (biology)",
-        "Mutation",
-        "Biology"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Mutations in the genes encoding 11\u03b2-hydroxysteroid dehydrogenase type 1 and hexose-6-phosphate dehydrogenase interact to cause cortisone reductase deficiency",
-      "authors": "Nicole L. Draper; Elizabeth A. Walker; Iwona Bujalska; Jeremy Tomlinson; S. Chalder et al. (17 authors)",
-      "journal": "Nature Genetics",
-      "year": "2003",
-      "doi": "10.1038/ng1214",
-      "abstract": "",
-      "mesh_terms": [
-        "11\u03b2-hydroxysteroid dehydrogenase type 1",
-        "Biology",
-        "Dehydrogenase",
-        "Cortisone",
-        "Reductase"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Defective subunit assembly underlies a digenic form of retinitis pigmentosa linked to mutations in peripherin/rds and\u2009rom-1",
-      "authors": "Andrew F.X. Goldberg; Robert S. Molday",
-      "journal": "Proceedings of the National Academy of Sciences",
-      "year": "1996",
-      "doi": "10.1073/pnas.93.24.13726",
-      "abstract": "",
-      "mesh_terms": [
-        "Peripherin",
-        "Retinitis pigmentosa",
-        "Protein subunit",
-        "Genetics",
-        "Biology"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Linked digenic epistasis in the inheritance of tillering and yielding ability in a cross of wheat",
-      "authors": "Jaymin Patel; Kiran Bains",
-      "journal": "Canadian Journal of Genetics and Cytology",
-      "year": "1984",
-      "doi": "10.1139/g84-034",
-      "abstract": "",
-      "mesh_terms": [
-        "Epistasis",
-        "Biology",
-        "Transgressive segregation",
-        "Inheritance (genetic algorithm)",
-        "Genetics"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Gene Sequencing in Neonates and Infants with the Long QT Syndrome",
-      "authors": "Sung Han Shim; Masamichi Ito; Thomas A. Maher; Aubrey Milunsky",
-      "journal": "Genetic Testing",
-      "year": "2005",
-      "doi": "10.1089/gte.2005.9.281",
-      "abstract": "",
-      "mesh_terms": [
-        "hERG",
-        "Long QT syndrome",
-        "Compound heterozygosity",
-        "Mutation",
-        "Medicine"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "NEK1 Mutations Cause Short-Rib Polydactyly Syndrome Type Majewski",
-      "authors": "Christian T. Thiel; Kristin Kessler; Andreas Gie\u00dfl; Arno Dimmler; Stavit A. Shalev et al. (18 authors)",
-      "journal": "The American Journal of Human Genetics",
-      "year": "2011",
-      "doi": "10.1016/j.ajhg.2010.12.004",
-      "abstract": "",
-      "mesh_terms": [
-        "Polydactyly",
-        "Genetics",
-        "Biology",
-        "Geology"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "GENE EFFECTS IN CORN (<i>ZEA MAYS</i>L.): I. SEPARATION AND RELATIVE IMPORTANCE OF GENE EFFECTS FOR YIELD",
-      "authors": "E. E. Gamble",
-      "journal": "Canadian Journal of Plant Science",
-      "year": "1962",
-      "doi": "10.4141/cjps62-048",
-      "abstract": "",
-      "mesh_terms": [
-        "Epistasis",
-        "Biology",
-        "Selfing",
-        "Gene interaction",
-        "Population"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Studies on the inheritance of five qualitative characteristics in clusterbean (Cyamopsis tetragonoloba (L.) Taub)",
-      "authors": "B. S. Chaudhary; G. P. Lodhi",
-      "journal": "Euphytica",
-      "year": "1981",
-      "doi": "10.1007/bf00033673",
-      "abstract": "",
-      "mesh_terms": [
-        "Cyamopsis",
-        "Biology",
-        "Habit",
-        "Branching (polymer chemistry)",
-        "Inheritance (genetic algorithm)"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic heterozygous<i>HNF1A</i>and<i>HNF4A</i>mutations in two siblings with childhood-onset diabetes",
-      "authors": "Roopa Kanakatti Shankar; Sian Ellard; Debra A. Standiford; Catherine Pihoker; Lisa K.\ufeff Gilliam et al. (7 authors)",
-      "journal": "Pediatric Diabetes",
-      "year": "2013",
-      "doi": "10.1111/pedi.12018",
-      "abstract": "",
-      "mesh_terms": [
-        "HNF1A",
-        "Sulfonylurea",
-        "Medicine",
-        "Proband",
-        "Diabetes mellitus"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Limb girdle myasthenia with digenic RAPSN and a novel disease gene AK9 mutations",
-      "authors": "Ching\u2010Wan Lam; Ka Sing Wong; Howan Leung; Chun Yiu Law",
-      "journal": "European Journal of Human Genetics",
-      "year": "2016",
-      "doi": "10.1038/ejhg.2016.162",
-      "abstract": "",
-      "mesh_terms": [
-        "Genetics",
-        "Biology",
-        "Disease gene identification",
-        "Exome sequencing",
-        "Gene"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Co-Occurrence of the C9ORF72 Expansion and a Novel GRN Mutation in a Family with Alternative Expression of Frontotemporal Dementia and Amyotrophic Lateral Sclerosis",
-      "authors": "Silvia Testi; Stefano Tamburin; Giampietro Zanette; Gian Maria Fabrizi",
-      "journal": "Journal of Alzheimer s Disease",
-      "year": "2015",
-      "doi": "10.3233/jad-141794",
-      "abstract": "",
-      "mesh_terms": [
-        "C9orf72",
-        "Amyotrophic lateral sclerosis",
-        "Frontotemporal dementia",
-        "Frontotemporal lobar degeneration",
-        "Proband"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Clinical and molecular characterization of cystinuria in a French cohort: relevance of assessing large\u2010scale rearrangements and splicing variants",
-      "authors": "Pascaline Gaildrat; Sa\u00efd Lebbah; Abdellah Tebani; B\u00e9n\u00e9dicte Sudri\u00e9\u2010Arnaud; Isabelle Tostivint et al. (16 authors)",
-      "journal": "Molecular Genetics & Genomic Medicine",
-      "year": "2017",
-      "doi": "10.1002/mgg3.294",
-      "abstract": "",
-      "mesh_terms": [
-        "Cystinuria",
-        "Minigene",
-        "RNA splicing",
-        "Genetics",
-        "Biology"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Retinitis Pigmentosa, Cutis Laxa, and Pseudoxanthoma Elasticum\u2013Like Skin Manifestations Associated with GGCX Mutations",
-      "authors": "Ariana Kariminejad; Bita Bozorgmehr; Abdolhamid Najafi; Atefeh Khoshaeen; Maryam Ghalandari et al. (14 authors)",
-      "journal": "Journal of Investigative Dermatology",
-      "year": "2014",
-      "doi": "10.1038/jid.2014.191",
-      "abstract": "",
-      "mesh_terms": [
-        "Phenotype",
-        "Retinitis pigmentosa",
-        "Mutation",
-        "Genetics",
-        "Pseudoxanthoma elasticum"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "A novel FOXL2 gene mutation and BMP15 variants in a woman with primary ovarian insufficiency and blepharophimosis\u2013ptosis\u2013epicanthus inversus syndrome",
-      "authors": "Nikolaos Settas; Margarita Anapliotou; Emmanuel Kanavakis; Helen Fryssira; Christalena Sofocleous et al. (8 authors)",
-      "journal": "Menopause The Journal of The North American Menopause Society",
-      "year": "2015",
-      "doi": "10.1097/gme.0000000000000473",
-      "abstract": "",
-      "mesh_terms": [
-        "Blepharophimosis",
-        "Medicine",
-        "Genetics",
-        "Ptosis",
-        "Exon"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Masking epilepsy by combining two epilepsy genes",
-      "authors": "Edward Glasscock; Jing Qian; Jong W. Yoo; Jeffrey L. Noebels",
-      "journal": "Nature Neuroscience",
-      "year": "2007",
-      "doi": "10.1038/nn1999",
-      "abstract": "",
-      "mesh_terms": [
-        "Epilepsy",
-        "Missense mutation",
-        "Channelopathy",
-        "Epileptogenesis",
-        "Phenotype"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Inheritance of Tolerance to Manganese Deficiency in Soybean",
-      "authors": "M. J. Graham; C. D. Nickell; R. G. Hoeft",
-      "journal": "Crop Science",
-      "year": "1995",
-      "doi": "10.2135/cropsci1995.0011183x003500040013x",
-      "abstract": "",
-      "mesh_terms": [
-        "Biology",
-        "Heritability",
-        "Germplasm",
-        "Inheritance (genetic algorithm)",
-        "Cultivar"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "DFNB15: Autosomal Recessive Non-Syndromic Hearing Loss Gene - Chromosome 3q, 19p or Digenic Recessive Inheritance?",
-      "authors": "A.H. Chen; Kikuro Fukushima; Wyman T. McGuirt; Richard J. Smith",
-      "journal": "Advances in oto-rhino-laryngology",
-      "year": "2000",
-      "doi": "10.1159/000059089",
-      "abstract": "",
-      "mesh_terms": [
-        "Genetics",
-        "Inheritance (genetic algorithm)",
-        "Chromosome",
-        "Hearing loss",
-        "Biology"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Genetic analysis of adult plant resistance to <i>Puccinia hordei</i> in barley",
-      "authors": "Prashant G. Golegaonkar; Robert Park; Davinder Singh",
-      "journal": "Plant Breeding",
-      "year": "2009",
-      "doi": "10.1111/j.1439-0523.2009.01676.x",
-      "abstract": "",
-      "mesh_terms": [
-        "Biology",
-        "Genotype",
-        "Genetics",
-        "Hordeum vulgare",
-        "Genetic analysis"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Mitochondrial membrane potential regulates PINK1 import and proteolytic destabilization by PARL",
-      "authors": "Seok Min Jin; Michael Lazarou; Chunxin Wang; Lesley A. Kane; Derek P. Narendra et al. (6 authors)",
-      "journal": "The Journal of Cell Biology",
-      "year": "2010",
-      "doi": "10.1083/jcb.201008084",
-      "abstract": "",
-      "mesh_terms": [
-        "PINK1",
-        "Parkin",
-        "Biology",
-        "Cell biology",
-        "Mitochondrion"
-      ],
-      "source": "openalex",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic and oligogenic cases in a large cohort of idiopathic central hypogonadism (ICH) patients",
-      "authors": "Domenico Libri; Marco Bonomi; Fabiana Guizzardi; Paolo Duminuco; Ida Pincelli et al. (11 authors)",
-      "journal": "Endocrine Abstracts",
-      "year": "2013",
-      "doi": "10.1530/endoabs.32.p687",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic or oligogenic mutations in presumed monogenic disorders: A review",
-      "authors": "Afif Ben-Mahmoud; Vijay Gupta; Cheol-Hee Kim; Lawrence C Layman; Hyung-Goo Kim",
-      "journal": "Journal of Genetic Medicine",
-      "year": "2023",
-      "doi": "10.5734/jgm.2023.20.1.15",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "SAT-289 Evidence That Combined Pituitary Hormone Deficiency Frequently Has a Digenic/Oligogenic Etiology",
-      "authors": "Youn Hee Jee; Mariam Gangat; Olga Yeliosof; Adrian Temnycky; Selena Vanapruks et al. (11 authors)",
-      "journal": "Journal of the Endocrine Society",
-      "year": "2020",
-      "doi": "10.1210/jendso/bvaa046.1477",
-      "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Congenital hypopituitarism usually occurs in a child without a family history of pituitary disease. Explanations for such sporadic occurrence include: 1) monogenic inheritance (recessive or de novo), 2) digenic/oligogenic inheritance, and/or 3) nongenetic factors. To help distinguish these possibilities, we studied 9 children with hypopituitarism (HP)(small anterior pituitary gland, ectopic posterior pituitary, and either isolated GH defic",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Ciliopathies and oligogenic phenomena",
-      "authors": "Nicholas Katsanis",
-      "journal": "The Biomedical &amp; Life Sciences Collection",
-      "year": "2015",
-      "doi": "10.69645/mtoy7074",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Speciation and Oligogenic Differentiation in Lasthenia (Compositae)",
-      "authors": "Robert Ornduff",
-      "journal": "Systematic Botany",
-      "year": "1976",
-      "doi": "10.2307/2418842",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Oligogenic approaches to modelling onset of action of antidepressants",
-      "authors": "A Szegedi; HH Stassen",
-      "journal": "Pharmacopsychiatry",
-      "year": "2004",
-      "doi": "10.1055/s-2003-825526",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Oligogenic inheritance in neuroblastoma",
-      "authors": "Luca Longo; Gian Paolo Tonini; Isabella Ceccherini; Patrizia Perri",
-      "journal": "Cancer Letters",
-      "year": "2005",
-      "doi": "10.1016/j.canlet.2004.12.052",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "The oligogenic properties of Bardet-Biedl syndrome",
-      "authors": "N. Katsanis",
-      "journal": "Human Molecular Genetics",
-      "year": "2004",
-      "doi": "10.1093/hmg/ddh092",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Oligogenic cardiomyopathy",
-      "authors": "Ali J. Marian",
-      "journal": "The Journal of Cardiovascular Aging",
-      "year": "2022",
-      "doi": "10.20517/jca.2021.27",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Polygenic and Oligogenic analyses for metric traits in sunflower genotypes",
-      "authors": "Babar Ali",
-      "journal": "Pure and Applied Biology",
-      "year": "2025",
-      "doi": "10.19045/bspab.2025.140007",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Mapping quantitative trait loci in oligogenic models",
-      "authors": "H.-K. Tang",
-      "journal": "Biostatistics",
-      "year": "2001",
-      "doi": "10.1093/biostatistics/2.2.147",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Monogenic, polygenic, and oligogenic familial hypercholesterolemia",
-      "authors": "Hayato Tada; Atsushi Nohara; Masa-aki Kawashiri",
-      "journal": "Current Opinion in Lipidology",
-      "year": "2019",
-      "doi": "10.1097/mol.0000000000000609",
-      "abstract": "<jats:sec>\n            <jats:title>Purpose of review</jats:title>\n            <jats:p>Familial hypercholesterolemia has long been considered a monogenic disorder. However, recent advances in genetic analyses have revealed various forms of this disorder, including polygenic and oligogenic familial hypercholesterolemia. We review the current understanding of the genetic background of this disease.</jats:p>\n          </jats:sec>\n          <jats:sec>\n            <jats:title>Recent findings</jats:tit",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Genetic Modifiers and Oligogenic Inheritance",
-      "authors": "M. Kousi; N. Katsanis",
-      "journal": "Cold Spring Harbor Perspectives in Medicine",
-      "year": "2015",
-      "doi": "10.1101/cshperspect.a017145",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Bipolar illness and schizophrenia as oligogenic diseases: implications for the future",
-      "authors": "Elliot S Gershon",
-      "journal": "Biological Psychiatry",
-      "year": "2000",
-      "doi": "10.1016/s0006-3223(99)00299-1",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Oligogenic Inheritance of Length of Latent Period in Six Slow Leaf-Rusting Wheat Cultivars",
-      "authors": "Tae Soo Lee",
-      "journal": "Phytopathology",
-      "year": "1985",
-      "doi": "10.1094/phyto-75-636",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Genetic Dissection of Oligogenic Resistance to Bacterial Wilt in Tomato",
-      "authors": "Dariush Danesh",
-      "journal": "Molecular Plant-Microbe Interactions",
-      "year": "1994",
-      "doi": "10.1094/mpmi-7-0464",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic inheritance in patients with undiagnosed myopathies",
-      "authors": "Leema Peddareddygari; Raji Grewal",
-      "journal": "Medical Research Archives",
-      "year": "2024",
-      "doi": "10.18103/mra.v12i11.6046",
-      "abstract": "<jats:p>Advances in genetic sequencing have allowed a specific gene-based diagnosis in many patients with a suspected genetic myopathy. However, a significant minority of patients remain in whom the specific diagnosis remains elusive. In addition to the classic forms of Mendelian inheritance including autosomal recessive, autosomal dominant and X-linked, another mechanism of genetic transmission is digenic inheritance. This occurs when there is an interaction of two genes resulting in a given ph",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Multipoint oligogenic linkage analysis of quantitative traits",
-      "authors": "John Blangero; Laura Almasy",
-      "journal": "Genetic Epidemiology",
-      "year": "1997",
-      "doi": "10.1002/(sici)1098-2272(1997)14:6<959::aid-gepi66>3.0.co;2-k",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Analysis of complex oligogenic disease",
-      "authors": "Jeffrey R. O'Connell; Sean Davis; Daniel E. Weeks",
-      "journal": "Genetic Epidemiology",
-      "year": "1997",
-      "doi": "10.1002/(sici)1098-2272(1997)14:6<861::aid-gepi50>3.3.co;2-1",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "The feasibility of oligogenic combined segregation and linkage analysis in CEPH pedigrees",
-      "authors": "E Warwick Daw; Robert Yu",
-      "journal": "BMC Proceedings",
-      "year": "2007",
-      "doi": "10.1186/1753-6561-1-s1-s108",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Joint Oligogenic Segregation and Linkage Analysis Using Bayesian Markov Chain Monte Carlo Methods",
-      "authors": "Ellen M. Wijsman; Dongmei Yu",
-      "journal": "Molecular Biotechnology",
-      "year": "2004",
-      "doi": "10.1385/mb:28:3:205",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Familial combined hyperlipidemia: an oligogenic disorder",
-      "authors": "John D. Brunzell",
-      "journal": "Cl\u00ednica e Investigaci\u00f3n en Arteriosclerosis",
-      "year": "2010",
-      "doi": "10.1016/s0214-9168(10)70031-0",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "The recessive SOD1 mutation p.A90V may cause atypical motor neuron disease by oligogenic mechanisms",
-      "authors": "M. Jokela; S. Penttil\u00e4; B. Udd",
-      "journal": "Neuromuscular Disorders",
-      "year": "2017",
-      "doi": "10.1016/j.nmd.2017.06.159",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic nature of male sterility in pepper (Capsicum annuum L.)",
-      "authors": "Chen Shifriss; Meir Pilovsky",
-      "journal": "Euphytica",
-      "year": "1993",
-      "doi": "10.1007/bf00022733",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Considerations on Study Designs Using the Extreme Sibpairs Methods Under Multilocus Oligogenic Models",
-      "authors": "Chi Gu; D C Rao",
-      "journal": "Genetics",
-      "year": "2002",
-      "doi": "10.1093/genetics/160.4.1733",
-      "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Several issues pertinent to study designs employing extreme sibpairs (ESP) methods to detect complex oligogenic quantitative trait loci (QTL) are investigated in the setting of genome-wide multipoint scans. We demonstrate that when stringent \u03b1-levels are imposed (e.g., \u03b1 = 0.00022 as recommended by Landers and Kruglyak), the power to detect a susceptibility locus could drop from 83.6% under a one-locus model down to a hopeless 22.8% under ",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "P234: Oligogenic basis of premature ovarian insufficiency",
-      "authors": "Panpan Long; Le Wang; Hongmei Xiao",
-      "journal": "Genetics in Medicine Open",
-      "year": "2023",
-      "doi": "10.1016/j.gimo.2023.100262",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic mutations in severe congenital neutropenia",
-      "authors": "M. Germeshausen; C. Zeidler; M. Stuhrmann; M. Lanciotti; M. Ballmaier et al. (6 authors)",
-      "journal": "Haematologica",
-      "year": "2010",
-      "doi": "10.3324/haematol.2009.017665",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic inheritance of variants in RYR1 and PLEC causing myopathy with tubular aggregates",
-      "authors": "Leema Peddareddygari; Arman Grewal; Raji Grewal",
-      "journal": "Medical Research Archives",
-      "year": "2025",
-      "doi": "10.18103/mra.v13i6.6564",
-      "abstract": "<jats:p>Despite the advances in genetic testing, a significant proportion of patients with suspected genetic myopathies remain undiagnosed. In these patients, the standard patterns of transmission of single gene disorders which include autosomal dominant, autosomal recessive or X-linked are investigated. However, an under recognized phenomenon that could be considered is digenic inheritance in which variants in two separate genes established to cause myopathy result in the phenotype. We report a",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "MOLECULAR MARKERS APPLIED TO APPLE BREEDING: ANALYSIS OF OLIGOGENIC AND SINGLE GENE RESISTANCES",
-      "authors": "L. Gianfranceschi; N. Seglias; M. Kellerhals; C. Gessler",
-      "journal": "Acta Horticulturae",
-      "year": "1998",
-      "doi": "10.17660/actahortic.1998.484.72",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic heterozygous mutations in EYS/LRP5 in a Chinese family with retinitis pigmentosa",
-      "authors": "",
-      "journal": "International Journal of Ophthalmology",
-      "year": "2017",
-      "doi": "10.18240/ijo.2017.02.25",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Oligogenic Approaches to the Predisposition of Asthma in Ethnically Diverse Populations",
-      "authors": "Hans H. Stassen; Christian Scharfetter",
-      "journal": "Genetic Epidemiology",
-      "year": "2001",
-      "doi": "10.1002/gepi.2001.21.s1.s284",
-      "abstract": "<jats:p>Using the genome\u2010wide screening data of the Collaborative Study on the Genetics of Asthma (CSGA) (226 families, 1,461 genotyped subjects, 323 marker loci) and Hutterite studies (129 families, 690 genotyped subjects, 365 marker loci), we applied a genetic similarity function in order to quantify the inter\u2010individual genetic distances <jats:italic>d(x<jats:sub>i</jats:sub>,x<jats:sub>j</jats:sub>)</jats:italic> between feature vectors <jats:italic>x<jats:sub>i</jats:sub>, x<jats:sub>j</jat",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Genetic analyses of Chinese patients with digenic oculocutaneous albinism",
-      "authors": "Ai-hua WEI; Xiu-min YANG; Shi LIAN; Wei LI",
-      "journal": "Chinese Medical Journal",
-      "year": "2013",
-      "doi": "10.3760/cma.j.issn.0366-6999.20121104",
-      "abstract": "<jats:sec>\n            <jats:title>Background</jats:title>\n            <jats:p>Oculocutaneous albinism (OCA) is a heterogeneous and autosomal recessive disorder in all populations worldwide. The mutational spectra of OCA are population-specific. Some OCA patients carry mutations from different OCA genes. In this study, we investigated the frequency of digenic mutations in Chinese OCA patients.</jats:p>\n          </jats:sec>\n          <jats:sec>\n            <jats:title>Methods</jats:title>\n      ",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic inheritance in medical genetics",
-      "authors": "Alejandro A Sch\u00e4ffer",
-      "journal": "Journal of Medical Genetics",
-      "year": "2013",
-      "doi": "10.1136/jmedgenet-2013-101713",
-      "abstract": "<jats:p>Digenic inheritance (DI) is the simplest form of inheritance for genetically complex diseases. By contrast with the thousands of reports that mutations in single genes cause human diseases, there are only dozens of human disease phenotypes with evidence for DI in some pedigrees. The advent of high-throughput sequencing (HTS) has made it simpler to identify monogenic disease causes and could similarly simplify proving DI because one can simultaneously find mutations in two genes in the sa",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Celiac Disease: Strongly Heritable, Oligogenic, but Genetically Complex",
-      "authors": "Alistair L. King; Paul J. Ciclitira",
-      "journal": "Molecular Genetics and Metabolism",
-      "year": "2000",
-      "doi": "10.1006/mgme.2000.3067",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Use of Molecular Markers in Breeding for Oligogenic Disease Resistance",
-      "authors": "A. E. Melchinger",
-      "journal": "Plant Breeding",
-      "year": "1990",
-      "doi": "10.1111/j.1439-0523.1990.tb00396.x",
-      "abstract": "<jats:title>Abstract</jats:title><jats:p>In several plant species, genetic maps have recently been developed for restriction fragment length polymorphisms (RFLPs). Together with isozymes, they offer alternative solutions to many breeding problems. This review deals with the current and potential uses of molecular markers in breeding for oligogenic resistance traits.</jats:p><jats:p>In the first part, segregation analyses and analyses of near\u2010isogenic lines are collated with respect to the mappin",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Multivariate genetic analysis of an oligogenic disease",
-      "authors": "Steven O. Moldin; Paul Van Eerdewegh",
-      "journal": "Genetic Epidemiology",
-      "year": "1995",
-      "doi": "10.1002/gepi.1370120645",
-      "abstract": "<jats:title>Abstract</jats:title><jats:p>Joint multivariate segregation and linkage analysis provides a method for simultaneously analyzing data on affection status, correlated phenotypic traits, environmental risk factors, and other covariates. The power of this approach for mapping disease susceptibility loci of small effect (oligogenes) was evaluated by analyzing the GAW9 Problem 2 data set. The program REGRESS, which assumes a pleiotropy model in which one locus influences both affection sta",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Horizontal (polygenic) and vertical (oligogenic) resistance against blight",
-      "authors": "J. E. Van Der Plank",
-      "journal": "American Potato Journal",
-      "year": "1966",
-      "doi": "10.1007/bf02871406",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Investigating the genetic components of variation among bitter gourd hybrids for the enhancement of polygenic and oligogenic traits",
-      "authors": "Biyyala Srinivasulu; Naram Naidu; Malikireddy Jasmitha",
-      "journal": "Euphytica",
-      "year": "2025",
-      "doi": "10.1007/s10681-025-03626-0",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic analysis confirms known and uncovers novel schizophrenia risk genes",
-      "authors": "Jian Ning; Xingyu Wang; Jurg Ott",
-      "journal": "Medical Research Archives",
-      "year": "2024",
-      "doi": "10.18103/mra.v12i9.5723",
-      "abstract": "<jats:p>Based on an Ashkenazy Jewish case-control cohort for schizophrenia, we carried out (1) genetic association analysis for one variant at a time (GWAS) and (2) digenic analysis by comparing frequencies of genotype pairs between cases and controls. To control for genetic heterogeneity between sexes, we analyzed males and females separately. After pruning of variants in each of males and females, single-variant allelic analysis furnished 9 and 8 statistically significant variants in males and",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic inheritance and genetic modifiers",
-      "authors": "C. Deltas",
-      "journal": "Clinical Genetics",
-      "year": "2018",
-      "doi": "10.1111/cge.13150",
-      "abstract": "<jats:p>Digenic inheritance (DI) concerns pathologies with the simplest form of multigenic etiology, implicating more than 1 gene (and perhaps the environment). True DI is when biallelic or even triallelic mutations in 2 distinct genes, in <jats:italic>cis</jats:italic> or in <jats:italic>trans</jats:italic>, are necessary and sufficient to cause pathology with a defined diagnosis. In true DI, a heterozygous mutation in each of 2 genes alone is not associated with a recognizable phenotype. Well\u2010",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Weighted pairwise correlation and transmission disequilibrium in a common oligogenic disease",
-      "authors": "Elizabeth H. Corder",
-      "journal": "Genetic Epidemiology",
-      "year": "1995",
-      "doi": "10.1002/gepi.1370120636",
-      "abstract": "<jats:title>Abstract</jats:title><jats:p>Weighted pairwise correlation (WPC) linkage analysis and the transmission disequilibrium test (TDT) for allelic association were applied to simulated family data for a common oligogenic disorder in order to localize genes that increase levels of Q1. Preliminary linear models indicated that Q1 increases with age, Q2, Q3, and the occurrence of D5G28 allele 3 (D5G28(3). WPC provided evidence for linkage of Q1 to Major Gene 1, D5G28 (p &lt; 0.0001), and to ot",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic descent measures for finite populations",
-      "authors": "C. Clark Cockerham; B. S. Weir",
-      "journal": "Genetical Research",
-      "year": "1977",
-      "doi": "10.1017/s0016672300017547",
-      "abstract": "<jats:title>SUMMARY</jats:title><jats:p>The development of a set of two-locus descent measures is reviewed. The three digenic measures, inbreeding coefficient and parental and recombinant descent coefficients, are considered in detail. The derivations of these three in pedigrees, fixed mating systems, and random mating in monoecious or dioecious populations are given. General expressions for digenic frequencies and disequilibria functions at any time are found by applying the three digenic desce",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Modifier Genes and Oligogenic Disease",
-      "authors": "Sarita Agarwal; Nikhil Moorchung",
-      "journal": "Journal of Nippon Medical School",
-      "year": "2005",
-      "doi": "10.1272/jnms.72.326",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Brugada Syndrome: Oligogenic or Mendelian Disease?",
-      "authors": "Michelle M. Monasky; Emanuele Micaglio; Giuseppe Ciconte; Carlo Pappone",
-      "journal": "International Journal of Molecular Sciences",
-      "year": "2020",
-      "doi": "10.3390/ijms21051687",
-      "abstract": "<jats:p>Brugada syndrome (BrS) is diagnosed by a coved-type ST-segment elevation in the right precordial leads on the electrocardiogram (ECG), and it is associated with an increased risk of sudden cardiac death (SCD) compared to the general population. Although BrS is considered a genetic disease, its molecular mechanism remains elusive in about 70\u201385% of clinically-confirmed cases. Variants occurring in at least 26 different genes have been previously considered causative, although the causativ",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "A New Spin on Digenic Inheritance: Retrotransposition in Rotor Syndrome",
-      "authors": "Haig H. Kazazian",
-      "journal": "Human Mutation",
-      "year": "2015",
-      "doi": "10.1002/humu.22644",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Evaluation of screening strategies to detect an oligogenic disease",
-      "authors": "John J. Rogus; Jonathan L. Haines",
-      "journal": "Genetic Epidemiology",
-      "year": "1995",
-      "doi": "10.1002/gepi.1370120624",
-      "abstract": "<jats:title>Abstract</jats:title><jats:p>Using data simulated to reflect an oligogenic disease, we evaluated screening strategies based on lod\u2010score and weighted pairwise correlation (WPC) analysis with respect to their ability to efficiently identify regions near disease loci. Lod\u2010score analysis was done twice, once assuming a near\u2010recessive mode of inheritance with a high penetrance and again assuming a semidominant mode of inheritance with lower penetrance. Under the near\u2010recessive model, no ",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic mutation resulting in a rare form of diazoxide responsive congenital hyperinsulinism",
-      "authors": "Dinesh Giri; Sarah E Flanagan; Sian Ellard; Mohammed Didi; Senthil Senniappan",
-      "journal": "Endocrine Abstracts",
-      "year": "2015",
-      "doi": "10.1530/endoabs.39.ep85",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Sequential analysis of marker data for a rare oligogenic disease",
-      "authors": "Laura E. Mitchell",
-      "journal": "Genetic Epidemiology",
-      "year": "1995",
-      "doi": "10.1002/gepi.1370120621",
-      "abstract": "<jats:title>Abstract</jats:title><jats:p>A sequential scheme for identifying genetic markers, in linkage disequilibrium with disease susceptibility loci, was utilized to evaluate potential associations between a rare oligogenic disease and genetic variation at 360 anonymous DNA markers. \u00a91995 Wiley\u2010Liss, Inc.</jats:p>",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Successful identification of rare variants using oligogenic segregation analysis as a prioritizing tool for whole-exome sequencing studies",
-      "authors": "France Gagnon; Nicole M Roslin; Mathieu Lemire",
-      "journal": "BMC Proceedings",
-      "year": "2011",
-      "doi": "10.1186/1753-6561-5-s9-s11",
-      "abstract": "<jats:title>Abstract</jats:title>\n          <jats:p>We aim to identify rare variants that have large effects on trait variance using a cost-efficient strategy. We use an oligogenic segregation analysis as a prioritizing tool for whole-exome sequencing studies to identify families more likely to harbor rare variants, by estimating the mean number of quantitative trait loci (QTLs) in each family. We hypothesize that families with additional QTLs, relative to the other families, are more likely to ",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "tools"
-    },
-    {
-      "PMID": null,
-      "title": "Effectiveness of extreme discordant sib pairs to detect oligogenic disease loci",
-      "authors": "John J. Rogus; David P. Harrington; Eric Jorgenson; Xiping Xu",
-      "journal": "Genetic Epidemiology",
-      "year": "1997",
-      "doi": "10.1002/(sici)1098-2272(1997)14:6<879::aid-gepi53>3.0.co;2-j",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Curled-Blistered Wings, a Digenic Character of Drosophila melanogaster",
-      "authors": "Claude A. Villee",
-      "journal": "The American Naturalist",
-      "year": "1946",
-      "doi": "10.1086/281432",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Mutational analysis of APOL1 in patients with Fechtner and Epstein syndromes: no evidence of a digenic etiology in MYH9-related disorders with renal disease",
-      "authors": "Babcock",
-      "journal": "Advances in Genomics and Genetics",
-      "year": "2012",
-      "doi": "10.2147/agg.s32886",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Effect of gene conversion on variances of digenic identity measures",
-      "authors": "Christopher J. Basten; B.S. Weir",
-      "journal": "Theoretical Population Biology",
-      "year": "1990",
-      "doi": "10.1016/0040-5809(90)90007-i",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Genetic analysis of a common oligogenic trait with quantitative correlates: Summary of GAW9 results",
-      "authors": "J. Blangero",
-      "journal": "Genetic Epidemiology",
-      "year": "1995",
-      "doi": "10.1002/gepi.1370120628",
-      "abstract": "<jats:title>Abstract</jats:title><jats:p>The statistical genetic analyses of a simulated data set for Genetic Analysis Workshop 9 Problem 2 are summarized. A diverse set of methods are evaluated with regard to the success with which they were able to determine the mode of inheritance and locate the genes underlying an oligogenically determined disease and four related quantitative traits. \u00a9 1995 Wiley\u2010Liss, Inc.</jats:p>",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Oligogenic Familial Hypercholesterolemia Treated by Combination Therapy of Statin, Ezetimibe, PCSK9 Inhibitor, and Lomitapide",
-      "authors": "Nobuko Kojima; Hayato Tada; Masayuki Takamura",
-      "journal": "Internal Medicine",
-      "year": "2025",
-      "doi": "10.2169/internalmedicine.5025-24",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic Inheritance in Alport Syndrome: Clinical and Genetic Insights",
-      "authors": "Jackson Rajendran; Katherine Toma",
-      "journal": "Journal of the American Society of Nephrology",
-      "year": "2025",
-      "doi": "10.1681/asn.20252nvdq9ae",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Whole Genome Sequencing of 10,000 Rare Disease Patients Reveals Digenic Inheritance of Blood Disorders",
-      "authors": "Ernest Turro; Nihr BioResource",
-      "journal": "Blood",
-      "year": "2016",
-      "doi": "10.1182/blood.v128.22.2540.2540",
-      "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Inherited bleeding, thrombotic and platelet disorders (BPDs) affect approximately 3M people worldwide and an appreciable portion have a disorder of megakaryopoiesis and the production and function of platelets, including the formation of granules. While genetic variants in 76 genes have been implicated in BPDs, many patients remain without a molecular diagnosis (Lentaigne et al, Simeoni et al). We hypothesised that some of these disorders ",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "A general framework for identifying oligogenic combinations of rare variants in complex disorders",
-      "authors": "Vijay Kumar Pounraja; Santhosh Girirajan",
-      "journal": "Genome Research",
-      "year": "2022",
-      "doi": "10.1101/gr.276348.121",
-      "abstract": "<jats:p>\n                    Genetic studies of complex disorders such as autism and intellectual disability (ID) are often based on enrichment of individual rare variants or their aggregate burden in affected individuals compared to controls. However, these studies overlook the influence of combinations of rare variants that may not be deleterious on their own due to statistical challenges resulting from rarity and combinatorial explosion when enumerating variant combinations, limiting our abil",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "tools"
-    },
-    {
-      "PMID": null,
-      "title": "Understanding mutational effects in digenic diseases",
-      "authors": "Andrea Gazzo; Daniele Raimondi; Dorien Daneels; Yves Moreau; Guillaume Smits et al. (7 authors)",
-      "journal": "Nucleic Acids Research",
-      "year": "2017",
-      "doi": "10.1093/nar/gkx557",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "tools"
-    },
-    {
-      "PMID": null,
-      "title": "SUN-032 Digenic Inheritance of PCSK1 and CHD7 Mutations in PAX4 Homozygous Diabetic Male with Normosmic Hypogonadotropic Hypogonadism",
-      "authors": "Yun Kyung Cho; Sang-Wook Kim",
-      "journal": "Journal of the Endocrine Society",
-      "year": "2020",
-      "doi": "10.1210/jendso/bvaa046.874",
-      "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Background: Normosmic congenital hypogonadotropic hypogonadism denotes Kallmann syndrome not associated with anosmia or hyposmia. Over the past few years, the availability of next-generation sequencing has started to unravel the complex molecular basis of congenital hypogonadotrophic hypogonadism including digenic or oligogenic pathogenecity in addition to classic monogenic causality (1).</jats:p>\n               <jats:p>Clinical Case: A 22",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Synthetic Cytotoxicity: Digenic Interactions with TEL1/ATM Mutations Reveal Sensitivity to Low Doses of Camptothecin",
-      "authors": "Xuesong Li; Nigel J O\u2019Neil; Noushin Moshgabadi; Philip Hieter",
-      "journal": "Genetics",
-      "year": "2014",
-      "doi": "10.1534/genetics.114.161307",
-      "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Many tumors contain mutations that confer defects in the DNA-damage response and genome stability. DNA-damaging agents are powerful therapeutic tools that can differentially kill cells with an impaired DNA-damage response. The response to DNA damage is complex and composed of a network of coordinated pathways, often with a degree of redundancy. Tumor-specific somatic mutations in DNA-damage response genes could be exploited by inhibiting t",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Potential oligogenic disease of mental retardation, short stature, spastic paraparesis and osteopetrosis",
-      "authors": "Abdulaziz Alsemari; Mohanned Alsuhaibani; Rawabi Alhathlool; Bayan Mamdouh Ali",
-      "journal": "The Application of Clinical Genetics",
-      "year": "2018",
-      "doi": "10.2147/tacg.s172176",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Screening a 2 cM genetic map for allelic association: A simulated oligogenic trait",
-      "authors": "David L. Duffy",
-      "journal": "Genetic Epidemiology",
-      "year": "1995",
-      "doi": "10.1002/gepi.1370120612",
-      "abstract": "<jats:title>Abstract</jats:title><jats:p>In this paper, we explore the use of a variety of familial transmission tests (and case\u2010control analyses) to screen for allelic associations in simulated marker data of a quality (2 cM map) that will feasibly arise from genomic scans within the next 5\u201010 years. We demonstrate a form of the transmission\u2010disequilibrium test extended to multiallele systems. The methods used were log\u2010linear and related models implemented largely using standard statistical pac",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Combined analysis of genetic segregation and linkage under an oligogenic model",
-      "authors": "C.J. MacLean; N.E. Morton; S. Yee",
-      "journal": "Computers and Biomedical Research",
-      "year": "1984",
-      "doi": "10.1016/0010-4809(84)90013-2",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Components of variation of polygenic systems with digenic epistasis",
-      "authors": "Jos\u00e9 Marcelo Soriano Viana",
-      "journal": "Genetics and Molecular Biology",
-      "year": "2000",
-      "doi": "10.1590/s1415-47572000000400030",
-      "abstract": "<jats:p>In this paper an extension of the biometric model of Mather and Jinks for the analysis of variation with digenic epistasis is presented. Epistatic effects can contribute favorably to the determination of the genotypic values of selected individuals or families and of superior hybrids. Selection will be inefficient, however, if there is a large number of interacting genes because the epistatic components of the between-family and within-family genotypic variances are very high compared to",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "The Oligogenic View of Adaptation",
-      "authors": "G. Bell",
-      "journal": "Cold Spring Harbor Symposia on Quantitative Biology",
-      "year": "2009",
-      "doi": "10.1101/sqb.2009.74.003",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Oligogenic combinations associated with breast cancer risk in women under 53 years of age",
-      "authors": "Ora Karp Gordon",
-      "journal": "The Women's Oncology Review",
-      "year": "2005",
-      "doi": "10.1080/14733400500233652",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "review"
-    },
-    {
-      "PMID": null,
-      "title": "Studying the genetics of Hirschsprung's disease: unraveling an oligogenic disorder",
-      "authors": "AS Brooks; BA Oostra; RMW Hofstra",
-      "journal": "Clinical Genetics",
-      "year": "2005",
-      "doi": "10.1111/j.1399-0004.2004.00319.x",
-      "abstract": "<jats:p>Hirschsprung's disease is characterized by the absence of ganglion cells in the myenteric and submucosal plexuses of the gastrointestinal tract. Genetic dissection was successful as nine genes and four loci for Hirschsprung's disease susceptibility were identified. Different approaches were used to find these loci such as classical linkage in large families, identity by descent mapping in an inbred kindred, candidate gene approaches based on naturally occurring mutant mice models, and fi",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Markov Chain Monte Carlo Segregation and Linkage Analysis for Oligogenic Models",
-      "authors": "Simon C. Heath",
-      "journal": "The American Journal of Human Genetics",
-      "year": "1997",
-      "doi": "10.1086/515506",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic Alport Syndrome in Children: A Systematic Review of Case Reports and Case Series",
-      "authors": "Rashida Ali; Vindhya Solanki; P. Athira; Girish Chandra Bhatt",
-      "journal": "Indian Pediatrics Case Reports",
-      "year": "2024",
-      "doi": "10.4103/ipcares.ipcares_74_24",
-      "abstract": "<jats:sec>\n            <jats:title>Background:</jats:title>\n            <jats:p>Alport syndrome comprises inherited heterogeneous disorders involving kidneys with varying combinations of ocular pathologies and hearing loss. Digenic Alport syndrome is a pathologic variant of Alport syndrome in which there is a mutation in two out of three mutations in type IV collagen (<jats:italic toggle=\"yes\">COL4A</jats:italic>) genes, either <jats:italic toggle=\"yes\">COL4A5</jats:italic> with <jats:italic tog",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "A Male Senior with Alport Syndrome in Digenic Inheritance of COL4A3 and 4A4",
-      "authors": "Shinichiro Koga",
-      "journal": "Journal of the American Society of Nephrology",
-      "year": "2021",
-      "doi": "10.1681/asn.20213210s1814b",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Genetic Analysis Workshop 13: Simulated longitudinal data on families for a system of oligogenic traits",
-      "authors": "E Warwick Daw; John Morrison; Xiaojun Zhou; Duncan C Thomas",
-      "journal": "BMC Genetics",
-      "year": "2003",
-      "doi": "10.1186/1471-2156-4-s1-s3",
-      "abstract": "<jats:title>Abstract</jats:title><jats:p>The Genetic Analysis Workshop 13 simulated data aimed to mimic the major features of the real Framingham Heart Study data that formed Problem 1, but under a known inheritance model and with 100 replicates, so as to allow evaluation of the statistical properties of various methods. The pedigrees used were the 330 real pedigree structures (comprising 4692 individuals) with some minor changes to protect confidentiality. Fifty trait genes and 399 microsatelli",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Digenic Inheritance of Myocardial Infarction Risk Implicates Dysfunctional Nitric Oxide Signaling",
-      "authors": "Rajat M. Gupta",
-      "journal": "Circulation: Cardiovascular Genetics",
-      "year": "2014",
-      "doi": "10.1161/circgenetics.114.000502",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Genetic analysis of simulated oligogenic traits in nuclear and extended pedigrees: Summary of GAW10 contributions",
-      "authors": "Ellen M. Wijsman; Christopher I. Amos",
-      "journal": "Genetic Epidemiology",
-      "year": "1997",
-      "doi": "10.1002/(sici)1098-2272(1997)14:6<719::aid-gepi28>3.0.co;2-s",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical"
-    },
-    {
-      "PMID": null,
-      "title": "Oligogenic transmission of abnormal teat patterning phenotype (ATPP) in cattle",
-      "authors": "N. Ihara; T. Watanabe; Y. Sato; T. Itoh; T. Suzuki et al. (6 authors)",
-      "journal": "Animal Genetics",
-      "year": "2007",
-      "doi": "10.1111/j.1365-2052.2006.01544.x",
-      "abstract": "<jats:title>Summary</jats:title><jats:p>Abnormal teat patterning phenotype (ATPP) is characterized by one (moderate form) or two (severe form) absent teats in cattle. Using an allele\u2010sharing non\u2010parametric linkage strategy, significant associations with severe ATPP animals were detected on BTA17 (<jats:italic>Z</jats:italic><jats:sub>max</jats:sub>\u2003=\u20037.3 at 21\u2003cM), centromeric BTA1 (<jats:italic>Z</jats:italic><jats:sub>max</jats:sub>\u2003=\u20033.7 at 8\u2003cM) and telomeric BTA1 (<jats:italic>Z</jats:itali",
-      "mesh_terms": [],
-      "source": "crossref",
+      "source": "europepmc",
       "category": "clinical"
     },
     {
@@ -16253,361 +12868,6 @@
       "source": "europepmc",
       "category": "clinical",
       "ml_confidence": 0.4228886121898783
-    },
-    {
-      "PMID": null,
-      "doi": "",
-      "title": "Association of the Asn306Ser variant of the SP4 transcription factor and an intronic variant in the beta-subunit of transducin with digenic disease.",
-      "authors": "Yong-Qing Gao; Michael Danciger; R\u0131za K\u00f6ksal \u00d6zg\u00fcl; Yekaterina E. Gribanova; Samuel G. Jacobson et al. (6 authors)",
-      "journal": "PubMed",
-      "year": "2007",
-      "abstract": "",
-      "mesh_terms": [
-        "Transducin",
-        "Transcription factor",
-        "Biology",
-        "Homeobox",
-        "Genetics"
-      ],
-      "source": "openalex",
-      "category": "review",
-      "ml_confidence": 0.46241164550826125
-    },
-    {
-      "PMID": null,
-      "doi": "10.1172/jci46312",
-      "title": "PDZD7 is a modifier of retinal disease and a contributor to digenic Usher syndrome",
-      "authors": "Inga Ebermann; Jennifer B. Phillips; Max C. Liebau; Robert K. Koenekoop; Bernhard Schermer et al. (19 authors)",
-      "journal": "Journal of Clinical Investigation",
-      "year": "2011",
-      "abstract": "",
-      "mesh_terms": [
-        "Retinal",
-        "Usher syndrome",
-        "Medicine",
-        "Disease",
-        "Ophthalmology"
-      ],
-      "source": "openalex",
-      "category": "clinical",
-      "ml_confidence": 0.4470446692214246
-    },
-    {
-      "PMID": null,
-      "doi": "10.1681/asn.2007020243",
-      "title": "Evidence of Oligogenic Inheritance in Nephronophthisis",
-      "authors": "Julia Hoefele; Matthias T. F. Wolf; John F. O\u2019Toole; Edgar A. Otto; Ulla T. Schulthei\u00df et al. (10 authors)",
-      "journal": "Journal of the American Society of Nephrology",
-      "year": "2007",
-      "abstract": "",
-      "mesh_terms": [
-        "Nephronophthisis",
-        "Genetics",
-        "Mutation",
-        "Biology",
-        "Gene"
-      ],
-      "source": "openalex",
-      "category": "review",
-      "ml_confidence": 0.5305984897490064
-    },
-    {
-      "PMID": null,
-      "doi": "10.1038/hgv.2016.42",
-      "title": "Digenic mutations of human OCRL paralogs in Dent\u2019s disease type 2 associated with Chiari I malformation",
-      "authors": "Daniel Dur\u00e1n; Sheng Chih Jin; Tyrone DeSpenza; Carol Nelson\u2010Williams; Andrea G. Cogal et al. (15 authors)",
-      "journal": "Human Genome Variation",
-      "year": "2016",
-      "abstract": "",
-      "mesh_terms": [
-        "Genetics",
-        "Ciliogenesis",
-        "Missense mutation",
-        "Short stature",
-        "Biology"
-      ],
-      "source": "openalex",
-      "category": "review",
-      "ml_confidence": 0.46300707337313274
-    },
-    {
-      "PMID": null,
-      "doi": "10.1016/j.jacc.2009.11.020",
-      "title": "Compound and Digenic Heterozygosity Contributes to Arrhythmogenic Right Ventricular Cardiomyopathy",
-      "authors": "Tianhong Xu; Yang Zhao; Matteo Vatta; Alessandra Rampazzo; Giorgia Beffagna et al. (20 authors)",
-      "journal": "Journal of the American College of Cardiology",
-      "year": "2010",
-      "abstract": "",
-      "mesh_terms": [
-        "Desmoplakin",
-        "Plakoglobin",
-        "Arrhythmogenic right ventricular dysplasia",
-        "Compound heterozygosity",
-        "Penetrance"
-      ],
-      "source": "openalex",
-      "category": "clinical",
-      "ml_confidence": 0.4401024042678296
-    },
-    {
-      "PMID": null,
-      "doi": "",
-      "title": "Is There Evidence For A Digenic Model In Stargardt Disease",
-      "authors": "Susanne Roosing; Alberta A. H. J. Thiadens; Renate C. Zekveld-Vroon; Carel B. Hoyng; Anneke I. den Hollander et al. (7 authors)",
-      "journal": "Investigative Ophthalmology & Visual Science",
-      "year": "2011",
-      "abstract": "",
-      "mesh_terms": [
-        "Stargardt disease",
-        "Medicine",
-        "Ophthalmology",
-        "Retinal"
-      ],
-      "source": "openalex",
-      "category": "review",
-      "ml_confidence": 0.5034514351659671
-    },
-    {
-      "PMID": null,
-      "doi": "10.1073/pnas.141124198",
-      "title": "Deficiency of rds/peripherin causes photoreceptor death in mouse models of digenic and dominant retinitis pigmentosa",
-      "authors": "Wojciech K\u0119dzierski; Steven Nusinowitz; David G. Birch; Geoff Clarke; Roderick R. McInnes et al. (7 authors)",
-      "journal": "Proceedings of the National Academy of Sciences",
-      "year": "2001",
-      "abstract": "",
-      "mesh_terms": [
-        "Retinitis pigmentosa",
-        "Peripherin",
-        "Retinal degeneration",
-        "Mutation",
-        "Biology"
-      ],
-      "source": "openalex",
-      "category": "tools",
-      "ml_confidence": 0.4311695966849528
-    },
-    {
-      "PMID": null,
-      "doi": "10.1096/fj.201700388rr",
-      "title": "De novo digenic mutations of telomere\u2010associated proteins and inflammasomes initiate many chronic human diseases: a hypothesis",
-      "authors": "Vincent T. Marchesi",
-      "journal": "The FASEB Journal",
-      "year": "2017",
-      "abstract": "",
-      "mesh_terms": [
-        "Telomere",
-        "Biology",
-        "Mutation",
-        "Subtelomere",
-        "Genetics"
-      ],
-      "source": "openalex",
-      "category": "review",
-      "ml_confidence": 0.4520759171060295
-    },
-    {
-      "PMID": null,
-      "doi": "",
-      "title": "DIDA: A first database of digenic diseases",
-      "authors": "Andrea Gazzo; Dorien Daneels; Guillaume Smits; Sonia Van Dooren; Elisa Cilia et al. (6 authors)",
-      "journal": "D\u00e9p\u00f4t institutionnel de l'Universit\u00e9 libre de Bruxelles (Universit\u00e9 Libre de Bruxelles)",
-      "year": "2014",
-      "abstract": "",
-      "mesh_terms": [
-        "Computer science",
-        "Database"
-      ],
-      "source": "openalex",
-      "category": "review",
-      "ml_confidence": 0.4587105050471961
-    },
-    {
-      "PMID": null,
-      "doi": "",
-      "title": "DIDA - A first digenic diseases database",
-      "authors": "Andrea Gazzo; Dorien Daneels; Guillaume Smits; Sonia Van Dooren; Elisa Cilia et al. (6 authors)",
-      "journal": "D\u00e9p\u00f4t institutionnel de l'Universit\u00e9 libre de Bruxelles (Universit\u00e9 Libre de Bruxelles)",
-      "year": "2015",
-      "abstract": "",
-      "mesh_terms": [
-        "Database",
-        "Computer science",
-        "Medicine"
-      ],
-      "source": "openalex",
-      "category": "review",
-      "ml_confidence": 0.4587105050471961
-    },
-    {
-      "PMID": null,
-      "doi": "",
-      "title": "DIDA: a first database on digenic diseases",
-      "authors": "Dorien Daneels; Andrea Gazzo; M Bonduelle; Guillaume Smits; Elisa Cilia et al. (7 authors)",
-      "journal": "D\u00e9p\u00f4t institutionnel de l'Universit\u00e9 libre de Bruxelles (Universit\u00e9 Libre de Bruxelles)",
-      "year": "2015",
-      "abstract": "",
-      "mesh_terms": [
-        "Database",
-        "Computer science",
-        "Medicine"
-      ],
-      "source": "openalex",
-      "category": "review",
-      "ml_confidence": 0.4587105050471961
-    },
-    {
-      "PMID": null,
-      "doi": "10.1016/j.fertnstert.2022.08.539",
-      "title": "PREVALENCE OF DIGENIC DISEASE IN PATIENTS DIAGNOSED WITH IDIOPATHIC HYPOGONADOTROPIC HYPOGONADISM/KALLMANN SYNDROME",
-      "authors": "Alexandra Poch; Michael P. Dougherty; Robert A. Roman; Lynn P. Chorich; Zoe Hawkins et al. (6 authors)",
-      "journal": "Fertility and Sterility",
-      "year": "2022",
-      "abstract": "",
-      "mesh_terms": [
-        "Hypogonadotropic hypogonadism",
-        "Kallmann syndrome",
-        "Medicine",
-        "Internal medicine",
-        "Disease"
-      ],
-      "source": "openalex",
-      "category": "review",
-      "ml_confidence": 0.47162715638898156
-    },
-    {
-      "PMID": null,
-      "doi": "",
-      "title": "Predicting oligogenic effects using digenic disease data",
-      "authors": "Andrea Gazzo; Daniele Raimondi; Dorien Daneels; Guillaume Smits; Sonia Van Dooren et al. (6 authors)",
-      "journal": "D\u00e9p\u00f4t institutionnel de l'Universit\u00e9 libre de Bruxelles (Universit\u00e9 Libre de Bruxelles)",
-      "year": "2015",
-      "abstract": "",
-      "mesh_terms": [
-        "Computer science"
-      ],
-      "source": "openalex",
-      "category": "tools",
-      "ml_confidence": 0.44128127458047595
-    },
-    {
-      "PMID": null,
-      "doi": "",
-      "title": "Exploring the variant combinations in the digenic diseases database DIDA",
-      "authors": "Tom Lenaerts; Andrea Gazzo; Dorien Daneels; Elisa Cilia; M Bonduelle et al. (8 authors)",
-      "journal": "D\u00e9p\u00f4t institutionnel de l'Universit\u00e9 libre de Bruxelles (Universit\u00e9 Libre de Bruxelles)",
-      "year": "2016",
-      "abstract": "",
-      "mesh_terms": [
-        "Database",
-        "Computer science"
-      ],
-      "source": "openalex",
-      "category": "review",
-      "ml_confidence": 0.4442549095459676
-    },
-    {
-      "PMID": null,
-      "doi": "10.1016/j.gimo.2024.101345",
-      "title": "P451: Digenic inheritance of pathogenic variants in DICER1 and CACNA1I can present as Glow syndrome",
-      "authors": "Damla Gonullu-Rotman; Julian Martinez-Agosto; Omar Abdul-Rahman",
-      "journal": "Genetics in Medicine Open",
-      "year": "2024",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical",
-      "ml_confidence": 0.44280203496127485
-    },
-    {
-      "PMID": null,
-      "doi": "10.1111/pbr.13282",
-      "title": "Validation of Digenic Inheritance for White Rust Resistance in Indian Mustard [\n                    <scp>\n                      <i>Brassica juncea</i>\n                    </scp>\n                    L. (Czern. &amp; Coss)]",
-      "authors": "Sunidhi Tiwari; Ashita Bisht; Vedna Kumari",
-      "journal": "Plant Breeding",
-      "year": "2025",
-      "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>\n                    White rust is a major disease of Indian mustard (\n                    <jats:styled-content style=\"fixed-case\">\n                      <jats:italic>Brassica juncea</jats:italic>\n                    </jats:styled-content>\n                    ) and can escalate into new mustard growing areas. To study the inheritance of white rust resistance involving Indian and East European gene pools, two genotypes, Donskaja IV and H",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "tools",
-      "ml_confidence": 0.42646395213105287
-    },
-    {
-      "PMID": null,
-      "doi": "10.1016/j.nmd.2026.106390",
-      "title": "Congenital skeletal muscle myopathy due to the recently described digenic inheritance of TTN and SRPK3 genetic variants: A case study",
-      "authors": "Dominic Spicer; Lucas Dejong; Abhi Kulkarni; Karin S. Kassahn; Roula Ghaoui",
-      "journal": "Neuromuscular Disorders",
-      "year": "2026",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical",
-      "ml_confidence": 0.4654242947643585
-    },
-    {
-      "PMID": null,
-      "doi": "10.1038/jid.2012.229",
-      "title": "Digenic Inheritance in Epidermolysis Bullosa Simplex",
-      "authors": "Gilly Padalon-Brauch; Dani Ben Amitai; Dan Vodo; Avikam Harel; Ofer Sarig et al. (7 authors)",
-      "journal": "Journal of Investigative Dermatology",
-      "year": "2012",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical",
-      "ml_confidence": 0.4498384777721461
-    },
-    {
-      "PMID": null,
-      "doi": "10.1016/j.jid.2016.06.174",
-      "title": "156 First report of digenic inheritance in pustular psoriasis",
-      "authors": "S. Twelves; D. Burden; S. M\u00e1rta; Z. Bata-Cs\u00f6rg\u00f6; S. Choon et al. (9 authors)",
-      "journal": "Journal of Investigative Dermatology",
-      "year": "2016",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical",
-      "ml_confidence": 0.4715424211627325
-    },
-    {
-      "PMID": null,
-      "doi": "10.1093/ndt/gfac062.003",
-      "title": "MO022: Digenic inheritance in Alport syndrome",
-      "authors": "Mar\u00eda del Mar Del \u00c1guila Garc\u00eda; Antonio M Poyatos And\u00fajar; Ana Isabel Morales Garc\u00eda; Margarita Mart\u00ednez Atienza; Susana Garc\u00eda Linares et al. (6 authors)",
-      "journal": "Nephrology Dialysis Transplantation",
-      "year": "2022",
-      "abstract": "<jats:title>Abstract</jats:title>\n               <jats:sec>\n                  <jats:title>BACKGROUND AND AIMS</jats:title>\n                  <jats:p>The approach to Alport syndrome is a difficult task due to the phenotypic variability of its symptomatology, incomplete penetrance and its different forms of inheritance [1].</jats:p>\n                  <jats:p>It presents a high degree of underdiagnosis, both because of erratic diagnosis as well as the existence of undiagnosed patients [2].</jats:p>",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical",
-      "ml_confidence": 0.45126443589030996
-    },
-    {
-      "PMID": null,
-      "doi": "10.1086/302438",
-      "title": "Possible Interaction between USH1B and USH3 Gene Products as Implied by Apparent Digenic Deafness Inheritance",
-      "authors": "Avital Adato; Hagar Kalinski; Dominique Weil; Hassan Chaib; Michael Korostishevsky et al. (6 authors)",
-      "journal": "The American Journal of Human Genetics",
-      "year": "1999",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical",
-      "ml_confidence": 0.43878549027081554
-    },
-    {
-      "PMID": null,
-      "doi": "10.1681/asn.20203110s1829c",
-      "title": "Digenic Inheritance of Extracellular Matrix Mutations in a Family with FSGS",
-      "authors": "Saidah Hack Hack; Poornima Vijayan; Tony Yao; Mohammad Azfar Qureshi; Rohan John et al. (8 authors)",
-      "journal": "Journal of the American Society of Nephrology",
-      "year": "2020",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "crossref",
-      "category": "clinical",
-      "ml_confidence": 0.4362437962169395
     }
   ]
 }
