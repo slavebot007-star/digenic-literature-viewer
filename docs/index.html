@@ -383,7 +383,7 @@
             
             <select id="yearFilter">
                 <option value="">All Years</option>
-                <option value="2026">2026</option>
+                <option value="2026" selected>2026</option>
                 <option value="2025">2025</option>
                 <option value="2024">2024</option>
                 <option value="2023">2023</option>
@@ -440,7 +440,8 @@
                 document.getElementById('loadingMessage').classList.add('hidden');
                 document.getElementById('papersContainer').classList.remove('hidden');
                 
-                renderPapers(papers);
+                // Apply default 2026 filter
+                filterPapers();
             })
             .catch(error => {
                 console.error('Error loading papers:', error);
@@ -552,12 +553,12 @@
             interactivity: {
                 detect_on: 'canvas',
                 events: {
-                    onhover: { enable: true, mode: 'grab' },
+                    onhover: { enable: true, mode: 'repulse' },
                     onclick: { enable: true, mode: 'push' },
                     resize: true
                 },
                 modes: {
-                    grab: { distance: 140, line_linked: { opacity: 0.5 } },
+                    repulse: { distance: 100, duration: 0.4 },
                     push: { particles_nb: 4 }
                 }
             },
