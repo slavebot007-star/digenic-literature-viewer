@@ -656,21 +656,11 @@
         }
         
         function filterPapers() {
-            if (!papers || papers.length === 0) {
-                console.log('No papers loaded yet');
-                return;
-            }
+            if (!papers || papers.length === 0) return;
             
             const searchTerm = document.getElementById('searchInput').value.toLowerCase();
             const source = document.getElementById('sourceFilter').value;
             const year = document.getElementById('yearFilter').value;
-            
-            console.log('Filter - Source:', source, 'Year:', year);
-            console.log('Papers count:', papers.length);
-            
-            // Direct test for PMC
-            const pmcTest = papers.filter(p => p.source === 'pmc');
-            console.log('Direct PMC test:', pmcTest.length, 'papers');
             
             const filtered = papers.filter(p => {
                 const matchesSearch = !searchTerm || 
@@ -684,7 +674,6 @@
                 return matchesSearch && matchesCategory && matchesSource && matchesYear;
             });
             
-            console.log('Filtered result:', filtered.length);
             renderPapers(filtered);
         }
         
