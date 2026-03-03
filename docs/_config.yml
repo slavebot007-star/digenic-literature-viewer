@@ -4,6 +4,9 @@ theme: jekyll-theme-minimal
 # Exclude files from processing
 exclude:
   - README.md
+
+# Include JSON files
+include:
   - comprehensive_papers.json
 
 # Include the index.html as the main page
