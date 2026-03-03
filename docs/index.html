@@ -96,22 +96,40 @@
             pointer-events: none;
         }
         
-        .header-icon {
-            font-size: 3em;
-            margin-bottom: 15px;
-            display: inline-block;
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+        
+        .dna-icon {
+            width: 80px;
+            height: 80px;
+            flex-shrink: 0;
             animation: float 3s ease-in-out infinite;
         }
         
+        .dna-icon svg {
+            width: 100%;
+            height: 100%;
+            filter: drop-shadow(0 0 20px rgba(0,212,255,0.4));
+        }
+        
         @keyframes float {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-10px) rotate(5deg); }
+        }
+        
+        .header-text {
+            text-align: left;
         }
         
         h1 { 
-            font-size: 2.5em; 
+            font-size: 2.2em; 
             font-weight: 700;
-            margin-bottom: 10px;
+            margin-bottom: 8px;
             background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-cyan) 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -365,21 +383,24 @@
         }
         
         .badge-clinical { 
-            background: rgba(0,212,255,0.15); 
-            color: var(--accent-cyan);
-            border: 1px solid rgba(0,212,255,0.3);
+            background: rgba(0,212,255,0.25); 
+            color: #00d4ff;
+            border: 1px solid rgba(0,212,255,0.5);
+            text-shadow: 0 0 10px rgba(0,212,255,0.3);
         }
         
         .badge-tools { 
-            background: rgba(139,92,246,0.15); 
-            color: var(--accent-purple);
-            border: 1px solid rgba(139,92,246,0.3);
+            background: rgba(139,92,246,0.25); 
+            color: #a78bfa;
+            border: 1px solid rgba(139,92,246,0.5);
+            text-shadow: 0 0 10px rgba(139,92,246,0.3);
         }
         
         .badge-review { 
-            background: rgba(79,172,254,0.15); 
-            color: var(--accent-blue);
-            border: 1px solid rgba(79,172,254,0.3);
+            background: rgba(79,172,254,0.25); 
+            color: #60a5fa;
+            border: 1px solid rgba(79,172,254,0.5);
+            text-shadow: 0 0 10px rgba(79,172,254,0.3);
         }
         
         .confidence { 
@@ -449,11 +470,53 @@
     
     <div class="container">
         <header>
-            <div class="header-icon">🔬</div>
-            <h1>Digenic/Oligogenic Disease Literature</h1>
-            <p class="subtitle">Comprehensive database of digenic and oligogenic inheritance research</p>
-            <div class="last-updated" id="lastUpdated">
-                📅 Loading...
+            <div class="header-content">
+                <div class="dna-icon">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <!-- DNA Double Helix -->
+                        <defs>
+                            <linearGradient id="dnaGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#4facfe;stop-opacity:1" />
+                            </linearGradient>
+                            <linearGradient id="dnaGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#00d4ff;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <!-- Left strand -->
+                        <path d="M30 10 Q20 25 30 40 Q40 55 30 70 Q20 85 30 90" 
+                              stroke="url(#dnaGrad1)" stroke-width="4" fill="none" stroke-linecap="round"/>
+                        
+                        <!-- Right strand -->
+                        <path d="M70 10 Q80 25 70 40 Q60 55 70 70 Q80 85 70 90" 
+                              stroke="url(#dnaGrad2)" stroke-width="4" fill="none" stroke-linecap="round"/>
+                        
+                        <!-- Base pairs (rungs) -->
+                        <line x1="30" y1="20" x2="70" y2="20" stroke="#00d4ff" stroke-width="2" opacity="0.8"/>
+                        <line x1="28" y1="35" x2="72" y2="35" stroke="#4facfe" stroke-width="2" opacity="0.7"/>
+                        <line x1="30" y1="50" x2="70" y2="50" stroke="#8b5cf6" stroke-width="2" opacity="0.8"/>
+                        <line x1="28" y1="65" x2="72" y2="65" stroke="#00d4ff" stroke-width="2" opacity="0.7"/>
+                        <line x1="30" y1="80" x2="70" y2="80" stroke="#4facfe" stroke-width="2" opacity="0.8"/>
+                        
+                        <!-- Glowing nodes -->
+                        <circle cx="30" cy="10" r="4" fill="#00d4ff"/>
+                        <circle cx="70" cy="10" r="4" fill="#8b5cf6"/>
+                        <circle cx="30" cy="40" r="3" fill="#4facfe"/>
+                        <circle cx="70" cy="40" r="3" fill="#00d4ff"/>
+                        <circle cx="30" cy="70" r="3" fill="#8b5cf6"/>
+                        <circle cx="70" cy="70" r="3" fill="#4facfe"/>
+                        <circle cx="30" cy="90" r="4" fill="#00d4ff"/>
+                        <circle cx="70" cy="90" r="4" fill="#8b5cf6"/>
+                    </svg>
+                </div>
+                <div class="header-text">
+                    <h1>Digenic/Oligogenic Disease Literature</h1>
+                    <p class="subtitle">Comprehensive database of digenic and oligogenic inheritance research</p>
+                    <div class="last-updated" id="lastUpdated">
+                        📅 Loading...
+                    </div>
+                </div>
             </div>
         </header>
         
@@ -568,6 +631,79 @@
             requestAnimationFrame(animateCursor);
         }
         animateCursor();
+        
+        // Particle trail effect
+        const particles = [];
+        const maxParticles = 30;
+        
+        class Particle {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+                this.size = Math.random() * 4 + 2;
+                this.speedX = (Math.random() - 0.5) * 2;
+                this.speedY = (Math.random() - 0.5) * 2;
+                this.life = 1;
+                this.decay = Math.random() * 0.02 + 0.01;
+                this.hue = Math.random() * 60 + 180; // Cyan to blue range
+                
+                this.element = document.createElement('div');
+                this.element.style.cssText = `
+                    position: fixed;
+                    width: ${this.size}px;
+                    height: ${this.size}px;
+                    background: hsl(${this.hue}, 100%, 60%);
+                    border-radius: 50%;
+                    pointer-events: none;
+                    z-index: 9999;
+                    box-shadow: 0 0 ${this.size * 2}px hsl(${this.hue}, 100%, 60%);
+                    left: ${this.x}px;
+                    top: ${this.y}px;
+                `;
+                document.body.appendChild(this.element);
+            }
+            
+            update() {
+                this.x += this.speedX;
+                this.y += this.speedY;
+                this.life -= this.decay;
+                this.size *= 0.98;
+                
+                this.element.style.left = this.x + 'px';
+                this.element.style.top = this.y + 'px';
+                this.element.style.opacity = this.life;
+                this.element.style.transform = `scale(${this.life})`;
+                
+                return this.life > 0;
+            }
+            
+            destroy() {
+                this.element.remove();
+            }
+        }
+        
+        let lastParticleTime = 0;
+        document.addEventListener('mousemove', (e) => {
+            const now = Date.now();
+            if (now - lastParticleTime > 30) { // Limit particle creation rate
+                if (particles.length >= maxParticles) {
+                    particles.shift().destroy();
+                }
+                particles.push(new Particle(e.clientX, e.clientY));
+                lastParticleTime = now;
+            }
+        });
+        
+        function animateParticles() {
+            for (let i = particles.length - 1; i >= 0; i--) {
+                if (!particles[i].update()) {
+                    particles[i].destroy();
+                    particles.splice(i, 1);
+                }
+            }
+            requestAnimationFrame(animateParticles);
+        }
+        animateParticles();
         
         // Fetch papers from JSON
         fetch('comprehensive_papers.json')
