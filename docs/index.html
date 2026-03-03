@@ -660,6 +660,8 @@
             const source = document.getElementById('sourceFilter').value;
             const year = document.getElementById('yearFilter').value;
             
+            console.log('Filter called:', { searchTerm, source, year, totalPapers: papers.length });
+            
             const filtered = papers.filter(p => {
                 const matchesSearch = !searchTerm || 
                     p.title.toLowerCase().includes(searchTerm) ||
@@ -669,9 +671,14 @@
                 const matchesSource = !source || p.source === source;
                 const matchesYear = !year || p.year === year;
                 
+                if (source && p.source === 'pmc') {
+                    console.log('PMC paper check:', p.title.substring(0, 30), 'source:', p.source, 'matchesSource:', matchesSource);
+                }
+                
                 return matchesSearch && matchesCategory && matchesSource && matchesYear;
             });
             
+            console.log('Filtered result:', filtered.length, 'papers');
             renderPapers(filtered);
         }
         
