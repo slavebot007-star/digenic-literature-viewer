@@ -448,25 +448,13 @@
             border-radius: 16px;
         }
         
-        /* Cursor follower effect */
-        .cursor-glow {
-            position: fixed;
-            width: 300px;
-            height: 300px;
-            background: radial-gradient(circle, rgba(0,212,255,0.15) 0%, transparent 70%);
-            border-radius: 50%;
-            pointer-events: none;
-            z-index: 0;
-            transform: translate(-50%, -50%);
-            transition: opacity 0.3s;
-        }
+        /* Cursor follower effect removed - using particle trail instead */
     </style>
 </head>
 <body>
     <div class="bg-animation">
         <div class="stars" id="stars"></div>
     </div>
-    <div class="cursor-glow" id="cursorGlow"></div>
     
     <div class="container">
         <header>
@@ -613,26 +601,7 @@
         
         createStars();
         
-        // Cursor glow effect
-        const cursorGlow = document.getElementById('cursorGlow');
-        let mouseX = 0, mouseY = 0;
-        let currentX = 0, currentY = 0;
-        
-        document.addEventListener('mousemove', (e) => {
-            mouseX = e.clientX;
-            mouseY = e.clientY;
-        });
-        
-        function animateCursor() {
-            currentX += (mouseX - currentX) * 0.1;
-            currentY += (mouseY - currentY) * 0.1;
-            cursorGlow.style.left = currentX + 'px';
-            cursorGlow.style.top = currentY + 'px';
-            requestAnimationFrame(animateCursor);
-        }
-        animateCursor();
-        
-        // Particle trail effect
+        // Particle trail effect only (removed cursor glow)
         const particles = [];
         const maxParticles = 30;
         
