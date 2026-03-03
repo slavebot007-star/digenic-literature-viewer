@@ -1,1 +1,10 @@
+# Jekyll configuration
 theme: jekyll-theme-minimal
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - comprehensive_papers.json
+
+# Include the index.html as the main page
+index_page: index.html
