@@ -44,10 +44,16 @@
                 radial-gradient(ellipse at 80% 20%, rgba(139,92,246,0.08) 0%, transparent 50%),
                 radial-gradient(ellipse at 50% 50%, rgba(79,172,254,0.05) 0%, transparent 70%),
                 var(--bg-primary);
-            overflow: hidden;
         }
         
-        .stars {
+        #tsparticles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+        }
             position: absolute;
             top: 0;
             left: 0;
@@ -56,17 +62,7 @@
             pointer-events: none;
         }
         
-        .star {
-            position: absolute;
-            background: white;
-            border-radius: 50%;
-            animation: twinkle 3s infinite ease-in-out;
-        }
-        
-        @keyframes twinkle {
-            0%, 100% { opacity: 0.3; transform: scale(1); }
-            50% { opacity: 1; transform: scale(1.2); }
-        }
+        .star, .stars { display: none; }
         
         .container { 
             max-width: 1400px; 
@@ -455,9 +451,8 @@
     </style>
 </head>
 <body>
-    <div class="bg-animation">
-        <div class="stars" id="stars"></div>
-    </div>
+    <div class="bg-animation"></div>
+    <div id="tsparticles"></div>
     
     <div class="container">
         <header>
@@ -584,99 +579,6 @@
         let papers = [];
         let currentCategory = '';
         
-        // Generate animated stars
-        function createStars() {
-            const starsContainer = document.getElementById('stars');
-            const starCount = 100;
-            
-            for (let i = 0; i < starCount; i++) {
-                const star = document.createElement('div');
-                star.className = 'star';
-                star.style.left = Math.random() * 100 + '%';
-                star.style.top = Math.random() * 100 + '%';
-                star.style.width = Math.random() * 3 + 1 + 'px';
-                star.style.height = star.style.width;
-                star.style.animationDelay = Math.random() * 3 + 's';
-                star.style.animationDuration = (Math.random() * 3 + 2) + 's';
-                starsContainer.appendChild(star);
-            }
-        }
-        
-        createStars();
-        
-        // Particle trail effect only (removed cursor glow)
-        const particles = [];
-        const maxParticles = 30;
-        
-        class Particle {
-            constructor(x, y) {
-                this.x = x;
-                this.y = y;
-                this.size = Math.random() * 4 + 2;
-                this.speedX = (Math.random() - 0.5) * 2;
-                this.speedY = (Math.random() - 0.5) * 2;
-                this.life = 1;
-                this.decay = Math.random() * 0.02 + 0.01;
-                this.hue = Math.random() * 60 + 180; // Cyan to blue range
-                
-                this.element = document.createElement('div');
-                this.element.style.cssText = `
-                    position: fixed;
-                    width: ${this.size}px;
-                    height: ${this.size}px;
-                    background: hsl(${this.hue}, 100%, 60%);
-                    border-radius: 50%;
-                    pointer-events: none;
-                    z-index: 9999;
-                    box-shadow: 0 0 ${this.size * 2}px hsl(${this.hue}, 100%, 60%);
-                    left: ${this.x}px;
-                    top: ${this.y}px;
-                `;
-                document.body.appendChild(this.element);
-            }
-            
-            update() {
-                this.x += this.speedX;
-                this.y += this.speedY;
-                this.life -= this.decay;
-                this.size *= 0.98;
-                
-                this.element.style.left = this.x + 'px';
-                this.element.style.top = this.y + 'px';
-                this.element.style.opacity = this.life;
-                this.element.style.transform = `scale(${this.life})`;
-                
-                return this.life > 0;
-            }
-            
-            destroy() {
-                this.element.remove();
-            }
-        }
-        
-        let lastParticleTime = 0;
-        document.addEventListener('mousemove', (e) => {
-            const now = Date.now();
-            if (now - lastParticleTime > 30) { // Limit particle creation rate
-                if (particles.length >= maxParticles) {
-                    particles.shift().destroy();
-                }
-                particles.push(new Particle(e.clientX, e.clientY));
-                lastParticleTime = now;
-            }
-        });
-        
-        function animateParticles() {
-            for (let i = particles.length - 1; i >= 0; i--) {
-                if (!particles[i].update()) {
-                    particles[i].destroy();
-                    particles.splice(i, 1);
-                }
-            }
-            requestAnimationFrame(animateParticles);
-        }
-        animateParticles();
-        
         // Fetch papers from JSON
         fetch('comprehensive_papers.json')
             .then(response => {
@@ -794,6 +696,47 @@
         document.getElementById('searchInput').addEventListener('input', filterPapers);
         document.getElementById('sourceFilter').addEventListener('change', filterPapers);
         document.getElementById('yearFilter').addEventListener('change', filterPapers);
+    </script>
+    
+    <!-- tsParticles -->
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+    <script>
+        tsParticles.load("tsparticles", {
+            fullScreen: { enable: true, zIndex: 0 },
+            particles: {
+                number: { value: 80, density: { enable: true, area: 800 } },
+                color: { value: "#ffffff" },
+                shape: { type: "circle" },
+                opacity: { value: 0.5, random: true },
+                size: { value: 2, random: true },
+                links: {
+                    enable: true,
+                    distance: 150,
+                    color: "#ffffff",
+                    opacity: 0.2,
+                    width: 1
+                },
+                move: {
+                    enable: true,
+                    speed: 1,
+                    direction: "none",
+                    random: true,
+                    straight: false,
+                    outModes: "out"
+                }
+            },
+            interactivity: {
+                events: {
+                    onHover: { enable: true, mode: "repulse" },
+                    onClick: { enable: true, mode: "push" }
+                },
+                modes: {
+                    repulse: { distance: 100, duration: 0.4 },
+                    push: { quantity: 4 }
+                }
+            },
+            background: { color: "transparent" }
+        });
     </script>
 </body>
 </html>
