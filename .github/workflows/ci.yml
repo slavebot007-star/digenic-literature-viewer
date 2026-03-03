@@ -18,6 +18,9 @@ jobs:
       with:
         python-version: '3.10'
     
+    - name: Install dependencies
+      run: pip install pyyaml
+    
     - name: Verify JSON is valid
       run: |
         python3 -c "
@@ -131,7 +134,7 @@ jobs:
         print('✅ File sizes look reasonable')
         "
     
-    - name: Test local server (optional)
+    - name: Test local server
       run: |
         python3 -m http.server 8000 --directory docs &
         sleep 2
@@ -141,7 +144,6 @@ jobs:
         
         # Test HTML is served
         curl -s http://localhost:8000/ | grep -q 'Digenic' && echo '✅ HTML is served' || (echo '❌ HTML not served'; exit 1)
-      continue-on-error: true
     
     - name: Summary
       run: |
