@@ -4890,6 +4890,19 @@ const METADATA = {"last_updated": "2026-03-02T23:02:18.559955", "total_papers": 
     let yearFilter = '';
     let sortOrder = 'newest';
 
+    // Update stats from PAPERS_DATA on page load
+    function updateStats() {
+      const total = papersData.length;
+      const tools = papersData.filter(p => p.category === 'tools').length;
+      const clinical = papersData.filter(p => p.category === 'clinical').length;
+      const reviews = papersData.filter(p => p.category === 'review').length;
+
+      document.getElementById('total-papers').textContent = total.toLocaleString();
+      document.getElementById('tools-count').textContent = tools.toLocaleString();
+      document.getElementById('clinical-count').textContent = clinical.toLocaleString();
+      document.getElementById('review-count').textContent = reviews.toLocaleString();
+    }
+
     function renderPapers() {
       const container = document.getElementById('papers-container');
       
@@ -5001,6 +5014,7 @@ const METADATA = {"last_updated": "2026-03-02T23:02:18.559955", "total_papers": 
     });
 
     // Initial render
+    updateStats();
     renderPapers();
   </script>
 </body>
