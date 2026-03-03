@@ -1,14 +1,5 @@
 {
-  "version": "2.0",
-  "last_updated": "2026-03-02T23:02:18Z",
-  "total_papers": 1238,
-  "build_info": {
-    "date": "2026-03-02",
-    "sources": ["pubmed", "europepmc", "openalex", "crossref"],
-    "categories": {
-      "clinical": 1161,
-      "tools": 51,
-      "review": 26
-    }
-  }
+  "version": "2026.03.03",
+  "total_papers": 852,
+  "last_updated": "2026-03-03T09:00:00-06:00"
 }
