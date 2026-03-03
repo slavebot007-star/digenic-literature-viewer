@@ -26,25 +26,20 @@
       --category-clinical: #10b981;
       --category-review: #f59e0b;
     }
-
     * { margin: 0; padding: 0; box-sizing: border-box; }
-
     body {
       font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
       background: var(--bg-primary);
       color: var(--text-primary);
       line-height: 1.6;
     }
-
     .container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
-
     header {
       text-align: center;
       padding: 3rem 0;
       border-bottom: 1px solid var(--border);
       margin-bottom: 2rem;
     }
-
     h1 {
       font-size: 2.5rem;
       font-weight: 700;
@@ -53,16 +48,13 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
-
     .subtitle { color: var(--text-secondary); font-size: 1.1rem; }
-
     .stats {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
       gap: 1rem;
       margin: 2rem 0;
     }
-
     .stat-card {
       background: var(--bg-secondary);
       padding: 1.5rem;
@@ -70,20 +62,143 @@
       border: 1px solid var(--border);
       text-align: center;
     }
-
     .stat-value { font-size: 2rem; font-weight: 700; color: var(--accent); }
     .stat-label { color: var(--text-secondary); font-size: 0.9rem; }
-
-    .loading {
-      text-align: center;
-      padding: 3rem;
-      color: var(--text-secondary);
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      background: var(--bg-secondary);
+      border-radius: 12px;
+      border: 1px solid var(--border);
     }
-
-    .error {
-      text-align: center;
-      padding: 3rem;
-      color: var(--danger);
+    .search-box { flex: 1; min-width: 300px; position: relative; }
+    .search-box input {
+      width: 100%;
+      padding: 0.75rem 1rem 0.75rem 2.5rem;
+      background: var(--bg-primary);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text-primary);
+      font-size: 1rem;
+    }
+    .search-box::before {
+      content: "🔍";
+      position: absolute;
+      left: 0.75rem;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .filter-group { display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; }
+    select, button, input[type="number"] {
+      padding: 0.75rem 1rem;
+      background: var(--bg-primary);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text-primary);
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+    button:hover, select:hover { border-color: var(--accent); }
+    button.primary { background: var(--accent); border-color: var(--accent); }
+    .category-tabs {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+    }
+    .category-tab {
+      padding: 0.75rem 1.5rem;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .category-tab.active { background: var(--accent); border-color: var(--accent); }
+    .category-tab[data-category="tools"].active { background: var(--category-tools); }
+    .category-tab[data-category="clinical"].active { background: var(--category-clinical); }
+    .category-tab[data-category="review"].active { background: var(--category-review); }
+    .category-badge {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    .category-badge.tools { background: var(--category-tools); color: white; }
+    .category-badge.clinical { background: var(--category-clinical); color: white; }
+    .category-badge.review { background: var(--category-review); color: white; }
+    .papers-list { display: flex; flex-direction: column; gap: 1rem; }
+    .paper-card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+    }
+    .paper-card:hover { border-color: var(--accent); }
+    .paper-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 0.75rem;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .paper-meta { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
+    .paper-year {
+      background: var(--accent);
+      color: white;
+      padding: 0.25rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+    .paper-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 0.5rem;
+    }
+    .paper-authors { color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 0.25rem; }
+    .paper-journal { color: var(--text-muted); font-size: 0.85rem; font-style: italic; margin-bottom: 0.75rem; }
+    .paper-abstract {
+      background: var(--bg-primary);
+      padding: 1rem;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      max-height: 200px;
+      overflow-y: auto;
+    }
+    .paper-links { display: flex; gap: 0.75rem; margin-top: 1rem; }
+    .paper-links a { color: var(--accent); text-decoration: none; font-size: 0.85rem; }
+    .paper-links a:hover { text-decoration: underline; }
+    .no-results { text-align: center; padding: 3rem; color: var(--text-muted); }
+    .loading { text-align: center; padding: 3rem; color: var(--text-secondary); }
+    .error { text-align: center; padding: 3rem; color: var(--danger); }
+    .toast {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      background: var(--success);
+      color: white;
+      padding: 1rem 1.5rem;
+      border-radius: 8px;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.3s;
+      z-index: 1000;
+    }
+    .toast.show { opacity: 1; transform: translateY(0); }
+    @media (max-width: 768px) {
+      .container { padding: 1rem; }
+      h1 { font-size: 1.75rem; }
+      .controls { flex-direction: column; }
+      .search-box { min-width: 100%; }
     }
   </style>
 </head>
@@ -113,32 +228,156 @@
       </div>
     </div>
 
+    <div class="controls">
+      <div class="search-box">
+        <input type="text" id="search-input" placeholder="Search papers, authors, diseases...">
+      </div>
+      <div class="filter-group">
+        <input type="number" id="year-input" placeholder="Year" min="2019" max="2026">
+        <select id="sort-order">
+          <option value="newest">Newest First</option>
+          <option value="oldest">Oldest First</option>
+        </select>
+        <button class="primary" onclick="exportData()">📥 Export JSON</button>
+      </div>
+    </div>
+
+    <div class="category-tabs">
+      <div class="category-tab active" data-category="all" onclick="filterByCategory('all')">All Papers</div>
+      <div class="category-tab" data-category="clinical" onclick="filterByCategory('clinical')">Clinical</div>
+      <div class="category-tab" data-category="tools" onclick="filterByCategory('tools')">Tools</div>
+      <div class="category-tab" data-category="review" onclick="filterByCategory('review')">Reviews</div>
+    </div>
+
     <div id="loading" class="loading">Loading papers...</div>
     <div id="error" class="error" style="display: none;"></div>
+    <div id="papers-container" class="papers-list" style="display: none;"></div>
   </div>
 
+  <div class="toast" id="toast">Copied to clipboard!</div>
+
   <script>
-    // Load paper data from JSON file
+    let papersData = [];
+    let currentCategory = 'all';
+    let searchQuery = '';
+    let yearFilter = '';
+    let sortOrder = 'newest';
+
+    // Load data from JSON
     fetch('comprehensive_papers.json')
       .then(response => {
         if (!response.ok) throw new Error('Failed to load data');
         return response.json();
       })
       .then(data => {
-        const papers = data.papers || data;
+        papersData = data.papers || data;
         document.getElementById('loading').style.display = 'none';
-        
-        // Update stats
-        document.getElementById('total-papers').textContent = papers.length.toLocaleString();
-        document.getElementById('tools-count').textContent = papers.filter(p => p.category === 'tools').length.toLocaleString();
-        document.getElementById('clinical-count').textContent = papers.filter(p => p.category === 'clinical').length.toLocaleString();
-        document.getElementById('review-count').textContent = papers.filter(p => p.category === 'review').length.toLocaleString();
+        document.getElementById('papers-container').style.display = 'flex';
+        updateStats();
+        renderPapers();
       })
       .catch(error => {
         document.getElementById('loading').style.display = 'none';
         document.getElementById('error').style.display = 'block';
         document.getElementById('error').textContent = 'Error loading paper data: ' + error.message;
       });
+
+    function updateStats() {
+      const total = papersData.length;
+      const tools = papersData.filter(p => p.category === 'tools').length;
+      const clinical = papersData.filter(p => p.category === 'clinical').length;
+      const reviews = papersData.filter(p => p.category === 'review').length;
+
+      document.getElementById('total-papers').textContent = total.toLocaleString();
+      document.getElementById('tools-count').textContent = tools.toLocaleString();
+      document.getElementById('clinical-count').textContent = clinical.toLocaleString();
+      document.getElementById('review-count').textContent = reviews.toLocaleString();
+    }
+
+    function renderPapers() {
+      const container = document.getElementById('papers-container');
+      
+      let filtered = papersData.filter(p => {
+        if (currentCategory !== 'all' && p.category !== currentCategory) return false;
+        if (yearFilter && p.year != yearFilter) return false;
+        if (searchQuery) {
+          const query = searchQuery.toLowerCase();
+          const text = (p.title + ' ' + p.authors + ' ' + p.journal + ' ' + (p.abstract || '')).toLowerCase();
+          return text.includes(query);
+        }
+        return true;
+      });
+      
+      filtered.sort((a, b) => {
+        if (sortOrder === 'newest') return (b.year || 0) - (a.year || 0);
+        return (a.year || 0) - (b.year || 0);
+      });
+      
+      if (filtered.length === 0) {
+        container.innerHTML = '<div class="no-results">No papers found matching your criteria.</div>';
+        return;
+      }
+      
+      container.innerHTML = filtered.map(paper => `
+        <div class="paper-card" data-category="${paper.category}">
+          <div class="paper-header">
+            <div class="paper-meta">
+              <span class="paper-year">${paper.year || 'N/A'}</span>
+              <span class="category-badge ${paper.category}">${paper.category}</span>
+            </div>
+          </div>
+          <div class="paper-title">${paper.title}</div>
+          <div class="paper-authors">${paper.authors}</div>
+          <div class="paper-journal">${paper.journal}</div>
+          ${paper.abstract ? `<div class="paper-abstract">${paper.abstract.substring(0, 500)}${paper.abstract.length > 500 ? '...' : ''}</div>` : ''}
+          <div class="paper-links">
+            ${paper.PMID ? `<a href="https://pubmed.ncbi.nlm.nih.gov/${paper.PMID}/" target="_blank">🔗 PubMed</a>` : ''}
+            ${paper.doi ? `<a href="https://doi.org/${paper.doi}" target="_blank">📄 DOI</a>` : ''}
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function filterByCategory(category) {
+      currentCategory = category;
+      document.querySelectorAll('.category-tab').forEach(tab => {
+        tab.classList.toggle('active', tab.dataset.category === category);
+      });
+      renderPapers();
+    }
+
+    function exportData() {
+      const dataStr = JSON.stringify(papersData, null, 2);
+      const blob = new Blob([dataStr], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'digenic_oligogenic_papers.json';
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    function showToast() {
+      const toast = document.getElementById('toast');
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 2000);
+    }
+
+    // Event listeners
+    document.getElementById('search-input').addEventListener('input', (e) => {
+      searchQuery = e.target.value;
+      renderPapers();
+    });
+
+    document.getElementById('year-input').addEventListener('input', (e) => {
+      yearFilter = e.target.value;
+      renderPapers();
+    });
+
+    document.getElementById('sort-order').addEventListener('change', (e) => {
+      sortOrder = e.target.value;
+      renderPapers();
+    });
   </script>
 </body>
 </html>
