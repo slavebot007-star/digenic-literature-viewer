@@ -54,13 +54,6 @@
             height: 100%;
             z-index: 0;
         }
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-        }
         
         .star, .stars { display: none; }
         
@@ -151,15 +144,19 @@
             border: 1px solid var(--border-color);
         }
         
-        /* Stats Grid */
+        /* Stats Grid - Now 5 columns for all categories */
         .stats { 
             display: grid; 
-            grid-template-columns: repeat(4, 1fr);
-            gap: 20px; 
+            grid-template-columns: repeat(5, 1fr);
+            gap: 15px; 
             margin-bottom: 30px;
         }
         
-        @media (max-width: 900px) {
+        @media (max-width: 1100px) {
+            .stats { grid-template-columns: repeat(3, 1fr); }
+        }
+        
+        @media (max-width: 700px) {
             .stats { grid-template-columns: repeat(2, 1fr); }
         }
         
@@ -170,7 +167,7 @@
         
         .stat-card { 
             background: var(--bg-card); 
-            padding: 25px; 
+            padding: 20px; 
             border-radius: 16px; 
             border: 1px solid var(--border-color);
             box-shadow: var(--shadow);
@@ -202,7 +199,7 @@
         }
         
         .stat-value { 
-            font-size: 2.5em; 
+            font-size: 2em; 
             font-weight: 700;
             color: var(--text-primary);
             margin-bottom: 5px;
@@ -210,7 +207,7 @@
         
         .stat-label { 
             color: var(--text-secondary); 
-            font-size: 0.95em;
+            font-size: 0.85em;
             text-transform: uppercase;
             letter-spacing: 0.5px;
         }
@@ -254,22 +251,22 @@
         
         .category-buttons {
             display: flex;
-            gap: 10px;
+            gap: 8px;
             flex-wrap: wrap;
         }
         
         .cat-btn {
-            padding: 10px 18px;
+            padding: 8px 14px;
             border: 1px solid var(--border-color);
             border-radius: 10px;
             background: var(--bg-secondary);
             color: var(--text-secondary);
             cursor: pointer;
-            font-size: 14px;
+            font-size: 13px;
             transition: all 0.2s;
             display: flex;
             align-items: center;
-            gap: 6px;
+            gap: 4px;
             font-weight: 500;
         }
         
@@ -367,6 +364,7 @@
             font-size: 0.95em;
         }
         
+        /* BADGE STYLES - Fixed: Added all category badges */
         .badge { 
             display: inline-flex; 
             padding: 6px 14px; 
@@ -390,10 +388,36 @@
             border: 1.5px solid #28a745;
         }
         
-        .badge-review { 
+        .badge-review, .badge-reviews { 
             background: rgba(255, 193, 7, 0.25); 
             color: #ffffff;
             border: 1.5px solid #ffc107;
+        }
+        
+        /* NEW: Added missing badge styles */
+        .badge-methods { 
+            background: rgba(0, 212, 255, 0.2); 
+            color: #ffffff;
+            border: 1.5px solid #00d4ff;
+        }
+        
+        .badge-mechanisms { 
+            background: rgba(139, 92, 246, 0.2); 
+            color: #ffffff;
+            border: 1.5px solid #8b5cf6;
+        }
+        
+        .badge-other { 
+            background: rgba(108, 117, 125, 0.2); 
+            color: #ffffff;
+            border: 1.5px solid #6c757d;
+        }
+        
+        /* Fallback for any unknown category */
+        .badge-default {
+            background: rgba(108, 117, 125, 0.2);
+            color: #ffffff;
+            border: 1.5px solid #6c757d;
         }
         
         .confidence { 
@@ -440,8 +464,6 @@
             border: 1px solid rgba(255, 107, 107, 0.3);
             border-radius: 16px;
         }
-        
-        /* Cursor follower effect removed - using particle trail instead */
     </style>
 </head>
 <body>
@@ -453,7 +475,6 @@
             <div class="header-content">
                 <div class="dna-icon">
                     <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                        <!-- DNA Double Helix -->
                         <defs>
                             <linearGradient id="dnaGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
                                 <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
@@ -464,22 +485,15 @@
                                 <stop offset="100%" style="stop-color:#00d4ff;stop-opacity:1" />
                             </linearGradient>
                         </defs>
-                        <!-- Left strand -->
                         <path d="M30 10 Q20 25 30 40 Q40 55 30 70 Q20 85 30 90" 
                               stroke="url(#dnaGrad1)" stroke-width="4" fill="none" stroke-linecap="round"/>
-                        
-                        <!-- Right strand -->
                         <path d="M70 10 Q80 25 70 40 Q60 55 70 70 Q80 85 70 90" 
                               stroke="url(#dnaGrad2)" stroke-width="4" fill="none" stroke-linecap="round"/>
-                        
-                        <!-- Base pairs (rungs) -->
                         <line x1="30" y1="20" x2="70" y2="20" stroke="#00d4ff" stroke-width="2" opacity="0.8"/>
                         <line x1="28" y1="35" x2="72" y2="35" stroke="#4facfe" stroke-width="2" opacity="0.7"/>
                         <line x1="30" y1="50" x2="70" y2="50" stroke="#8b5cf6" stroke-width="2" opacity="0.8"/>
                         <line x1="28" y1="65" x2="72" y2="65" stroke="#00d4ff" stroke-width="2" opacity="0.7"/>
                         <line x1="30" y1="80" x2="70" y2="80" stroke="#4facfe" stroke-width="2" opacity="0.8"/>
-                        
-                        <!-- Glowing nodes -->
                         <circle cx="30" cy="10" r="4" fill="#00d4ff"/>
                         <circle cx="70" cy="10" r="4" fill="#8b5cf6"/>
                         <circle cx="30" cy="40" r="3" fill="#4facfe"/>
@@ -493,13 +507,12 @@
                 <div class="header-text">
                     <h1>Digenic/Oligogenic Disease Literature</h1>
                     <p class="subtitle">Comprehensive database of digenic and oligogenic inheritance research</p>
-                    <div class="last-updated" id="lastUpdated">
-                        📅 Loading...
-                    </div>
+                    <div class="last-updated" id="lastUpdated">📅 Loading...</div>
                 </div>
             </div>
         </header>
         
+        <!-- Fixed: Now shows all 5 categories -->
         <div class="stats">
             <div class="stat-card">
                 <div class="stat-value" id="total-papers">-</div>
@@ -510,11 +523,15 @@
                 <div class="stat-label">Clinical</div>
             </div>
             <div class="stat-card">
-                <div class="stat-value" id="tools-count">-</div>
-                <div class="stat-label">Tools</div>
+                <div class="stat-value" id="methods-count">-</div>
+                <div class="stat-label">Methods</div>
             </div>
             <div class="stat-card">
-                <div class="stat-value" id="review-count">-</div>
+                <div class="stat-value" id="mechanisms-count">-</div>
+                <div class="stat-label">Mechanisms</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="reviews-count">-</div>
                 <div class="stat-label">Reviews</div>
             </div>
         </div>
@@ -522,30 +539,28 @@
         <div class="filters">
             <input type="text" id="searchInput" placeholder="🔍 Search titles, abstracts, authors...">
             
+            <!-- Fixed: Added all category buttons -->
             <div class="category-buttons">
-                <button class="cat-btn active" data-category="" title="Show all papers">
-                    📚 All
-                </button>
-                <button class="cat-btn" data-category="clinical" title="Clinical papers">
-                    🏥 Clinical
-                </button>
-                <button class="cat-btn" data-category="tools" title="Tools & methods">
-                    🛠️ Tools
-                </button>
-                <button class="cat-btn" data-category="review" title="Review papers">
-                    📖 Review
-                </button>
+                <button class="cat-btn active" data-category="" title="Show all papers">📚 All</button>
+                <button class="cat-btn" data-category="clinical" title="Clinical papers">🏥 Clinical</button>
+                <button class="cat-btn" data-category="methods" title="Methods papers">🔬 Methods</button>
+                <button class="cat-btn" data-category="mechanisms" title="Mechanisms papers">⚙️ Mechanisms</button>
+                <button class="cat-btn" data-category="reviews" title="Review papers">📖 Reviews</button>
+                <button class="cat-btn" data-category="other" title="Other papers">📂 Other</button>
             </div>
             
             <select id="sourceFilter">
                 <option value="">All Sources</option>
                 <option value="pubmed">PubMed</option>
-                <option value="pmc">Europe PMC (incl. bioRxiv/medRxiv)</option>
+                <option value="europepmc">Europe PMC</option>
+                <option value="openalex">OpenAlex</option>
+                <option value="crossref">Crossref</option>
             </select>
             
+            <!-- Fixed: Removed default 2026 selection -->
             <select id="yearFilter">
                 <option value="">All Years</option>
-                <option value="2026" selected>2026</option>
+                <option value="2026">2026</option>
                 <option value="2025">2025</option>
                 <option value="2024">2024</option>
                 <option value="2023">2023</option>
@@ -563,7 +578,7 @@
         <div id="noResults" class="no-results hidden">🔍 No papers found matching your criteria.</div>
         
         <div class="footer">
-            <p>Data sources: PubMed, Europe PMC (PMC) including bioRxiv and medRxiv preprints</p>
+            <p>Data sources: PubMed, Europe PMC, OpenAlex, Crossref</p>
         </div>
     </div>
     
@@ -571,44 +586,41 @@
         let papers = [];
         let currentCategory = '';
         
-        // Fetch papers from JSON
         fetch('comprehensive_papers.json')
             .then(response => {
-                if (!response.ok) {
-                    throw new Error('Failed to fetch papers');
-                }
+                if (!response.ok) throw new Error('Failed to fetch papers');
                 return response.json();
             })
             .then(data => {
                 papers = data.papers || data;
                 const metadata = data.metadata || {};
                 
-                // Update stats
-                const clinicalCount = papers.filter(p => p.category === 'clinical').length;
-                const toolsCount = papers.filter(p => p.category === 'tools').length;
-                const reviewCount = papers.filter(p => p.category === 'review').length;
+                // Fixed: Count all categories
+                const categoryCounts = {
+                    clinical: papers.filter(p => p.category === 'clinical').length,
+                    methods: papers.filter(p => p.category === 'methods').length,
+                    mechanisms: papers.filter(p => p.category === 'mechanisms').length,
+                    reviews: papers.filter(p => p.category === 'reviews' || p.category === 'review').length,
+                    other: papers.filter(p => p.category === 'other').length
+                };
                 
                 document.getElementById('total-papers').textContent = papers.length.toLocaleString();
-                document.getElementById('clinical-count').textContent = clinicalCount.toLocaleString();
-                document.getElementById('tools-count').textContent = toolsCount.toLocaleString();
-                document.getElementById('review-count').textContent = reviewCount.toLocaleString();
+                document.getElementById('clinical-count').textContent = categoryCounts.clinical.toLocaleString();
+                document.getElementById('methods-count').textContent = categoryCounts.methods.toLocaleString();
+                document.getElementById('mechanisms-count').textContent = categoryCounts.mechanisms.toLocaleString();
+                document.getElementById('reviews-count').textContent = categoryCounts.reviews.toLocaleString();
                 
-                // Update last updated with nice format
                 const lastUpdated = metadata.last_updated || new Date().toISOString().split('T')[0];
                 const dateObj = new Date(lastUpdated);
                 const formattedDate = dateObj.toLocaleDateString('en-US', { 
-                    year: 'numeric', 
-                    month: 'short', 
-                    day: 'numeric' 
+                    year: 'numeric', month: 'short', day: 'numeric' 
                 });
                 document.getElementById('lastUpdated').innerHTML = `📅 Updated ${formattedDate}`;
                 
-                // Hide loading, show papers
                 document.getElementById('loadingMessage').classList.add('hidden');
                 document.getElementById('papersContainer').classList.remove('hidden');
                 
-                // Apply default 2026 filter - explicitly set the filter value
-                document.getElementById('yearFilter').value = '2026';
+                // Fixed: No default year filter - show all papers
                 filterPapers();
             })
             .catch(error => {
@@ -632,6 +644,10 @@
             
             container.innerHTML = papersToRender.map(paper => {
                 const yearDisplay = paper.year || 'N/A';
+                // Fixed: Use fallback badge class if category not recognized
+                const badgeClass = ['clinical', 'methods', 'mechanisms', 'reviews', 'review', 'tools', 'other'].includes(paper.category) 
+                    ? paper.category 
+                    : 'default';
                 return `
                 <div class="paper" data-category="${paper.category}" data-source="${paper.source}" data-year="${paper.year || ''}">
                     <div class="paper-header">
@@ -648,7 +664,7 @@
                                 ${paper.doi ? `<span>·</span><a href="https://doi.org/${paper.doi}" target="_blank">DOI</a>` : ''}
                             </div>
                         </div>
-                        <span class="badge badge-${paper.category}">${paper.category}</span>
+                        <span class="badge badge-${badgeClass}">${paper.category}</span>
                     </div>
                     <div class="paper-abstract">${paper.abstract || 'No abstract available.'}</div>
                     ${paper.ml_confidence ? `<div class="confidence">🤖 ML Confidence: ${(paper.ml_confidence * 100).toFixed(0)}%</div>` : ''}
@@ -676,7 +692,6 @@
             renderPapers(filtered);
         }
         
-        // Category button handlers
         document.querySelectorAll('.cat-btn').forEach(btn => {
             btn.addEventListener('click', () => {
                 document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
@@ -691,7 +706,6 @@
         document.getElementById('yearFilter').addEventListener('change', filterPapers);
     </script>
     
-    <!-- tsParticles -->
     <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
     <script>
         tsParticles.load("tsparticles", {
@@ -702,31 +716,12 @@
                 shape: { type: "circle" },
                 opacity: { value: 0.5, random: true },
                 size: { value: 2, random: true },
-                links: {
-                    enable: true,
-                    distance: 150,
-                    color: "#ffffff",
-                    opacity: 0.2,
-                    width: 1
-                },
-                move: {
-                    enable: true,
-                    speed: 1,
-                    direction: "none",
-                    random: true,
-                    straight: false,
-                    outModes: "out"
-                }
+                links: { enable: true, distance: 150, color: "#ffffff", opacity: 0.2, width: 1 },
+                move: { enable: true, speed: 1, direction: "none", random: true, straight: false, outModes: "out" }
             },
             interactivity: {
-                events: {
-                    onHover: { enable: true, mode: "repulse" },
-                    onClick: { enable: true, mode: "push" }
-                },
-                modes: {
-                    repulse: { distance: 100, duration: 0.4 },
-                    push: { quantity: 4 }
-                }
+                events: { onHover: { enable: true, mode: "repulse" }, onClick: { enable: true, mode: "push" } },
+                modes: { repulse: { distance: 100, duration: 0.4 }, push: { quantity: 4 } }
             },
             background: { color: "transparent" }
         });
