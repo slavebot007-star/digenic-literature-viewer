@@ -1,5 +1,13 @@
 {
-  "version": "2026.03.03",
-  "total_papers": 852,
-  "last_updated": "2026-03-03T09:00:00-06:00"
+  "version": "2026.03.04",
+  "total_papers": 629,
+  "last_updated": "2026-03-04T18:25:19.993868",
+  "categories": {
+    "disease_associations": 467,
+    "clinical_case_reports": 66,
+    "reviews": 13,
+    "methodology_statistics": 39,
+    "mechanisms_models": 44
+  },
+  "date_range": "2019-2026"
 }
