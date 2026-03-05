@@ -59,7 +59,7 @@ jobs:
         categories = set(p['category'] for p in papers)
         print(f'Categories found: {categories}')
         
-        expected = {'clinical', 'tools', 'review'}
+        expected = {'clinical', 'methods', 'mechanisms', 'reviews', 'other'}
         if not categories.issubset(expected):
             print(f'❌ Unexpected categories: {categories - expected}')
             exit(1)
@@ -82,7 +82,7 @@ jobs:
         print('✅ HTML fetches JSON data')
         
         # Check for stat elements
-        stat_ids = ['total-papers', 'tools-count', 'clinical-count', 'review-count']
+        stat_ids = ['total-papers', 'methods-count', 'clinical-count', 'reviews-count', 'mechanisms-count']
         for stat_id in stat_ids:
             if f'id=\"{stat_id}\"' not in html:
                 print(f'❌ Missing stat element: {stat_id}')
