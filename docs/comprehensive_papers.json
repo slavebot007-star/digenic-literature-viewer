@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "total_papers": 683,
-    "last_updated": "2026-03-04T21:27:09.938232",
+    "total_papers": 678,
+    "last_updated": "2026-03-04T21:45:07.641715",
     "date_range": "2019-2026",
     "sources": [
       "PubMed",
@@ -11960,66 +11960,6 @@
       "mesh_terms": [],
       "source": "ppr",
       "category": "other"
-    },
-    {
-      "PMID": "",
-      "doi": "10.1101/2024.11.19.24317385",
-      "title": "Genomic rare variant mechanisms for congenital cardiac laterality defect: A digenic model approach",
-      "authors": "Rai A, Klonowski J, Yuan B, Coveler KJ, Dardas Z, Egab I, Xu J, Lupo PJ, Agopian AJ, Kostka D, Lo CW...",
-      "journal": "Preprint",
-      "year": "2024",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "ppr",
-      "category": "clinical"
-    },
-    {
-      "PMID": "",
-      "doi": "10.1101/2024.08.06.606224",
-      "title": "VUStruct: a compute pipeline for high throughput and personalized structural biology",
-      "authors": "Moth CW, Sheehan JH, Mamun AA, Sivley RM, Gulsevin A, Rinker D, Undiagnosed Diseases Network, Capra ...",
-      "journal": "Preprint",
-      "year": "2024",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "ppr",
-      "category": "tools"
-    },
-    {
-      "PMID": "",
-      "doi": "10.1101/2024.03.13.24304215",
-      "title": "Enrichment of Rare Variants of Hemophagocytic Lymphohistiocytosis Genes in Systemic Juvenile Idiopathic Arthritis",
-      "authors": "Marques MC, Rubin D, Shuldiner E, Datta M, Schmitz E, Cruz GG, Patt A, Bennett E, Grom A, Foell D, G...",
-      "journal": "Preprint",
-      "year": "2024",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "ppr",
-      "category": "clinical"
-    },
-    {
-      "PMID": "",
-      "doi": "10.1101/2023.03.30.534737",
-      "title": "Sin3a Associated Protein 130kDa, sap130, plays an evolutionary conserved role in zebrafish heart development",
-      "authors": "DeMoya RA, Forman-Rubinsky RE, Fontaine D, Shin J, Watkins SC, Lo C, Tsang M.",
-      "journal": "Preprint",
-      "year": "2023",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "ppr",
-      "category": "clinical"
-    },
-    {
-      "PMID": "",
-      "doi": "10.1101/2023.12.20.23300294",
-      "title": "Rare disease gene association discovery from burden analysis of the 100,000 Genomes Project data",
-      "authors": "Cipriani V, Vestito L, Magavern EF, Jacobsen JO, Arno G, Behr ER, Benson KA, Bertoli M, Bockenhauer ...",
-      "journal": "Preprint",
-      "year": "2023",
-      "abstract": "",
-      "mesh_terms": [],
-      "source": "ppr",
-      "category": "clinical"
     }
   ]
 }
