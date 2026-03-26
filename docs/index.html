@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="data-source" content="comprehensive_papers.json">
     <title>Digenic/Oligogenic Disease Literature Viewer</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -44,27 +45,27 @@
         </header>
         
         <div class="stats">
-            <div class="stat-card">
+            <div class="stat-card" id="total-papers">
                 <div class="stat-value">1150</div>
                 <div class="stat-label">Total Papers</div>
             </div>
-            <div class="stat-card">
+            <div class="stat-card" id="clinical-count">
                 <div class="stat-value">908</div>
                 <div class="stat-label">Clinical</div>
             </div>
-            <div class="stat-card">
+            <div class="stat-card" id="methods-count">
                 <div class="stat-value">43</div>
                 <div class="stat-label">Methods</div>
             </div>
-            <div class="stat-card">
+            <div class="stat-card" id="reviews-count">
                 <div class="stat-value">37</div>
                 <div class="stat-label">Reviews</div>
             </div>
-            <div class="stat-card">
+            <div class="stat-card" id="mechanisms-count">
                 <div class="stat-value">73</div>
                 <div class="stat-label">Mechanisms</div>
             </div>
-            <div class="stat-card">
+            <div class="stat-card" id="other-count">
                 <div class="stat-value">89</div>
                 <div class="stat-label">Other</div>
             </div>
